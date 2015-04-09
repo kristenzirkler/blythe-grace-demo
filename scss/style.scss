@@ -1,0 +1,126 @@
+@import 'variables';
+
+@import 'reset';
+@import 'icons';
+
+//@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: $body-background;
+  color: $font-color;
+
+}
+body, button, label {
+	font-family: $font-family; 
+}
+a {
+  color: $link;
+  text-decoration: none;
+  outline: none;
+  &:hover {
+  	color: darken($link, 10);
+  }
+}
+
+
+
+
+
+
+
+/* KZ Love Footer */
+$kz-font-color: #999;
+$kz-font-hover-color: #e13c3b; // red
+$kz-bg-color: #e5e5e5;
+
+.site-design {
+  background: $kz-bg-color;
+  color: $kz-font-color;
+  padding: 10px;
+  a {
+    display: block;
+    color: $kz-font-color;
+    &:hover {
+      color: $kz-font-hover-color;
+      .kz-icon-arizona {
+        color: $kz-font-hover-color;
+      }
+    }
+  }
+  .made-in-az {
+    position: relative;
+    font-size: 14px;
+    padding-left: 35px;
+  }
+  span {
+    display: block;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  i {
+    position: absolute;
+  }
+  .kz-icon-arizona {
+    top: 0;
+    left: 0;
+    font-size: 25px;
+  }
+  .kz-icon-heart-empty {
+    color: $kz-bg-color;
+    font-size: 11px;
+    top: 6px;
+    left: 11px;
+  }
+}
+
+/* KZ Love Footer */
+$kz-font-color: #999;
+$kz-font-hover-color: #e13c3b; // red
+$kz-bg-color: #e5e5e5;
+
+.site-design {
+  background: $kz-bg-color;
+  color: $kz-font-color;
+  padding: 10px;
+  a {
+    display: block;
+    color: $kz-font-color;
+    &:hover {
+      color: $kz-font-hover-color;
+      .kz-icon-arizona {
+        color: $kz-font-hover-color;
+      }
+    }
+  }
+  .made-in-az {
+    position: relative;
+    font-size: 14px;
+    padding-left: 35px;
+  }
+  span {
+    display: block;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  i {
+    position: absolute;
+  }
+  .kz-icon-arizona {
+    top: 0;
+    left: 0;
+    font-size: 25px;
+  }
+  .kz-icon-heart-empty {
+    color: $kz-bg-color;
+    font-size: 11px;
+    top: 6px;
+    left: 11px;
+  }
+}

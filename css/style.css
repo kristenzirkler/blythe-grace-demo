@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+.cf:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.cf {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .cf {
+  height: 1%; }
+
+.cf {
+  display: block; }
+
+/* close commented backslash hack */
+a {
+  outline: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* No Icon Set */
+/* Icons for KZ Footer */
+@font-face {
+  font-family: 'kz-fontello';
+  src: url("fonts/kz-fontello.eot?59247950");
+  src: url("fonts/kz-fontello.eot?59247950#iefix") format("embedded-opentype"), url("fonts/kz-fontello.woff?59247950") format("woff"), url("fonts/kz-fontello.ttf?59247950") format("truetype"), url("fonts/kz-fontello.svg?59247950#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?59247950#fontello') format('svg');
+  }
+}
+*/
+.kz-icon:before {
+  font-family: "kz-fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.kz-icon-heart-empty:before {
+  content: '\e810'; }
+
+/* '' */
+.kz-icon-arizona:before {
+  content: '\e811'; }
+
+/* '' */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #eee;
+  color: #333; }
+
+body, button, label {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+a {
+  color: #00aeef;
+  text-decoration: none;
+  outline: none; }
+  a:hover {
+    color: #0089bc; }
+
+/* KZ Love Footer */
+.site-design {
+  background: #e5e5e5;
+  color: #999;
+  padding: 10px; }
+  .site-design a {
+    display: block;
+    color: #999; }
+    .site-design a:hover {
+      color: #e13c3b; }
+      .site-design a:hover .kz-icon-arizona {
+        color: #e13c3b; }
+  .site-design .made-in-az {
+    position: relative;
+    font-size: 14px;
+    padding-left: 35px; }
+  .site-design span {
+    display: block;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .site-design i {
+    position: absolute; }
+  .site-design .kz-icon-arizona {
+    top: 0;
+    left: 0;
+    font-size: 25px; }
+  .site-design .kz-icon-heart-empty {
+    color: #e5e5e5;
+    font-size: 11px;
+    top: 6px;
+    left: 11px; }
+
+/* KZ Love Footer */
+.site-design {
+  background: #e5e5e5;
+  color: #999;
+  padding: 10px; }
+  .site-design a {
+    display: block;
+    color: #999; }
+    .site-design a:hover {
+      color: #e13c3b; }
+      .site-design a:hover .kz-icon-arizona {
+        color: #e13c3b; }
+  .site-design .made-in-az {
+    position: relative;
+    font-size: 14px;
+    padding-left: 35px; }
+  .site-design span {
+    display: block;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .site-design i {
+    position: absolute; }
+  .site-design .kz-icon-arizona {
+    top: 0;
+    left: 0;
+    font-size: 25px; }
+  .site-design .kz-icon-heart-empty {
+    color: #e5e5e5;
+    font-size: 11px;
+    top: 6px;
+    left: 11px; }
