@@ -1,0 +1,64 @@
+$nav-height: 70px;
+
+.site-tag {
+	@include transition(opacity 1s);
+	background: #fff;
+	box-shadow: 0 0 5px rgba(#000,.3);
+
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	z-index: 100;
+	a {
+		color: #000;
+	}
+	.logo {
+		display: inline-block;
+		font-size: 1.4em;
+		height: $nav-height;
+		float: left;
+		margin: 0 20px;
+		i {
+			display: inline-block;
+			line-height: $nav-height;
+		}
+	}
+	ul {
+		float: right;
+		display: inline-block;
+		overflow: hidden;
+		line-height: $nav-height;
+		margin: 0 20px;
+	}
+	li {
+		font-size: .9em;
+		display: inline-block;
+		text-transform: uppercase;
+		margin: 0 .5em;
+		font-family: $accent-font;
+	}
+}
+.hide {
+	opacity: 0;
+}
+.show {
+	opacity: 1;
+}
+
+.content {
+	height: 1200px;
+	background: #eee;
+}
+
+
+h1, h2, h3 {
+	font-family: $accent-font;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;;
+}

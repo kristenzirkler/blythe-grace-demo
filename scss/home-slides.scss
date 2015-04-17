@@ -1,0 +1,345 @@
+$slant-amount: 60px;
+
+$hex-size: 200px;
+$hex-size-side: 60px;
+$hex-size-height: $hex-size/2;
+$hex-color: rgba(#000,.8);
+$hex-color: rgba($main-color,1);
+
+.slide  {
+	background: #fff;
+	.inner {
+		max-width: $page-size;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+.slide-bg-image {
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+	&:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0 solid transparent;
+		border-top: $slant-amount solid #fff;
+
+		position: absolute;
+		top: 0;
+		left: 0; right: 0;
+		z-index: 5;
+	}
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0 solid transparent;
+		border-bottom: $slant-amount solid #fff;
+
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+		z-index: 5;
+	}
+	.copy {
+		width: 40%;
+		float: right;
+	}
+}
+.intro-background {
+	position: fixed;
+	//position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	z-index: -1;
+	background-size: cover;
+	background-position: center top;
+	@include transition(all .5s);
+	@include grayscale(100%);
+	opacity: .2;
+}
+.home-intro {
+	color: #fff;
+	height: 80vh;
+	min-height: 420px;
+	padding: 20vh 0;
+	//text-align: center;
+	position: relative;
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0px solid transparent;
+		border-bottom: $slant-amount solid #fff;
+
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+		z-index: 5;
+		@include transition(border-bottom 1s);
+
+	}
+	.logo {
+		font-size: 6em;
+		margin-bottom: 20px;
+		display: inline-block;
+		color: #fff;
+		i {
+			margin-left: -22px;
+		}
+	}
+	.site-tag {
+		position: relative;
+		z-index: 2;
+	}
+	.hero {
+		//display: none;
+		max-width: $page-size - 40;
+		margin: 0 auto;
+		padding: 0 20px;
+		h1 {
+			font-size: 2em;
+			//font-weight: bold;
+			line-height: 1.3em;
+			margin-bottom: .3em;
+			em {
+				//display: block;
+			}
+		}
+		p {
+			max-width: 500px;
+			font-size: 1.1em;
+		}
+	}
+}
+.fadetocolor {
+	.intro-background {
+		@include grayscale(0%);
+		opacity: 1;
+		@include transition(all 1.5s ease-out);
+	}
+	.hero {
+		opacity: 0;
+		@include transition(all 1s .5s);
+	}
+
+	&:after {
+		border-bottom-width: 4vh;
+	}
+	
+}
+
+.start-grow {
+	padding: 10em 2em;
+	overflow: hidden;
+	.copy {
+		width: 45%;
+		float: left;
+	}
+	ul {
+		width: 45%;
+		margin-left: 10%;
+		font-size: 30px;
+		font-family: $accent-font;
+		text-align: right;
+		float: left;
+		i {
+			font-size: 100px;
+			transform: scale(.8);
+			margin-bottom: 20px;
+			display: block;
+			margin-left: -20px;
+			margin-right: -20px;
+		}
+	}
+	li {
+		display: block;
+		float: left;
+		text-align: center;
+		width: 33.3%;
+	}
+	p {
+		font-size: 1.2em;
+		margin-bottom: 2em;
+	}
+	.services-list {
+		text-align: center;
+		clear: both;
+		padding: 5em 100px 0;
+		font-size: 1.1em;
+		line-height: 1.8em;
+		color: $main-color;
+		font-family: $accent-font;
+		text-transform: uppercase;
+		span {
+			display: inline-block;
+			&:before, &:last-child:after {
+				content: ' ';
+				padding: 0 10px;
+			}
+		}
+	}
+	&.animate  {
+		li {
+			&:nth-child(2) i {
+				@include transition(all .3s);
+			}
+			&:nth-child(3) i {
+				@include transition(all .8s);
+			}
+
+		}
+		i {
+			transform: scale(1);
+		}
+
+	}
+}
+.about-bg {
+	background-image: url(../img/slide-bg-about.jpg);
+	padding: 10em 2em 15em;
+	i {
+		font-size: 8em;
+		margin-left: -20px;
+	}
+	p {
+		margin-bottom: 2em;
+	}
+}
+.values {
+	padding: 10em 0;
+	h2 {
+		padding: 0 10px 40px;
+		text-transform: uppercase;
+		color: $main-color;
+	}
+	h3 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.copy {
+		width: 25%;
+		float: left;
+		padding: 0 15px;
+	}
+}
+.give-back {
+	background-image: url(../img/temporary-giveback.jpg);
+	padding: 10em 2em 15em;
+	i {
+		font-size: 8em;
+		margin-left: -20px;
+	}
+	p {
+		margin-bottom: 2em;
+	}
+}
+.contact-home {
+	padding: 100px 0;
+	text-align: center;
+	font-family: $accent-font;
+	.copy {
+		//width: 35%;
+		//float: left;
+	}
+	.text {
+		font-size: 1.3em;
+		line-height: 2em;
+	}
+	i {
+		font-size: 15em;
+	}
+	p {
+		margin-bottom: 2em;
+		font-size: 1.6em;
+	}
+}
+
+.hex {
+    margin-top: $hex-size-side;
+    margin-bottom: $hex-size-side;
+    width: $hex-size;
+    height: $hex-size/2 + 20px;
+    background: $hex-color;
+    position: relative;
+
+    &:before, &:after {
+	    content: " ";
+	    width: 0; height: 0;
+	    overflow: hidden;
+	    position: absolute;
+	    left: 0;
+	    border-left: $hex-size/2 solid transparent;
+	    border-right: $hex-size/2 solid transparent;
+    }
+	&:before {
+	    border-bottom: $hex-size-side solid $hex-color;
+	    top: -($hex-size-side);
+	}
+	&:after {
+	    bottom: -($hex-size-side);
+	    border-top: $hex-size-side solid $hex-color;
+	}
+}
+
+.map-slide {
+	background: #fff;
+	position: relative;
+	.address {
+		background: $hex-color;
+		color: #fff;
+		font-size: 1.3em;
+		padding: 10px;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+		z-index: 2;
+	}
+    .callout {
+    	position: absolute;
+    	top: 100px;
+    	left: 50%;
+    	margin-left: -($hex-size/2);
+
+    	width: $hex-size;
+    	height: $hex-size-height;
+    	font-family: $accent-font;
+    	color: #fff;
+    	text-transform: uppercase;
+	    text-align: center;
+    	.hex, .text {
+    		position: absolute;
+    		top: 0;
+    		left: 0; right: 0;
+    		z-index: 2;
+    		display: block;
+    	}
+    	.text {
+    		top: $hex-size-side;
+    		padding: 10px 20px 0;
+    	}
+    	span {
+    		display: block;
+    		font-size: 1.4em;
+    		line-height: 1.3em;
+
+    	}
+    	em {
+	    	margin-top: 5px;
+	    	padding-top: 10px;
+    		display: block;
+    		font-size: .9em;
+    		border-top: 1px solid #fff;
+    	}
+	}
+}
+.map-canvas {
+	height: 500px;
+	width: 100%;
+    background-color: #CCC;
+}

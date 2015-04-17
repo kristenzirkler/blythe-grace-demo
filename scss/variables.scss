@@ -1,11 +1,34 @@
-$body-background: #eee;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Roboto+Slab:400,700);
+
+$font-family: 'Source Sans Pro', Helvetica, Arial, "Lucida Grande", sans-serif;
+$accent-font: 'Roboto Slab', 'Times New Roman', sans-serif;
+
+$body-background: #fff;
 
 $page-background: $body-background;
+$page-size: 960px;
 
-$main-color: #00aeef;
-
-$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$accent-font: 'Times New Roman', sans-serif;
+$main-color: #294d66; //navy
+$main-color: #213553; //darker
+$body-background: $main-color;
 
 $font-color: #333;
 $link: $main-color;
+
+//z-index
+//onpage - up to 100
+//nav - 100
+//modals - 1000 
+
+@mixin grayscale($amount) {
+	-webkit-filter: grayscale($amount);
+	filter: grayscale($amount);
+	//filter: gray;
+	//filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+@mixin transition($transitions) {
+    -webkit-transition: $transitions;
+    -moz-transition: $transitions;
+    -o-transition: $transitions;
+    transition: $transitions;
+}
