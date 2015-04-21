@@ -1,54 +1,9 @@
-$slant-amount: 60px;
-
 $hex-size: 200px;
 $hex-size-side: 60px;
 $hex-size-height: $hex-size/2;
 $hex-color: rgba(#000,.8);
 $hex-color: rgba($main-color,1);
 
-.slide  {
-	background: #fff;
-	.inner {
-		max-width: $page-size;
-		margin: 0 auto;
-		overflow: hidden;
-	}
-}
-.slide-bg-image {
-	background-size: cover;
-	background-position: center top;
-	position: relative;
-	&:before {
-		content: '';
-		width: 0;
-		height: 0;
-		border-left: 100vw solid transparent;
-		border-right: 0 solid transparent;
-		border-top: $slant-amount solid #fff;
-
-		position: absolute;
-		top: 0;
-		left: 0; right: 0;
-		z-index: 5;
-	}
-	&:after {
-		content: '';
-		width: 0;
-		height: 0;
-		border-left: 100vw solid transparent;
-		border-right: 0 solid transparent;
-		border-bottom: $slant-amount solid #fff;
-
-		position: absolute;
-		bottom: 0;
-		left: 0; right: 0;
-		z-index: 5;
-	}
-	.copy {
-		width: 40%;
-		float: right;
-	}
-}
 .intro-background {
 	position: fixed;
 	//position: absolute;
@@ -57,7 +12,7 @@ $hex-color: rgba($main-color,1);
 	z-index: -1;
 	background-size: cover;
 	background-position: center top;
-	@include transition(all .5s);
+	@include transition(all .3s);
 	@include grayscale(100%);
 	opacity: .2;
 }
