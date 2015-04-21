@@ -504,6 +504,23 @@ h3 {
     right: 0;
     z-index: 5; }
 
+/*
+.slide-page-header {
+	.inner {
+		padding: 5em 0;
+	}
+	h1 {
+		margin-bottom: 20px;
+		color: $main-color;
+	}
+	p {
+		font-size: 1.3em;
+		padding: 20px 0;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+} 
+*/
 /* bg slide template
 .about-bg {
 	background-image: url(../img/slide-bg-about.jpg);
@@ -528,6 +545,30 @@ h3 {
     width: 45%; }
   .about-overview p {
     margin-bottom: 1em; }
+
+.professionals {
+  padding: 10em 0; }
+  .professionals a {
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    height: 400px;
+    width: 25%;
+    float: left; }
+  .professionals span {
+    display: block;
+    background: rgba(33, 53, 83, 0.9);
+    color: #fff;
+    padding: .3em;
+    line-height: 1.4em;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%; }
+  .professionals strong {
+    font-size: 1.3em;
+    display: block; }
 
 .intro-background {
   position: fixed;
