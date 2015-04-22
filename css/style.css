@@ -348,10 +348,10 @@ h3 {
   font-size: 24px; }
 
 .site-tag {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   position: fixed;
@@ -395,6 +395,8 @@ h3 {
     line-height: 40px; }
   .site-tag .nav-open {
     display: block; }
+  .site-tag.open {
+    opacity: 1; }
 
 .hide {
   opacity: 0; }
@@ -425,6 +427,24 @@ h3 {
     text-transform: uppercase;
     margin-right: 15px;
     font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+
+.blue-tag.site-tag {
+  background: #213553;
+  position: absolute;
+  box-shadow: none; }
+  .blue-tag.site-tag .inner {
+    max-width: 960px;
+    margin: 4em auto; }
+  .blue-tag.site-tag a {
+    color: #fff; }
+    .blue-tag.site-tag a:hover {
+      color: #fff; }
+  .blue-tag.site-tag .logo {
+    margin: 0 -4px; }
+  .blue-tag.site-tag .nav a {
+    opacity: .1; }
+    .blue-tag.site-tag .nav a:hover {
+      opacity: 1; }
 
 @media all and (min-width: 800px) {
   .site-tag .mobile-toggle {
@@ -486,7 +506,7 @@ h3 {
   color: #fff;
   position: relative; }
   .slide-page-header .inner {
-    padding: 6em 0 10em; }
+    padding: 4em 0 6em; }
   .slide-page-header h1 {
     margin-bottom: 10px; }
   .slide-page-header p {

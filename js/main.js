@@ -28,14 +28,13 @@ $(function(){
 	// change grayscale on scroll
 		var y = $(document).scrollTop();
 		//var t = $('.hero').offset().top - 100;
-		var t = 50;
+		var t = 70;
 
 		if (y > t) {
-		    $('.site-tag').addClass('show');
+		    $('.site-tag').addClass('open').removeClass('blue-tag');
 		} else {
-		    //$('.site-tag').removeClass('show');
+		    $('.page .site-tag').addClass('blue-tag');
 		}
-
 	}
 
 	// Function to check hero placement
