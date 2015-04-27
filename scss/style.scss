@@ -43,7 +43,18 @@ p {
     background: lighten($main-color,10);
   }
 }
-
+.button-white {
+  padding: 1em 1.5em;
+  color: $main-color;
+  display: inline-block;
+  background: #eee;
+  font-family: $accent-font;
+  text-transform: uppercase;
+  &:hover {
+    color: $main-color;
+    background: #fff;
+  }
+}
 
 
 

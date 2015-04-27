@@ -66,8 +66,8 @@ $hex-color: rgba($main-color,1);
 			}
 		}
 		p {
-			max-width: 500px;
-			font-size: 1.1em;
+			max-width: 550px;
+			font-size: 1.4em;
 		}
 	}
 }
@@ -182,38 +182,76 @@ $hex-color: rgba($main-color,1);
 		padding: 0 15px;
 	}
 }
-.give-back {
-	background-image: url(../img/temporary-giveback.jpg);
-	padding: 10em 2em 15em;
-	i {
-		font-size: 8em;
-		margin-left: -20px;
+.testimonial {
+	padding: 10em 0 8em;
+	.copy {
+		width: 60%;
+		float: left;
+	}
+	strong {
+		font-family: $accent-font;
+		font-size: 1.3em;
 	}
 	p {
-		margin-bottom: 2em;
+		position: relative;
+		margin-top: 25px;
+		margin-left: 35px;
+		margin-bottom: 3em;
+		&:before {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '“';
+			top: 2px;
+			left: -35px;
+		}
+	}
+	.button {
+		margin-left: 35px;
+	}
+	img {
+		max-width: 150px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: #ccc;
+		font-family: $accent-font;
+		margin-bottom: 1em;
+	}
+	.client-name {
+		width: 40%;
+		float: left;
+		text-align: center;
+	}
+
+}
+.give-back {
+  	padding: 9em 2em;
+	background-image: url(../img/slide-bg-camelback.jpg);
+	//background: $gray-lightest;
+	h2 {
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.copy {
+		margin-top: 50px;
 	}
 }
 .contact-home {
-	padding: 100px 0;
-	text-align: center;
-	font-family: $accent-font;
-	.copy {
-		//width: 35%;
-		//float: left;
-	}
-	.text {
+	background: $main-color;
+	color: #fff;
+	padding: 2em 0;
+	span {
 		font-size: 1.3em;
-		line-height: 2em;
+		font-family: $accent-font;
 	}
-	i {
-		font-size: 15em;
-	}
-	p {
-		margin-bottom: 2em;
-		font-size: 1.6em;
-	}
+	.button-white {
+		float: right;
+		margin-left: 30px;
+	} 
 }
-
 .hex {
     margin-top: $hex-size-side;
     margin-bottom: $hex-size-side;
@@ -245,10 +283,10 @@ $hex-color: rgba($main-color,1);
 	background: #fff;
 	position: relative;
 	.address {
-		background: $hex-color;
-		color: #fff;
+		//background: $hex-color;
+		//color: #fff;
 		font-size: 1.3em;
-		padding: 10px;
+		padding: 20px;
 		text-align: center;
 		position: absolute;
 		bottom: 0;

@@ -8,10 +8,6 @@ body.home {
 	margin-top: 0;
 	background: $main-color;
 }
-.content {
-	height: 1200px;
-	background: #eee;
-}
 
 
 h1, h2, h3 {
@@ -22,9 +18,10 @@ h1 {
 }
 h2 {
 	font-size: 28px;
+	line-height: 1.4em;
 }
 h3 {
-	font-size: 24px;;
+	font-size: 24px;
 }
 
 .site-tag {
@@ -88,7 +85,7 @@ h3 {
 }
 
 .footer {
-	background: #eee;
+	background: $gray-lightest;
 	.inner {
 		overflow: hidden;
 	}
@@ -116,6 +113,17 @@ h3 {
 		text-transform: uppercase;
 		margin-right: 15px;
 		font-family: $accent-font;
+	}
+}
+.disclaimer {
+	text-align: center;
+	border-top: 1px solid darken($gray-lightest,10);
+	background: $gray-lightest;
+	.inner {
+		max-width: $page-size;
+		margin: 0 auto;
+		padding: 50px 0;
+		line-height: 1.3em;
 	}
 }
 .blue-tag {

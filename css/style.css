@@ -331,10 +331,6 @@ body.home {
   margin-top: 0;
   background: #213553; }
 
-.content {
-  height: 1200px;
-  background: #eee; }
-
 h1, h2, h3 {
   font-family: "Roboto Slab", "Times New Roman", sans-serif; }
 
@@ -342,7 +338,8 @@ h1 {
   font-size: 50px; }
 
 h2 {
-  font-size: 28px; }
+  font-size: 28px;
+  line-height: 1.4em; }
 
 h3 {
   font-size: 24px; }
@@ -405,7 +402,7 @@ h3 {
   opacity: 1; }
 
 .footer {
-  background: #eee; }
+  background: #f0f3f4; }
   .footer .inner {
     overflow: hidden; }
   .footer .logo {
@@ -427,6 +424,16 @@ h3 {
     text-transform: uppercase;
     margin-right: 15px;
     font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+
+.disclaimer {
+  text-align: center;
+  border-top: 1px solid #d3dbde;
+  background: #f0f3f4; }
+  .disclaimer .inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+    line-height: 1.3em; }
 
 .blue-tag.site-tag {
   background: #213553;
@@ -500,6 +507,11 @@ h3 {
   .slide-bg-image .copy {
     width: 40%;
     float: right; }
+  .slide-bg-image .image {
+    width: 40%;
+    float: left; }
+    .slide-bg-image .image img {
+      max-width: 100%; }
 
 .slide-page-header {
   background-color: #213553;
@@ -556,15 +568,28 @@ h3 {
 */
 .about-overview {
   font-size: 1.2em; }
+  .about-overview:after {
+    border: none; }
   .about-overview strong {
     font-size: 1.4em;
     line-height: 1.3em; }
   .about-overview .inner {
     padding: 6em 0; }
   .about-overview .copy {
-    width: 45%; }
+    width: 60%;
+    margin-right: 5%;
+    float: left; }
   .about-overview p {
     margin-bottom: 1em; }
+  .about-overview .image {
+    width: 35%;
+    float: left;
+    text-align: center; }
+    .about-overview .image img {
+      max-width: 80%; }
+    .about-overview .image p {
+      border-top: 1px solid #ccc;
+      padding-top: 20px; }
 
 .professionals {
   padding: 10em 0; }
@@ -648,8 +673,8 @@ h3 {
       line-height: 1.3em;
       margin-bottom: .3em; }
     .home-intro .hero p {
-      max-width: 500px;
-      font-size: 1.1em; }
+      max-width: 550px;
+      font-size: 1.4em; }
 
 .fadetocolor .intro-background {
   -webkit-filter: grayscale(0%);
@@ -746,27 +771,60 @@ h3 {
     float: left;
     padding: 0 15px; }
 
+.testimonial {
+  padding: 10em 0 8em; }
+  .testimonial .copy {
+    width: 60%;
+    float: left; }
+  .testimonial strong {
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    font-size: 1.3em; }
+  .testimonial p {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 3em; }
+    .testimonial p:before {
+      font-size: 4em;
+      color: #ccc;
+      position: absolute;
+      content: '“';
+      top: 2px;
+      left: -35px; }
+  .testimonial .button {
+    margin-left: 35px; }
+  .testimonial img {
+    max-width: 150px;
+    margin-bottom: 1em; }
+  .testimonial em {
+    display: block;
+    color: #ccc;
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    margin-bottom: 1em; }
+  .testimonial .client-name {
+    width: 40%;
+    float: left;
+    text-align: center; }
+
 .give-back {
-  background-image: url(../img/temporary-giveback.jpg);
-  padding: 10em 2em 15em; }
-  .give-back i {
-    font-size: 8em;
-    margin-left: -20px; }
-  .give-back p {
-    margin-bottom: 2em; }
+  padding: 9em 2em;
+  background-image: url(../img/slide-bg-camelback.jpg); }
+  .give-back h2 {
+    color: #fff;
+    margin-bottom: 20px; }
+  .give-back .copy {
+    margin-top: 50px; }
 
 .contact-home {
-  padding: 100px 0;
-  text-align: center;
-  font-family: "Roboto Slab", "Times New Roman", sans-serif; }
-  .contact-home .text {
+  background: #213553;
+  color: #fff;
+  padding: 2em 0; }
+  .contact-home span {
     font-size: 1.3em;
-    line-height: 2em; }
-  .contact-home i {
-    font-size: 15em; }
-  .contact-home p {
-    margin-bottom: 2em;
-    font-size: 1.6em; }
+    font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+  .contact-home .button-white {
+    float: right;
+    margin-left: 30px; }
 
 .hex {
   margin-top: 60px;
@@ -795,10 +853,8 @@ h3 {
   background: #fff;
   position: relative; }
   .map-slide .address {
-    background: #213553;
-    color: #fff;
     font-size: 1.3em;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -876,6 +932,17 @@ p {
   .button:hover {
     color: #fff;
     background: #304c77; }
+
+.button-white {
+  padding: 1em 1.5em;
+  color: #213553;
+  display: inline-block;
+  background: #eee;
+  font-family: "Roboto Slab", "Times New Roman", sans-serif;
+  text-transform: uppercase; }
+  .button-white:hover {
+    color: #213553;
+    background: #fff; }
 
 /* KZ Love Footer */
 .site-design {
