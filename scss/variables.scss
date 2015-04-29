@@ -34,3 +34,10 @@ $slant-amount: 60px;
     -o-transition: $transitions;
     transition: $transitions;
 }
+@mixin transform($variables) {
+  -webkit-transform: $variables;
+  -moz-transform:    $variables;
+  -ms-transform:     $variables;
+  -o-transform:      $variables;
+  transform:         $variables;
+}

@@ -853,6 +853,7 @@ h3 {
   background: #fff;
   position: relative; }
   .map-slide .address {
+    display: none;
     font-size: 1.3em;
     padding: 20px;
     text-align: center;
@@ -863,25 +864,17 @@ h3 {
     z-index: 2; }
   .map-slide .callout {
     position: absolute;
-    top: 100px;
+    top: 250px;
+    margin-top: -120px;
     left: 50%;
     margin-left: -100px;
     width: 200px;
-    height: 100px;
+    height: 240px;
     font-family: "Roboto Slab", "Times New Roman", sans-serif;
     color: #fff;
     text-transform: uppercase;
-    text-align: center; }
-    .map-slide .callout .hex, .map-slide .callout .text {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 2;
-      display: block; }
-    .map-slide .callout .text {
-      top: 60px;
-      padding: 10px 20px 0; }
+    text-align: center;
+    z-index: 3; }
     .map-slide .callout span {
       display: block;
       font-size: 1.4em;
@@ -892,11 +885,63 @@ h3 {
       display: block;
       font-size: .9em;
       border-top: 1px solid #fff; }
+  .map-slide .hex, .map-slide .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: block; }
+  .map-slide .line {
+    opacity: 0;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background: #213553;
+    position: absolute;
+    top: 249px;
+    left: 50%;
+    margin-left: -120px;
+    z-index: 2; }
+  .map-slide .text {
+    top: 60px;
+    padding: 10px 20px 0; }
+  .map-slide.map-open .callout {
+    margin-left: -300px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s; }
+  .map-slide.map-open .line {
+    opacity: 1;
+    width: 110px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  .map-slide.map-open .hex, .map-slide.map-open .text {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
 
 .map-canvas {
   height: 500px;
   width: 100%;
   background-color: #CCC; }
+
+.map-image {
+  height: 500px;
+  width: 100%;
+  background-color: #CCC;
+  display: none; }
+  .map-image img {
+    width: 1200px; }
 
 html {
   box-sizing: border-box; }

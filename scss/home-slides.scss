@@ -4,6 +4,8 @@ $hex-size-height: $hex-size/2;
 $hex-color: rgba(#000,.8);
 $hex-color: rgba($main-color,1);
 
+$map-height: 500px;
+
 .intro-background {
 	position: fixed;
 	//position: absolute;
@@ -279,10 +281,13 @@ $hex-color: rgba($main-color,1);
 	}
 }
 
+$callout-offset: 200px;
 .map-slide {
 	background: #fff;
 	position: relative;
 	.address {
+		display: none;
+
 		//background: $hex-color;
 		//color: #fff;
 		font-size: 1.3em;
@@ -295,27 +300,18 @@ $hex-color: rgba($main-color,1);
 	}
     .callout {
     	position: absolute;
-    	top: 100px;
+    	top: $map-height/2;
+    	margin-top: -(($hex-size-side*4)/2);
     	left: 50%;
     	margin-left: -($hex-size/2);
 
     	width: $hex-size;
-    	height: $hex-size-height;
+    	height: $hex-size-side*4;
     	font-family: $accent-font;
     	color: #fff;
     	text-transform: uppercase;
 	    text-align: center;
-    	.hex, .text {
-    		position: absolute;
-    		top: 0;
-    		left: 0; right: 0;
-    		z-index: 2;
-    		display: block;
-    	}
-    	.text {
-    		top: $hex-size-side;
-    		padding: 10px 20px 0;
-    	}
+	    z-index: 3;
     	span {
     		display: block;
     		font-size: 1.4em;
@@ -330,9 +326,57 @@ $hex-color: rgba($main-color,1);
     		border-top: 1px solid #fff;
     	}
 	}
+	.hex, .text {
+		position: absolute;
+		top: 0;
+		left: 0; right: 0;
+		z-index: 2;
+		display: block;
+	}
+	.line {
+		opacity: 0;
+		height: 2px;
+		width: 0;
+		position: absolute;
+		background: $main-color;
+		position: absolute;
+		top: ($map-height/2)-1;
+		left: 50%;
+		margin-left: -(($callout-offset/2)+20);
+		z-index: 2;
+	}
+	.text {
+		top: $hex-size-side;
+		padding: 10px 20px 0;
+	}
+	&.map-open {
+		.callout {
+	    	margin-left: -(($hex-size/2)+$callout-offset);
+			@include transition(all .8s);
+		}
+		.line {
+			opacity: 1;
+			width: ($callout-offset/2)+10;
+			@include transition(all 1s);
+		}
+	    .hex, .text {
+	    	@include transform(scale(.9));
+			@include transition(all .5s);
+	    }
+	}
 }
 .map-canvas {
+	height: $map-height;
+	width: 100%;
+    background-color: #CCC;
+}
+.map-image {
 	height: 500px;
 	width: 100%;
     background-color: #CCC;
+    img {
+    	width: 1200px;
+    }
+    display: none;
+
 }
