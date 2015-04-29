@@ -2,8 +2,6 @@
 
 $(function(){
 
-
-
 	// Mobile Nav
 	$('.mobile-toggle').click(function(event) {
 	    event.preventDefault();

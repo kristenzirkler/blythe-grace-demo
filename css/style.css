@@ -851,7 +851,8 @@ h3 {
 
 .map-slide {
   background: #fff;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   .map-slide .address {
     display: none;
     font-size: 1.3em;
