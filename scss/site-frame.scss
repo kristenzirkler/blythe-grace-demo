@@ -10,7 +10,7 @@ body.home {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: $accent-font;
 }
 h1 {
@@ -23,7 +23,21 @@ h2 {
 h3 {
 	font-size: 24px;
 }
-
+h4 {
+	font-size: 18px;
+	margin-bottom: 1em;
+	color: $main-color;
+}
+p {
+	margin-bottom: 1em;
+}
+.bullets {
+	margin: 0 0 2em 1.5em;
+	li {
+		list-style-type: disc;
+		margin: 0 0 1em;
+	}
+}
 .site-tag {
 	@include transition(all 1s);
 	background: #fff;

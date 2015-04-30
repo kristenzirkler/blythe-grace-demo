@@ -8,6 +8,20 @@ $(function(){
 		$('.nav').toggleClass('nav-open');
 	});
 
+	// Professionals Nav
+	$('.professionals-nav a').click(function(event) {
+	    event.preventDefault();
+	    var selectedBio = $(this).data('name');
+
+		$('.professionals').addClass('bio-open');
+
+		$('.professionals-nav a').removeClass('selected').addClass('unselected');
+		$(this).removeClass('unselected').addClass('selected');
+
+		$('.page-content div').removeClass('selected');
+		$('.bio-'+selectedBio).addClass('selected');
+	});
+
 	// Function to check hero placement
 	function imageFade(){
 	// change grayscale on scroll

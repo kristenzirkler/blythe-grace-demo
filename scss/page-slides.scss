@@ -115,9 +115,9 @@
 // Our Firm
 .about-overview {
 	font-size: 1.2em;
-	&:after {
-		border:none;
-	}
+	background-image: url(../img/slide-bg-ourfirm.jpg);
+	background-size: cover;
+	background-position: center top;
 	strong {
 		font-size: 1.4em;
 		line-height: 1.3em;
@@ -139,17 +139,37 @@
 		text-align: center;
 		img {
 			max-width: 80%;
+			display: block;
+			margin: 0 auto;
 		}
 		p {
 			border-top: 1px solid $gray-light;
-			padding-top: 20px;
+			padding-top: 10px;
+			font-size: .7em;
+			color: $gray;
+		}
+	}
+}
+.our-firm-page {
+	.give-back {
+		&:before {
+			display: none;
 		}
 	}
 }
 // Professionals
 .professionals {
-	padding: 10em 0;
+	padding: 8em 0;
+	h2 {
+		max-width: 600px;
+		text-align: center;
+		margin: 0 auto 2em;
+	}
+	.professionals-nav {
+		overflow: hidden;
+	}
 	a {
+		cursor: pointer;
 		display: block;
 		position: relative;
 		background-size: cover;
@@ -157,20 +177,87 @@
 		height: 400px;
 		width: 25%;
 		float: left;
+		&:hover {
+			strong {
+				@include transition(all .5s);
+				font-size: 1.5em;
+				text-shadow: 0 0 5px rgba(#000,.8);
+			}
+		}
 	}
 	span {
 		display: block;
-		background: rgba($main-color,.9);
+		//background: rgba($main-color,.9);
+		@include gradient(#000,0,#000,.5);
+		text-shadow: 0 0 5px rgba(#000,.5);
 		color: #fff;
-		padding: .3em;
+		padding: .3em .5em;
 		line-height: 1.4em;
 		position: absolute;
 		bottom: 0;
-		height: 80px;
+		height: 60px;
 		width: 100%;
+		overflow: hidden;
 	}
 	strong {
 		font-size: 1.3em;
 		display: block;
+	}
+	em {
+		font-size: .8em;
+		width: 500px;
+	}
+	p {
+		margin-bottom: 1em;
+	}
+	.page-content {
+		clear: both;
+
+		div {
+			padding: 5em;
+			border: 1px solid $gray-light;
+			border-top: none;
+			display: none;
+			&.selected {
+				display: block;
+			}
+		}
+	}
+	&.bio-open {
+		a {
+			@include transition(all 1s);
+			&.selected {
+				width: 55%;
+				strong {
+					font-size: 1.5em;
+					text-shadow: 0 0 5px rgba(#000,.8);
+					@include transition(all .7s);
+					@include transition-delay(.3s);
+				}
+				em {
+					font-size: 1em;
+					display: block;
+					@include transition(all .7s);
+					@include transition-delay(.3s);
+				}
+				&:hover {
+					span {
+						//height: 60px;
+					}
+				}
+			}
+			&.unselected {
+				width: 15%;
+				@include grayscale(100%);
+				opacity: .6;
+				em {
+					display: none;
+				}
+				&:hover {
+					@include grayscale(0%);
+					opacity: 1;
+				}
+			}
+		}
 	}
 }
