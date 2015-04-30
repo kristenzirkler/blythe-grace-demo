@@ -3,17 +3,19 @@
 $font-family: 'Source Sans Pro', Helvetica, Arial, "Lucida Grande", sans-serif;
 $accent-font: 'Roboto Slab', 'Times New Roman', sans-serif;
 
-$body-background: #fff;
-
-$page-background: $body-background;
-$page-size: 960px;
-
 //$main-color: #294d66; //navy
 $main-color: #213553; //darker
+$main-color-highlight: #1d74a9; //darker
 $gray-lightest: #f0f3f4;
 $gray-light: #ccc;
 $gray: #aaaeb4;
 $font-color: #333;
+
+$body-background: $gray-lightest;
+
+$page-background: #fff;
+$page-size: 960px;
+
 $link: $main-color;
 
 $slant-amount: 60px;

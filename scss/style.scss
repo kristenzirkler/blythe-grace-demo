@@ -5,12 +5,16 @@
 @import 'site-frame';
 @import 'page-slides';
 @import 'home-slides';
+@import 'forms';
 
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+*:focus {
+   outline: 0;
 }
 body {
   background: $body-background;

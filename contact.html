@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/style.css">
 
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 </head>
 
@@ -20,33 +21,90 @@
 <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<div class="site-tag">
-  <a class="logo" href="/"><i class="bg-icon icon-logo-black"></i></a>
-  <a class="mobile-toggle" href="/"><i class="bg-icon icon-menu"></i></a>
-  <ul class="nav">
-    <li><a href="our-firm.html">Our&nbsp;Firm</a></li>
-    <li><a href="professionals.html">Professionals</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="clients.html">Clients</a></li>
-    <li><a href="giving-back.html">Giving&nbsp;Back</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+
+<div class="site-tag blue-tag">
+  <div class="inner">
+    <a class="logo" href="/"><i class="bg-icon icon-logo-black"></i></a>
+    <a class="mobile-toggle" href="/"><i class="bg-icon icon-menu"></i></a>
+    <ul class="nav">
+      <li><a href="our-firm.html">Our&nbsp;Firm</a></li>
+      <li><a href="professionals.html">Professionals</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="giving-back.html">Giving&nbsp;Back</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
 </div>
 
 <div class="slide slide-page-header">
   <div class="inner">
     <h1>Contact</h1>
-    <p>Lorips lorips lorips</p>
   </div>
 </div>
-<div class="slide slide-people">
+<div class="slide slide-contact">
   <div class="inner">
-    <ul>
-      <li>List</li>
-      <li>List</li>
-    </ul>
+    <div class="copy">
+      <h2>If you think Blythe Grace would be a good fit for your legal needs, please send us a message or call (480) 663-8838.</h2>
+      <p class="phone"><i class="bg-icon icon-mobile"></i>480.663.8838</p>
+    </div>
+    <form class="bg-form">
+      <ul>
+        <li class="field-ctr text-field">
+          <label for="input_1_1">Name</label>
+          <div class="ginput_container">
+            <input name="input_1" id="input_1_1" type="text" value="" tabindex="1">
+          </div>
+        </li>
+        <li class="field-ctr text-field">
+          <label for="input_1_2">Email</label>
+          <div class="ginput_container">
+            <input name="input_2" id="input_1_2" type="text" value="" class="medium" tabindex="2">
+          </div>
+        </li>
+        <li class="field-ctr text-field">
+          <label for="input_1_3">Phone</label>
+          <div class="ginput_container">
+            <input name="input_3" id="input_1_3" type="text" value="" class="medium" tabindex="3">
+          </div>
+        </li>
+        <li class="field-ctr text-field-wide">
+          <label for="input_1_4">Best Day To Be Reached?</label>
+          <div class="ginput_container">
+            <input name="input_4" id="input_1_4" type="text" value="" class="datepicker medium mdy datepicker_no_icon hasDatepicker" tabindex="4">
+          </div>
+        </li>
+        <li class="field-ctr submit">
+          <button class="button">Send Message</button>
+        </li>
+      </ul>
+    </form>
+
   </div>
 </div>
+<div class="slide slide-disclaimer">
+  <div class="inner">
+    Sending emails to the firm will not create an attorney-client relationship and may not be kept confidential. Viewing the Website also does not create an attorney-client relationship and is informational only. The firm is located in Arizona and its legal practice is in that jurisdiction or in any other jurisdiction where firm lawyers are admitted to practice law.
+  </div>
+</div>
+<div class="map-slide">
+  <div class="inner">
+    <div class="callout">
+      <div class="hex">&nbsp;</div>
+      <div class="text">
+        <span>Thomas And<br>64th Street</span>
+        <em>Scottsdale, AZ</em>
+      </div>
+    </div>
+      <div class="line">&nbsp;</div>
+    <div class="address">6350 East Thomas Road, Suite 330 - Scottsdale, Arizona 85251</div>
+    <div class="map-image">
+      <img src="img/static-map.png" alt="6350 East Thomas Road, Suite 330 - Scottsdale, Arizona 85251" />
+    </div>
+    <div class="map-canvas" id="map-canvas">&nbsp;</div>
+  </div>
+</div>
+
 <div class="footer">
   <div class="inner">
     <a href="/" class="logo"><i class="bg-icon icon-bg"></i></a>

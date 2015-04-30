@@ -22,6 +22,13 @@ $(function(){
 		$('.bio-'+selectedBio).addClass('selected');
 	});
 
+	$('input[type=text]').focus(function() {
+		$(this).parent().parent().addClass('field-selected');
+	});
+	$('input[type=text]').blur(function() {
+		$(this).parent().parent().removeClass('field-selected')
+	});
+
 	// Function to check hero placement
 	function imageFade(){
 	// change grayscale on scroll

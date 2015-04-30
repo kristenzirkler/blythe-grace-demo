@@ -1,0 +1,62 @@
+
+.bg-form {
+	.field-ctr {
+		overflow: hidden;
+		margin-bottom: 1em;
+	}
+	input[type="text"] {
+		font-family: $font-family;
+		border: 1px solid $main-color;
+		line-height: 50px;
+		padding: 0 15px;
+		width: 100%;
+		&:focus {
+			box-shadow: none;
+			border-color: $main-color-highlight;
+		}
+	}
+	label {
+		font-family: $accent-font;
+		text-transform: uppercase;
+		background: $main-color;
+		color: #fff;
+		padding: 0 15px;
+		line-height: 50px;
+		border: 1px solid $main-color;
+		display: block;
+	}
+
+	.field-selected {
+		label {
+			background: $main-color-highlight;
+			border-color: $main-color-highlight;
+		}
+	}
+
+	.text-field {
+		label, input {
+			float: left;
+		}
+		label {
+			width: 100px;
+		}
+		input {
+			border-left: none;
+			width: calc(100% - 100px);
+		}
+	}
+
+	.text-field-wide {
+
+	}
+	.button {
+		border: 1px solid $main-color;
+		line-height: 50px;
+		padding: 0 15px;
+		display: block;
+		width: 100%;
+	}
+}
+
+
+

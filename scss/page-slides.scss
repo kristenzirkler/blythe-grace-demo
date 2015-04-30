@@ -261,3 +261,52 @@
 		}
 	}
 }
+
+// Services 
+.slide-service {
+	padding: 6em 0;
+	ul {
+		overflow: hidden;
+	}
+	li {
+		width: 50%;
+		float: left;
+		padding-bottom: 40px;
+		&:nth-child(odd) {
+			padding-right: 80px;
+			clear: left;
+		}
+	}
+}
+
+// Contact
+.slide-contact {
+	padding: 8em 0 4em;
+	.copy {
+		width: 40%;
+		padding-right: 100px;
+		float: left;
+	}
+	.phone {
+		margin-top: 3em;
+		font-size: 1.4em;
+		color: $main-color;
+		font-family: $accent-font;
+	}
+	form {
+		width: 60%;
+		float: left;
+
+	}
+	
+}
+
+.slide-disclaimer {
+	text-align: center;
+	.inner {
+		border-top: 1px solid darken($gray-lightest,10);
+		padding: 50px 0;
+		line-height: 1.3em;
+	}
+
+}
