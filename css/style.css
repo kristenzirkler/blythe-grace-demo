@@ -735,6 +735,17 @@ p {
       padding-right: 80px;
       clear: left; }
 
+.logo-list ul {
+  overflow: hidden; }
+.logo-list li {
+  float: left;
+  margin: 0 20px 20px 0; }
+.logo-list img {
+  width: 125px; }
+
+.charity-list {
+  clear: both; }
+
 .slide-contact {
   padding: 8em 0 4em; }
   .slide-contact .copy {
