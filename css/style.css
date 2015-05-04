@@ -757,7 +757,7 @@ p {
   z-index: 10; }
   .slide-service ul:before {
     content: '-';
-    width: 2px;
+    width: 4px;
     font-size: 1px;
     color: #213553;
     background: #213553;
@@ -765,33 +765,34 @@ p {
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -1px; }
+    margin-left: -2px; }
 .slide-service li {
   width: 50%;
   float: left;
   padding-bottom: 40px; }
   .slide-service li:nth-child(odd) {
-    padding-right: 40px;
+    padding-right: 50px;
     clear: left;
     text-align: right; }
     .slide-service li:nth-child(odd) h2:after {
-      right: -43px; }
+      right: -53px; }
   .slide-service li:nth-child(even) {
-    padding-left: 40px;
-    -webkit-transform: translateY(80px);
-    -moz-transform: translateY(80px);
-    -ms-transform: translateY(80px);
-    -o-transform: translateY(80px);
-    transform: translateY(80px); }
+    padding-left: 50px;
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    transform: translateY(100px); }
     .slide-service li:nth-child(even) h2:after {
-      left: -43px; }
+      left: -53px; }
 .slide-service h2 {
   position: relative; }
   .slide-service h2:after {
     content: '-';
     font-size: 50px;
     color: #213553;
-    position: absolute; }
+    position: absolute;
+    top: 0; }
 
 .slide-giving-back-large {
   padding: 6em 0; }

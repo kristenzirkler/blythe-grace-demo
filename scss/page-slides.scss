@@ -285,14 +285,14 @@
 		z-index: 10;
 		&:before {
 			content: '-';
-			width: 2px;
+			width: 4px;
 			font-size: 1px;
 			color: $main-color;
 			background: $main-color;
 			position: absolute;
 			top: 0; bottom: 0;
 			left: 50%;
-			margin-left: -1px;
+			margin-left: -2px;
 		}
 	}
 	li {
@@ -300,18 +300,18 @@
 		float: left;
 		padding-bottom: 40px;
 		&:nth-child(odd) {
-			padding-right: 40px;
+			padding-right: 50px;
 			clear: left;
 			text-align: right;
 			h2:after {
-				right: -43px;
+				right: -53px;
 			}
 		}
 		&:nth-child(even) {
-			padding-left: 40px;
-			@include transform(translateY(80px));
+			padding-left: 50px;
+			@include transform(translateY(100px));
 			h2:after {
-				left: -43px;
+				left: -53px;
 			}
 		}
 	}
@@ -322,6 +322,7 @@
 			font-size: 50px;
 			color: $main-color;
 			position: absolute;
+			top: 0;
 		}
 	}
 }
