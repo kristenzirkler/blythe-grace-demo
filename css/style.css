@@ -735,16 +735,36 @@ p {
       padding-right: 80px;
       clear: left; }
 
+.slide-giving-back-large {
+  padding: 6em 0; }
+  .slide-giving-back-large h2 {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 50px; }
+
 .logo-list ul {
   overflow: hidden; }
 .logo-list li {
   float: left;
-  margin: 0 20px 20px 0; }
+  width: 20%;
+  text-align: center;
+  margin-bottom: 40px; }
 .logo-list img {
   width: 125px; }
 
 .charity-list {
-  clear: both; }
+  clear: both;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  color: #213553;
+  font-family: "Roboto Slab", "Times New Roman", sans-serif;
+  text-transform: uppercase; }
+  .charity-list span {
+    display: inline-block; }
+    .charity-list span:before, .charity-list span:last-child:after {
+      content: ' ';
+      padding: 0 10px; }
 
 .slide-contact {
   padding: 8em 0 4em; }

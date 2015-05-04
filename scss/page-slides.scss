@@ -279,13 +279,23 @@
 	}
 }
 // Giving Back
+.slide-giving-back-large {
+	padding: 6em 0;
+	h2 {
+		max-width: 500px;
+		text-align: center;
+		margin: 0 auto 50px;
+	}
+}
 .logo-list {
 	ul {
 		overflow: hidden;
 	}
 	li {
 		float: left;
-		margin: 0 20px 20px 0;
+		width: 20%;
+		text-align: center;
+		margin-bottom: 40px;
 	}
 	img {
 		width: 125px;
@@ -293,6 +303,19 @@
 }
 .charity-list {
 	clear: both;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	color: $main-color;
+	font-family: $accent-font;
+	text-transform: uppercase;
+	span {
+		display: inline-block;
+		&:before, &:last-child:after {
+			content: ' ';
+			padding: 0 10px;
+		}
+	}
 }
 // Contact
 .slide-contact {
