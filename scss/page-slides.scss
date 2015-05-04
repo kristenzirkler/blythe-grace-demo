@@ -156,7 +156,17 @@
 			display: none;
 		}
 	}
+	.values {
+		overflow: hidden;
+		div:nth-child(4n+6) {
+			clear: both;
+		}
+		.copy {
+			margin-bottom: 20px;
+		}
+	}
 }
+
 // Professionals
 .professionals {
 	padding: 8em 0;

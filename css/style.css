@@ -616,6 +616,12 @@ p {
 
 .our-firm-page .give-back:before {
   display: none; }
+.our-firm-page .values {
+  overflow: hidden; }
+  .our-firm-page .values div:nth-child(4n+6) {
+    clear: both; }
+  .our-firm-page .values .copy {
+    margin-bottom: 20px; }
 
 .professionals {
   padding: 8em 0; }
@@ -809,6 +815,7 @@ p {
   color: #fff;
   height: 80vh;
   min-height: 420px;
+  max-height: 540px;
   padding: 20vh 0;
   position: relative; }
   .home-intro:after {
