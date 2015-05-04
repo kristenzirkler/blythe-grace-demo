@@ -412,6 +412,8 @@ p {
     display: block; }
   .site-tag.open {
     opacity: 1; }
+    .site-tag.open .contact-button i {
+      display: none; }
 
 .hide {
   opacity: 0; }
@@ -470,6 +472,22 @@ p {
     opacity: .1; }
     .blue-tag.site-tag .nav a:hover {
       opacity: 1; }
+  .blue-tag.site-tag .contact-button a {
+    opacity: .5;
+    background: #fff;
+    color: #213553;
+    padding: 0 12px;
+    line-height: 40px;
+    display: block; }
+  .blue-tag.site-tag .contact-button i {
+    font-size: 30px;
+    line-height: 0px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: -4px; }
+  .blue-tag.site-tag.open .contact-button i {
+    display: inline-block; }
 
 @media all and (min-width: 800px) {
   .site-tag .mobile-toggle {
@@ -729,17 +747,51 @@ p {
         filter: grayscale(0%);
         opacity: 1; }
 
-.slide-service {
-  padding: 6em 0; }
-  .slide-service ul {
-    overflow: hidden; }
-  .slide-service li {
-    width: 50%;
-    float: left;
-    padding-bottom: 40px; }
-    .slide-service li:nth-child(odd) {
-      padding-right: 80px;
-      clear: left; }
+.slide-service .inner {
+  overflow: visible; }
+.slide-service ul {
+  overflow: hidden;
+  position: relative;
+  padding: 10em 0 6em;
+  margin-top: -2em;
+  z-index: 10; }
+  .slide-service ul:before {
+    content: '-';
+    width: 2px;
+    font-size: 1px;
+    color: #213553;
+    background: #213553;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px; }
+.slide-service li {
+  width: 50%;
+  float: left;
+  padding-bottom: 40px; }
+  .slide-service li:nth-child(odd) {
+    padding-right: 40px;
+    clear: left;
+    text-align: right; }
+    .slide-service li:nth-child(odd) h2:after {
+      right: -43px; }
+  .slide-service li:nth-child(even) {
+    padding-left: 40px;
+    -webkit-transform: translateY(80px);
+    -moz-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    -o-transform: translateY(80px);
+    transform: translateY(80px); }
+    .slide-service li:nth-child(even) h2:after {
+      left: -43px; }
+.slide-service h2 {
+  position: relative; }
+  .slide-service h2:after {
+    content: '-';
+    font-size: 50px;
+    color: #213553;
+    position: absolute; }
 
 .slide-giving-back-large {
   padding: 6em 0; }

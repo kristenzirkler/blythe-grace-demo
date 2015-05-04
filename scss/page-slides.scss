@@ -274,17 +274,54 @@
 
 // Services 
 .slide-service {
-	padding: 6em 0;
+	.inner {
+		overflow: visible;
+	}
 	ul {
 		overflow: hidden;
+		position: relative;
+		padding: 10em 0 6em;
+		margin-top: -2em;
+		z-index: 10;
+		&:before {
+			content: '-';
+			width: 2px;
+			font-size: 1px;
+			color: $main-color;
+			background: $main-color;
+			position: absolute;
+			top: 0; bottom: 0;
+			left: 50%;
+			margin-left: -1px;
+		}
 	}
 	li {
 		width: 50%;
 		float: left;
 		padding-bottom: 40px;
 		&:nth-child(odd) {
-			padding-right: 80px;
+			padding-right: 40px;
 			clear: left;
+			text-align: right;
+			h2:after {
+				right: -43px;
+			}
+		}
+		&:nth-child(even) {
+			padding-left: 40px;
+			@include transform(translateY(80px));
+			h2:after {
+				left: -43px;
+			}
+		}
+	}
+	h2 {
+		position: relative;
+		&:after {
+			content: '-';
+			font-size: 50px;
+			color: $main-color;
+			position: absolute;
 		}
 	}
 }
