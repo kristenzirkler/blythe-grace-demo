@@ -866,9 +866,6 @@ p {
 
 .home-intro {
   color: #fff;
-  height: 80vh;
-  min-height: 420px;
-  max-height: 540px;
   padding: 20vh 0;
   position: relative; }
   .home-intro:after {
@@ -888,12 +885,12 @@ p {
     -o-transition: border-bottom 1s;
     transition: border-bottom 1s; }
   .home-intro .logo {
-    font-size: 6em;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 15px;
     display: inline-block;
     color: #fff; }
     .home-intro .logo i {
-      margin-left: -22px; }
+      margin-left: -10px; }
   .home-intro .site-tag {
     position: relative;
     z-index: 2; }
@@ -906,8 +903,7 @@ p {
       line-height: 1.3em;
       margin-bottom: .3em; }
     .home-intro .hero p {
-      max-width: 550px;
-      font-size: 1.4em; }
+      font-size: 1.1em; }
 
 .fadetocolor .intro-background {
   -webkit-filter: grayscale(0%);
@@ -1177,6 +1173,19 @@ p {
   .map-image img {
     width: 1200px; }
 
+@media all and (min-width: 420px) {
+  .home-intro {
+    height: 80vh;
+    min-height: 420px;
+    max-height: 540px; }
+    .home-intro .logo {
+      font-size: 6em;
+      margin-bottom: 20px; }
+      .home-intro .logo i {
+        margin-left: -22px; }
+    .home-intro .hero p {
+      font-size: 1.4em;
+      max-width: 550px; } }
 .bg-form .field-ctr {
   overflow: hidden;
   margin-bottom: 1em; }

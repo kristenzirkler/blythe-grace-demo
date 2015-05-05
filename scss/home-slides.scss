@@ -20,11 +20,7 @@ $map-height: 500px;
 }
 .home-intro {
 	color: #fff;
-	height: 80vh;
-	min-height: 420px;
-	max-height: 540px;
 	padding: 20vh 0;
-	//text-align: center;
 	position: relative;
 	&:after {
 		content: '';
@@ -42,12 +38,12 @@ $map-height: 500px;
 
 	}
 	.logo {
-		font-size: 6em;
-		margin-bottom: 20px;
+		font-size: 2.5em;
+		margin-bottom: 15px;
 		display: inline-block;
 		color: #fff;
 		i {
-			margin-left: -22px;
+			margin-left: -10px;
 		}
 	}
 	.site-tag {
@@ -55,22 +51,16 @@ $map-height: 500px;
 		z-index: 2;
 	}
 	.hero {
-		//display: none;
 		max-width: $page-size - 40;
 		margin: 0 auto;
 		padding: 0 20px;
 		h1 {
 			font-size: 2em;
-			//font-weight: bold;
 			line-height: 1.3em;
 			margin-bottom: .3em;
-			em {
-				//display: block;
-			}
 		}
 		p {
-			max-width: 550px;
-			font-size: 1.4em;
+			font-size: 1.1em;
 		}
 	}
 }
@@ -382,3 +372,36 @@ $callout-offset: 200px;
     display: none;
 
 }
+
+
+//Responsive 
+
+
+@media all and (min-width: 420px) {
+
+.home-intro {
+	height: 80vh;
+	min-height: 420px;
+	max-height: 540px;
+	.logo {
+		font-size: 6em;
+		margin-bottom: 20px;
+		i {
+			margin-left: -22px;
+		}
+
+	}
+	.hero {
+		p {
+			font-size: 1.4em;
+			max-width: 550px;
+		}
+	}
+}
+
+}
+@media all and (min-width: 800px) {
+
+}
+
+
