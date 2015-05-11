@@ -186,6 +186,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-cbcrossfit-trans.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19646,
+		"inputAbbreviatedPath": "\/img\/logo-cbcrossfit-trans.png",
+		"outputAbbreviatedPath": "\/img\/logo-cbcrossfit-trans.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-cbcrossfit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4029,
+		"inputAbbreviatedPath": "\/img\/logo-cbcrossfit.png",
+		"outputAbbreviatedPath": "\/img\/logo-cbcrossfit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-clarkstreet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6341,
+		"inputAbbreviatedPath": "\/img\/logo-clarkstreet.png",
+		"outputAbbreviatedPath": "\/img\/logo-clarkstreet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-dresssuccess.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -237,6 +270,17 @@
 		"initialSize": 13293,
 		"inputAbbreviatedPath": "\/img\/logo-maggies.png",
 		"outputAbbreviatedPath": "\/img\/logo-maggies.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-meltmelissa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36171,
+		"inputAbbreviatedPath": "\/img\/logo-meltmelissa.png",
+		"outputAbbreviatedPath": "\/img\/logo-meltmelissa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -329,6 +373,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-vlp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1973,
+		"inputAbbreviatedPath": "\/img\/logo-vlp.png",
+		"outputAbbreviatedPath": "\/img\/logo-vlp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-white-300.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -413,6 +468,17 @@
 		"initialSize": 215795,
 		"inputAbbreviatedPath": "\/img\/slide-bg-camelback.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-camelback.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-crossfit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122334,
+		"inputAbbreviatedPath": "\/img\/slide-bg-crossfit.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-crossfit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

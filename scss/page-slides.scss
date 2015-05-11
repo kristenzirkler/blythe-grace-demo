@@ -7,9 +7,11 @@
 	}
 }
 .slide-bg-image {
+	background-color: $gray-lightest;
 	background-size: cover;
 	background-position: center top;
 	position: relative;
+	
 	&:before {
 		content: '';
 		width: 0;
@@ -36,13 +38,8 @@
 		left: 0; right: 0;
 		z-index: 5;
 	}
-	.copy {
-		width: 40%;
-		float: right;
-	}
+	
 	.image {
-		width: 40%;
-		float: left;
 		img {
 			max-width: 100%;
 		}
@@ -52,10 +49,6 @@
 	background-color: $main-color;
 	color: #fff;
 	position: relative;
-
-	//background-size: cover;
-	//background-position: center top;
-	//background-image: url(../img/scottsdale-temporary-fade.jpg);
 	.inner {
 		padding: 4em 0 6em;
 	}
@@ -396,3 +389,88 @@
 	}
 
 }
+
+.testimonial-bg {
+	padding: 10em 0 8em;
+	background-image: url(../img/slide-bg-crossfit.jpg);
+	.quote {
+		width: 60%;
+		float: left;
+	}
+	p {
+		font-family: $accent-font;
+		font-size: 1.5em;
+		color: #fff;
+
+		position: relative;
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-right: 40px;
+		margin-bottom: 3em;
+		&:before, &:after {
+			font-size: 4em;
+			color: #fff;
+			position: absolute;
+			opacity: .5;
+			font-family: $font-family;
+		}
+		&:before {
+			content: '“';
+			top: 2px;
+			left: -50px;
+		}
+		&:after {
+			content: '”';
+			bottom: -35px;
+			right: -40px;
+		}
+	}
+	img {
+		max-width: 150px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: #fff;
+		font-family: $accent-font;
+		line-height: 1.3em;
+		margin-bottom: 1em;
+	}
+	.client-name {
+		width: 40%;
+		float: left;
+		text-align: center;
+	}
+}
+
+// Responsive
+@media all and (max-width: 420px) {
+.slide-bg-image {
+	.button, .button-white {
+		display: block;
+		text-align: center;
+	}
+	.copy {
+		padding: 0 30px;
+	}
+}
+}
+@media all and (min-width: 420px) {
+.slide-bg-image {
+	.copy {
+		width: 40%;
+		float: right;
+	}
+	.image {
+		width: 40%;
+		float: left;
+	}
+
+}
+
+}
+@media all and (min-width: 800px) {
+
+}
+
+

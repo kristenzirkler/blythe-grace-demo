@@ -62,7 +62,7 @@ $(function(){
 	// change grayscale on scroll
 		if ($('.start-grow').length) {
 			var y = $(document).scrollTop();
-			var t = $('.start-grow').offset().top - 100;
+			var t = $('.start-grow').offset().top - 200;
 
 			if (y > t) {
 			    $('.start-grow').addClass('animate');
@@ -82,6 +82,19 @@ $(function(){
 
 
 // Google Map -----------------------
+function map_recenter(latlng,offsetx,offsety) {
+    var point1 = map.getProjection().fromLatLngToPoint(
+        (latlng instanceof google.maps.LatLng) ? latlng : map.getCenter()
+    );
+    var point2 = new google.maps.Point(
+        ( (typeof(offsetx) == 'number' ? offsetx : 0) / Math.pow(2, map.getZoom()) ) || 0,
+        ( (typeof(offsety) == 'number' ? offsety : 0) / Math.pow(2, map.getZoom()) ) || 0
+    );  
+    map.setCenter(map.getProjection().fromPointToLatLng(new google.maps.Point(
+        point1.x - point2.x,
+        point1.y + point2.y
+    )));
+}
 
 var map,
 	targetLocation = new google.maps.LatLng(33.48067, -111.94530),
@@ -95,7 +108,17 @@ var map,
 		{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":10}]},
 		{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
 	,
-	mapHoverStyles = [
+    mapHoverStyles = [
+        {"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},
+        {"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},
+        {"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},
+        //{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},
+        {"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
+        //{"stylers":[{"hue":"#00aaff"},{"saturation":-80},{"gamma":1.75},{"lightness":25}]},
+        //{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":10}]},
+        {"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
+    ,
+	mapHoverStyles2 = [
     {
         "featureType": "administrative",
         "elementType": "labels.text.fill",
@@ -217,7 +240,8 @@ function initialize() {
 
 function newMapOptions() {
     map.set('zoom', 15);
-    //map.set('styles', mapHoverStyles);
+    map.set('styles', mapHoverStyles);
+    map_recenter(targetLocation,150,0);
 }
 function addMarkerToMap(lat, long){
     var myLatLng = new google.maps.LatLng(lat, long);
