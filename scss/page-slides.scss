@@ -389,10 +389,15 @@
 	}
 
 }
-
-.testimonial-bg {
-	padding: 10em 0 8em;
+.cb-cross {	
 	background-image: url(../img/slide-bg-crossfit.jpg);
+}
+.melt-mel {
+	background-image: url(../img/slide-bg-melissa.jpg);
+}
+.testimonial-bg {
+	padding: 12em 0 10em;
+	background-color: $main-color;
 	.quote {
 		width: 60%;
 		float: left;
@@ -405,7 +410,7 @@
 		position: relative;
 		margin-top: 25px;
 		margin-left: 50px;
-		margin-right: 40px;
+		margin-right: 20px;
 		margin-bottom: 3em;
 		&:before, &:after {
 			font-size: 4em;
@@ -422,11 +427,11 @@
 		&:after {
 			content: '”';
 			bottom: -35px;
-			right: -40px;
+			right: 0px;
 		}
 	}
 	img {
-		max-width: 150px;
+		max-width: 250px;
 		margin-bottom: 1em;
 	}
 	em {
@@ -438,7 +443,8 @@
 	}
 	.client-name {
 		width: 40%;
-		float: left;
+		padding: 2em 0;
+		float: right;
 		text-align: center;
 	}
 }
