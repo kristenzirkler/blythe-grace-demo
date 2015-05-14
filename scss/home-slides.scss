@@ -74,10 +74,6 @@ $map-height: 500px;
 		opacity: 0;
 		@include transition(all 1s .5s);
 	}
-
-	&:after {
-		border-bottom-width: 4vh;
-	}
 	
 }
 
@@ -85,11 +81,13 @@ $map-height: 500px;
 	overflow: hidden;
 	padding: 5em 2em;
 	.callout {
-		font-size: 20px;
 		margin-bottom: 30px;
 		font-family: $accent-font;
-		text-align: right;
-		overflow: hidden;
+		ul {
+			font-size: 20px;
+			overflow: hidden;
+			text-align: right;
+		}
 		i {
 			font-size: 80px;
 			transform: scale(.6);
@@ -111,15 +109,21 @@ $map-height: 500px;
 	.copy {
 		margin-bottom: 30px;
 	}
+	a:hover {
+		i {
+			transform: scale(1.1);
+		}
+	}
 	.services-list {
-		clear: both;
-		font-size: 1.1em;
+		//clear: both;
+		display: none;
+		font-size: .8em;
 		color: $main-color;
 		font-family: $accent-font;
 		text-transform: uppercase;
-		span {
+		a {
 			display: block;
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 		}
 	}
 	&.animate  {
@@ -155,20 +159,32 @@ $map-height: 500px;
 .values {
 	padding: 5em 0;
 	h2 {
-		text-align: center;
-		padding: 0 10px 40px;
+		margin: 0 0 40px;
 		text-transform: uppercase;
 		color: $main-color;
+		span {
+			border-bottom: 5px solid $main-color;
+			display: inline-block;
+			padding: 0 10px 10px;
+		}
 	}
 	h3 {
 		font-size: 20px;
+		color: $main-color;
 		margin-bottom: 10px;
 	}
 	p {
 		margin-bottom: 25px;
 	}
 	.copy {
-		padding: 0 30px;
+		overflow: hidden;
+		div {
+			padding: 0 30px;
+		}
+	}
+	.button {
+		margin-top: 5px;
+		float: right;
 	}
 }
 .give-back {
@@ -357,10 +373,12 @@ $callout-offset: 200px;
 	.copy {
 	}
 	.callout {
-		font-size: 30px;
 		margin-left: 10%;
 		width: 45%;
 		float: right;
+		ul {
+			font-size: 30px;
+		}
 		i {
 			font-size: 100px;
 		}
@@ -369,14 +387,14 @@ $callout-offset: 200px;
 		font-size: 1.2em;
 	}
 	.services-list {
-		padding: 5em 100px 0;
+		//padding: 5em 100px 0;
 		text-align: center;
-		line-height: 1.8em;
+		//line-height: 1.8em;
 		span {
 			display: inline-block;
 			&:before, &:last-child:after {
-				content: ' ';
-				padding: 0 10px;
+				//content: ' ';
+				//padding: 0 10px;
 			}
 		}
 
@@ -396,9 +414,11 @@ $callout-offset: 200px;
 		text-align: left;
 	}
 	.copy {
-		width: 25%;
-		float: left;
-		padding: 0 15px;
+		div {
+			width: 25%;
+			float: left;
+			padding: 0 15px;
+		}
 	}
 }
 .give-back {

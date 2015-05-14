@@ -117,6 +117,8 @@ p {
 	}
 	.social {
 		float: right;
+		font-size: 1.3em;
+		margin-right: 20px;
 	}
 	.nav {
 		font-size: .8em;
@@ -164,7 +166,7 @@ p {
 		}
 		.nav {
 			a {
-				opacity: .1;
+				opacity: .4;
 				&:hover {
 					opacity: 1;
 				}
