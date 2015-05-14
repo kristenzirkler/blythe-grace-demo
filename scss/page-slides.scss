@@ -337,6 +337,7 @@
 		width: 20%;
 		text-align: center;
 		margin-bottom: 40px;
+		opacity: 0;
 	}
 	img {
 		width: 125px;
@@ -358,42 +359,69 @@
 		}
 	}
 }
-// Contact
-.slide-contact {
-	padding: 8em 0 4em;
+// Clients
+.testimonial {
+	padding: 10em 0 8em;
 	.copy {
-		width: 40%;
-		padding-right: 100px;
-		float: left;
-	}
-	.phone {
-		margin-top: 3em;
-		font-size: 1.4em;
-		color: $main-color;
-		font-family: $accent-font;
-	}
-	form {
 		width: 60%;
 		float: left;
-
 	}
-	
-}
+	strong {
+		font-family: $accent-font;
+		font-size: 1.3em;
+	}
+	p {
+		position: relative;
+		margin-top: 25px;
+		margin-left: 35px;
+		margin-right: 35px;
+		margin-bottom: 3em;
+		&:before {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
 
-.slide-disclaimer {
-	text-align: center;
-	.inner {
-		border-top: 1px solid darken($gray-lightest,10);
-		padding: 50px 0;
+			content: '“';
+			top: 2px;
+			left: -35px;
+		}
+		&:after {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '”';
+			bottom: -35px;
+			right: -35px;
+		}
+	}
+	.button {
+		margin-left: 35px;
+	}
+	img {
+		max-width: 150px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: $gray;
+		font-family: $accent-font;
+		margin-bottom: 1em;
 		line-height: 1.3em;
 	}
-
+	.client-name {
+		width: 40%;
+		float: left;
+		text-align: center;
+	}
 }
 .cb-cross {	
 	background-image: url(../img/slide-bg-crossfit.jpg);
+	@include transition(all 1s);
 }
 .melt-mel {
 	background-image: url(../img/slide-bg-melissa.jpg);
+	@include transition(all 1s);
 }
 .testimonial-bg {
 	padding: 12em 0 10em;
@@ -447,6 +475,37 @@
 		float: right;
 		text-align: center;
 	}
+}
+// Contact
+.slide-contact {
+	padding: 8em 0 4em;
+	.copy {
+		width: 40%;
+		padding-right: 100px;
+		float: left;
+	}
+	.phone {
+		margin-top: 3em;
+		font-size: 1.4em;
+		color: $main-color;
+		font-family: $accent-font;
+	}
+	form {
+		width: 60%;
+		float: left;
+
+	}
+	
+}
+
+.slide-disclaimer {
+	text-align: center;
+	.inner {
+		border-top: 1px solid darken($gray-lightest,10);
+		padding: 50px 0;
+		line-height: 1.3em;
+	}
+
 }
 
 // Responsive

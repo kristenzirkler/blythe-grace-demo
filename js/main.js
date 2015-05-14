@@ -73,11 +73,35 @@ $(function(){
 		}
 	}
 
+    $('.logo-list li').each(function(i) {
+        $(this).delay((i++) * 100).fadeTo(1000, 1);
+    });
+
+    // Function to check hero placement
+    function aboutGray(className){
+    // change grayscale on scroll
+        if ($('.'+className).length) {
+            var y = $(document).scrollTop();
+            var t = $('.'+className).offset().top - 300;
+
+            if (y > t) {
+                $('.'+className).removeClass('gray-pic');
+            } else {
+                //$('.start-grow').removeClass('animate');
+            }
+
+        }
+    }
+
 	// Hero update on scroll
 	$(document).scroll(function () {
 		navFade();
 		imageFade();
 		startGrowAni();
+        aboutGray('about-bg');
+        aboutGray('give-back');
+        aboutGray('melt-mel');
+        aboutGray('cb-cross');
 	});
 
 

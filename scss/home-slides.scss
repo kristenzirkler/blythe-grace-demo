@@ -13,7 +13,7 @@ $map-height: 500px;
 	left: 0; right: 0;
 	z-index: -1;
 	background-size: cover;
-	background-position: center top;
+	background-position: right bottom;
 	@include transition(all .3s);
 	@include grayscale(100%);
 	opacity: .2;
@@ -92,7 +92,7 @@ $map-height: 500px;
 		overflow: hidden;
 		i {
 			font-size: 80px;
-			transform: scale(.8);
+			transform: scale(.6);
 			margin-bottom: 20px;
 			display: block;
 			margin-left: -20px;
@@ -125,10 +125,10 @@ $map-height: 500px;
 	&.animate  {
 		li {
 			&:nth-child(2) i {
-				@include transition(all .3s);
+				@include transition(all .4s);
 			}
 			&:nth-child(3) i {
-				@include transition(all .8s);
+				@include transition(all .9s);
 			}
 
 		}
@@ -139,6 +139,7 @@ $map-height: 500px;
 	}
 }
 .about-bg {
+	@include transition(all .3s);
 	padding: 5em 0 7em;
 	i {
 		font-size: 6em;
@@ -147,6 +148,9 @@ $map-height: 500px;
 	p {
 		margin-bottom: 2em;
 	}
+}
+.gray-pic {
+	@include grayscale(100%);
 }
 .values {
 	padding: 5em 0;
@@ -169,6 +173,7 @@ $map-height: 500px;
 }
 .give-back {
   	padding: 6em 0;
+	@include transition(all 1s);
 	background-image: url(../img/slide-bg-camelback.jpg);
 	h2 {
 		color: #fff;
@@ -176,60 +181,6 @@ $map-height: 500px;
 	}
 	.copy {
 		margin-top: 50px;
-	}
-}
-.testimonial {
-	padding: 10em 0 8em;
-	.copy {
-		width: 60%;
-		float: left;
-	}
-	strong {
-		font-family: $accent-font;
-		font-size: 1.3em;
-	}
-	p {
-		position: relative;
-		margin-top: 25px;
-		margin-left: 35px;
-		margin-right: 35px;
-		margin-bottom: 3em;
-		&:before {
-			font-size: 4em;
-			color: #ccc;
-			position: absolute;
-
-			content: '“';
-			top: 2px;
-			left: -35px;
-		}
-		&:after {
-			font-size: 4em;
-			color: #ccc;
-			position: absolute;
-
-			content: '”';
-			bottom: -35px;
-			right: -35px;
-		}
-	}
-	.button {
-		margin-left: 35px;
-	}
-	img {
-		max-width: 150px;
-		margin-bottom: 1em;
-	}
-	em {
-		display: block;
-		color: #ccc;
-		font-family: $accent-font;
-		margin-bottom: 1em;
-	}
-	.client-name {
-		width: 40%;
-		float: left;
-		text-align: center;
 	}
 }
 .contact-home {

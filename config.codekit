@@ -494,6 +494,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/slide-bg-melissa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65236,
+		"inputAbbreviatedPath": "\/img\/slide-bg-melissa.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-melissa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/slide-bg-ourfirm.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
