@@ -8,6 +8,19 @@ $(function(){
 		$('.nav').toggleClass('nav-open');
 	});
 
+    // Map Text
+    var oldText = $('.map-slide .text span').html();
+    $('.map-slide').hover(
+      function() {
+        $('.map-slide .text span').html('Get Directions');
+      }, function() {
+        console.log('text'+oldText);
+        $('.map-slide .text span').html(oldText);
+      }
+    );
+    var button = $('button');
+        button.text(button.data('text-swap'));
+
 	// Professionals Nav
 	$('.professionals-nav a').click(function(event) {
 	    event.preventDefault();
@@ -39,7 +52,7 @@ $(function(){
 		if (y > t) {
 		    $('.home-intro').addClass('fadetocolor');
 		} else {
-			$('.home-intro').removeClass('fadetocolor');
+			//$('.home-intro').removeClass('fadetocolor');
 		}
 
 	}
@@ -251,11 +264,11 @@ var map,
 	};
 
 var mapMarkerIcon = {
-  url: 'img/marker-icon.png',
-  size: new google.maps.Size(40, 40),
+  url: 'img/marker-icon-2.png',
+  size: new google.maps.Size(80, 80),
   origin: new google.maps.Point(0, 0),
-  anchor: new google.maps.Point(10, 10),
-  scaledSize: new google.maps.Size(20, 20)
+  anchor: new google.maps.Point(40, 40),
+  scaledSize: new google.maps.Size(40, 40)
 };
 
 function initialize() {
@@ -274,7 +287,6 @@ function addMarkerToMap(lat, long){
         map: map,
 		icon: mapMarkerIcon
     });
-	marker;
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 

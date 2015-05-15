@@ -164,6 +164,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-avischaefer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8931,
+		"inputAbbreviatedPath": "\/img\/logo-avischaefer.png",
+		"outputAbbreviatedPath": "\/img\/logo-avischaefer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-boysgirlsscotts.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -501,6 +512,17 @@
 		"initialSize": 65236,
 		"inputAbbreviatedPath": "\/img\/slide-bg-melissa.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-melissa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-office.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224631,
+		"inputAbbreviatedPath": "\/img\/slide-bg-office.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-office.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
