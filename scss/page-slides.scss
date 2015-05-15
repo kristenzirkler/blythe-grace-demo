@@ -437,6 +437,10 @@
 	background-image: url(../img/slide-bg-melissa.jpg);
 	@include transition(all 1s);
 }
+.reggie {
+	background-image: url(../img/slide-bg-reggie.jpg);
+	@include transition(all 1s);
+}
 .testimonial-bg {
 	padding: 12em 0 10em;
 	background-color: $main-color;
@@ -446,14 +450,17 @@
 	}
 	p {
 		font-family: $accent-font;
-		font-size: 1.5em;
 		color: #fff;
+		text-shadow: 0 0 10px #000;
 
 		position: relative;
 		margin-top: 25px;
 		margin-left: 50px;
 		margin-right: 20px;
 		margin-bottom: 3em;
+		strong {
+			font-size: 1.5em;
+		}
 		&:before, &:after {
 			font-size: 4em;
 			color: #fff;

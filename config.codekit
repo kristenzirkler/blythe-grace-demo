@@ -329,6 +329,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-radcliffe-bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33976,
+		"inputAbbreviatedPath": "\/img\/logo-radcliffe-bw.png",
+		"outputAbbreviatedPath": "\/img\/logo-radcliffe-bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-radcliffe.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -413,6 +424,17 @@
 		"initialSize": 8520,
 		"inputAbbreviatedPath": "\/img\/logo-white-600.png",
 		"outputAbbreviatedPath": "\/img\/logo-white-600.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/marker-icon-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2397,
+		"inputAbbreviatedPath": "\/img\/marker-icon-2.png",
+		"outputAbbreviatedPath": "\/img\/marker-icon-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -534,6 +556,17 @@
 		"initialSize": 48790,
 		"inputAbbreviatedPath": "\/img\/slide-bg-ourfirm.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-ourfirm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-reggie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217872,
+		"inputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -397,16 +397,19 @@ $callout-offset: 200px;
 	padding: 10em 0;
 	h2 {
 		text-align: left;
+		margin-left: 15px;
 	}
 	.copy {
 		div {
 			width: 25%;
 			float: left;
 			padding: 0 15px;
+			margin-bottom: 20px;
 		}
 	}
 	.button {
 		margin: 0 15px;
+		clear: both;
 	}
 }
 .give-back {

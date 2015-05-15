@@ -18,8 +18,6 @@ $(function(){
         $('.map-slide .text span').html(oldText);
       }
     );
-    var button = $('button');
-        button.text(button.data('text-swap'));
 
 	// Professionals Nav
 	$('.professionals-nav a').click(function(event) {
@@ -115,6 +113,7 @@ $(function(){
         aboutGray('give-back');
         aboutGray('melt-mel');
         aboutGray('cb-cross');
+        aboutGray('reggie');
 	});
 
 

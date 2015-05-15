@@ -898,6 +898,13 @@ p {
   -o-transition: all 1s;
   transition: all 1s; }
 
+.reggie {
+  background-image: url(../img/slide-bg-reggie.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
 .testimonial-bg {
   padding: 12em 0 10em;
   background-color: #213553; }
@@ -906,13 +913,15 @@ p {
     float: left; }
   .testimonial-bg p {
     font-family: "Roboto Slab", "Times New Roman", sans-serif;
-    font-size: 1.5em;
     color: #fff;
+    text-shadow: 0 0 10px #000;
     position: relative;
     margin-top: 25px;
     margin-left: 50px;
     margin-right: 20px;
     margin-bottom: 3em; }
+    .testimonial-bg p strong {
+      font-size: 1.5em; }
     .testimonial-bg p:before, .testimonial-bg p:after {
       font-size: 4em;
       color: #fff;
@@ -1317,13 +1326,16 @@ p {
   .values {
     padding: 10em 0; }
     .values h2 {
-      text-align: left; }
+      text-align: left;
+      margin-left: 15px; }
     .values .copy div {
       width: 25%;
       float: left;
-      padding: 0 15px; }
+      padding: 0 15px;
+      margin-bottom: 20px; }
     .values .button {
-      margin: 0 15px; }
+      margin: 0 15px;
+      clear: both; }
 
   .give-back {
     padding: 9em 2em; } }
