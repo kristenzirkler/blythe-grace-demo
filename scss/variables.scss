@@ -20,6 +20,13 @@ $link: $main-color;
 
 $slant-amount: 40px;
 
+$hex-size: 200px;
+$hex-size-side: 60px;
+$hex-size-height: $hex-size/2;
+$hex-color: rgba(#000,.8);
+$hex-color: rgba($main-color,1);
+
+$map-height: 500px;
 //z-index
 //onpage - up to 100
 //nav - 100
