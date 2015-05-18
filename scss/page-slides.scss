@@ -108,20 +108,15 @@
 // Our Firm
 .about-overview {
 	font-size: 1.2em;
-	background-image: url(../img/slide-bg-ourfirm.jpg);
-	background-size: cover;
-	background-position: center top;
 	strong {
 		font-size: 1.4em;
 		line-height: 1.3em;
 	}
 	.inner {
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 	.copy {
-		width: 60%;
-		margin-right: 5%;
-		float: left;
+		padding: 0 $mobile-side-space;
 	}
 	p {
 		margin-bottom: 1em;
@@ -151,11 +146,11 @@
 	}
 	.values {
 		overflow: hidden;
-		div:nth-child(4n+6) {
-			clear: both;
-		}
 		.copy {
 			margin-bottom: 20px;
+			div:nth-child(5n) {
+				clear: both;
+			}
 		}
 	}
 }
@@ -375,11 +370,7 @@
 }
 // Clients
 .testimonial {
-	padding: 10em 0 8em;
-	.copy {
-		width: 60%;
-		float: left;
-	}
+	padding: 6em 0 4em;
 	strong {
 		font-family: $accent-font;
 		font-size: 1.3em;
@@ -424,8 +415,6 @@
 		line-height: 1.3em;
 	}
 	.client-name {
-		width: 40%;
-		float: left;
 		text-align: center;
 	}
 }
@@ -540,6 +529,7 @@
 		padding: 0 30px;
 	}
 }
+
 }
 @media all and (min-width: 420px) {
 .slide-bg-image {
@@ -553,7 +543,34 @@
 	}
 
 }
+.testimonial {
+	padding: 10em 0 8em;
+	.copy {
+		width: 60%;
+		float: left;
+	}
+	.client-name {
+		width: 40%;
+		float: left;
+	}
 
+}
+// Our Firm
+.about-overview {
+	background-image: url(../img/slide-bg-ourfirm.jpg);
+	background-size: cover;
+	background-position: center top;
+	.inner {
+		padding: 6em 0;
+	}
+	.copy {
+		width: 60%;
+		margin-right: 5%;
+		float: left;
+		padding: 0;
+	}
+
+}
 }
 @media all and (min-width: 800px) {
 .professionals {

@@ -500,6 +500,12 @@ p {
   .blue-tag.site-tag.open .contact-button i {
     display: inline-block; }
 
+@media all and (max-width: 420px) {
+  .site-tag.blue-tag .logo {
+    margin-left: 20px; }
+
+  .slide-page-header h1 {
+    margin: 0 20px; } }
 @media all and (min-width: 800px) {
   .site-tag .mobile-toggle {
     display: none; }
@@ -609,19 +615,14 @@ p {
 }
 */
 .about-overview {
-  font-size: 1.2em;
-  background-image: url(../img/slide-bg-ourfirm.jpg);
-  background-size: cover;
-  background-position: center top; }
+  font-size: 1.2em; }
   .about-overview strong {
     font-size: 1.4em;
     line-height: 1.3em; }
   .about-overview .inner {
-    padding: 6em 0; }
+    padding: 3em 0; }
   .about-overview .copy {
-    width: 60%;
-    margin-right: 5%;
-    float: left; }
+    padding: 0 20px; }
   .about-overview p {
     margin-bottom: 1em; }
   .about-overview .image {
@@ -642,10 +643,10 @@ p {
   display: none; }
 .our-firm-page .values {
   overflow: hidden; }
-  .our-firm-page .values div:nth-child(4n+6) {
-    clear: both; }
   .our-firm-page .values .copy {
     margin-bottom: 20px; }
+    .our-firm-page .values .copy div:nth-child(5n) {
+      clear: both; }
 
 .professionals {
   padding: 8em 0; }
@@ -841,10 +842,7 @@ p {
       padding: 0 10px; }
 
 .testimonial {
-  padding: 10em 0 8em; }
-  .testimonial .copy {
-    width: 60%;
-    float: left; }
+  padding: 6em 0 4em; }
   .testimonial strong {
     font-family: "Roboto Slab", "Times New Roman", sans-serif;
     font-size: 1.3em; }
@@ -880,8 +878,6 @@ p {
     margin-bottom: 1em;
     line-height: 1.3em; }
   .testimonial .client-name {
-    width: 40%;
-    float: left;
     text-align: center; }
 
 .cb-cross {
@@ -985,7 +981,28 @@ p {
     float: right; }
   .slide-bg-image .image {
     width: 40%;
-    float: left; } }
+    float: left; }
+
+  .testimonial {
+    padding: 10em 0 8em; }
+    .testimonial .copy {
+      width: 60%;
+      float: left; }
+    .testimonial .client-name {
+      width: 40%;
+      float: left; }
+
+  .about-overview {
+    background-image: url(../img/slide-bg-ourfirm.jpg);
+    background-size: cover;
+    background-position: center top; }
+    .about-overview .inner {
+      padding: 6em 0; }
+    .about-overview .copy {
+      width: 60%;
+      margin-right: 5%;
+      float: left;
+      padding: 0; } }
 @media all and (min-width: 800px) {
   .professionals .bio {
     overflow: hidden; }
@@ -1094,7 +1111,8 @@ p {
   .start-grow .copy {
     margin-bottom: 30px; }
   .start-grow a:hover i {
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #ffff00; }
   .start-grow .services-list {
     display: none;
     font-size: .8em;
@@ -1104,11 +1122,16 @@ p {
     .start-grow .services-list a {
       display: block;
       margin-bottom: 10px; }
+  .start-grow.animate li:nth-child(1) i {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
   .start-grow.animate li:nth-child(2) i {
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s; }
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s; }
   .start-grow.animate li:nth-child(3) i {
     -webkit-transition: all 0.9s;
     -moz-transition: all 0.9s;
@@ -1142,7 +1165,7 @@ p {
     .values h2 span {
       border-bottom: 5px solid #213553;
       display: inline-block;
-      padding: 0 10px 10px; }
+      padding: 0 20px 10px; }
   .values h3 {
     font-size: 20px;
     color: #213553;
@@ -1175,12 +1198,15 @@ p {
   background: #213553;
   color: #fff;
   padding: 2em 0; }
+  .contact-home .inner {
+    padding: 0 10px; }
   .contact-home span {
     font-size: 1.3em;
     font-family: "Roboto Slab", "Times New Roman", sans-serif; }
   .contact-home .button-white {
-    float: right;
-    margin-left: 30px; }
+    display: block;
+    margin-bottom: 10px;
+    text-align: center; }
 
 .hex-callout {
   width: 200px;
@@ -1328,6 +1354,8 @@ p {
     .values h2 {
       text-align: left;
       margin-left: 15px; }
+      .values h2 span {
+        padding: 0 0 10px; }
     .values .copy div {
       width: 25%;
       float: left;
@@ -1338,7 +1366,12 @@ p {
       clear: both; }
 
   .give-back {
-    padding: 9em 2em; } }
+    padding: 9em 2em; }
+
+  .contact-home .button-white {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 0; } }
 .bg-form .field-ctr {
   overflow: hidden;
   margin-bottom: 1em; }

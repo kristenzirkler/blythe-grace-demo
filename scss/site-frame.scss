@@ -201,6 +201,20 @@ p {
 }
 
 
+// Responsive
+@media all and (max-width: 420px) {
+	.site-tag.blue-tag {
+		.logo {
+			margin-left: $mobile-side-space;
+		}
+	}
+	.slide-page-header {
+		h1 {
+			margin: 0 $mobile-side-space;
+		}
+	}
+
+}
 
 @media all and (min-width: 420px) {
 	.site-tag {

@@ -104,6 +104,7 @@
 	a:hover {
 		i {
 			transform: scale(1.1);
+			text-shadow: 0 0 10px #ffff00;
 		}
 	}
 	.services-list {
@@ -120,13 +121,15 @@
 	}
 	&.animate  {
 		li {
+			&:nth-child(1) i {
+				@include transition(all .3s);
+			}
 			&:nth-child(2) i {
-				@include transition(all .4s);
+				@include transition(all .6s);
 			}
 			&:nth-child(3) i {
 				@include transition(all .9s);
 			}
-
 		}
 		i {
 			transform: scale(1);
@@ -157,7 +160,7 @@
 		span {
 			border-bottom: 5px solid $main-color;
 			display: inline-block;
-			padding: 0 10px 10px;
+			padding: 0 $mobile-side-space 10px;
 		}
 	}
 	h3 {
@@ -196,13 +199,17 @@
 	background: $main-color;
 	color: #fff;
 	padding: 2em 0;
+	.inner {
+		padding: 0 10px;
+	}
 	span {
 		font-size: 1.3em;
 		font-family: $accent-font;
 	}
 	.button-white {
-		float: right;
-		margin-left: 30px;
+		display: block;
+		margin-bottom: 10px;
+		text-align: center;
 	} 
 }
 .hex-callout {
@@ -398,6 +405,9 @@ $callout-offset: 200px;
 	h2 {
 		text-align: left;
 		margin-left: 15px;
+		span {
+			padding: 0 0 10px;
+		}
 	}
 	.copy {
 		div {
@@ -414,6 +424,13 @@ $callout-offset: 200px;
 }
 .give-back {
   	padding: 9em 2em;
+}
+.contact-home {
+	.button-white {
+		float: right;
+		margin-left: 30px;
+		margin-bottom: 0;
+	} 
 }
 
 }
