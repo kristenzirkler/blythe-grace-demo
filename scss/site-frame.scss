@@ -14,10 +14,10 @@ h1, h2, h3, h4 {
 	font-family: $accent-font;
 }
 h1 {
-	font-size: 50px;
+	font-size: 35px;
 }
 h2 {
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 1.4em;
 }
 h3 {
@@ -202,7 +202,7 @@ p {
 
 
 // Responsive
-@media all and (max-width: 420px) {
+@media all and (max-width: 800px) {
 	.site-tag.blue-tag {
 		.logo {
 			margin-left: $mobile-side-space;
@@ -225,6 +225,13 @@ p {
 }
 
 @media all and (min-width: 800px) {
+
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 28px;
+	}
 	.site-tag {
 		.mobile-toggle {
 			display: none;
