@@ -811,10 +811,14 @@ p {
 
 .slide-giving-back-large {
   padding: 6em 0; }
-  .slide-giving-back-large h2 {
-    max-width: 500px;
+  .slide-giving-back-large h2, .slide-giving-back-large p {
+    max-width: 600px;
     text-align: center;
-    margin: 0 auto 50px; }
+    margin: 0 auto; }
+  .slide-giving-back-large h2 {
+    margin-bottom: 10px; }
+  .slide-giving-back-large p {
+    margin-bottom: 50px; }
 
 .logo-list ul {
   overflow: hidden; }
@@ -879,6 +883,18 @@ p {
     line-height: 1.3em; }
   .testimonial .client-name {
     text-align: center; }
+  .testimonial a {
+    display: block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .testimonial a:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1); }
 
 .cb-cross {
   background-image: url(../img/slide-bg-crossfit.jpg);
@@ -1096,6 +1112,10 @@ p {
       text-align: right; }
     .start-grow .callout i {
       font-size: 80px;
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      -o-transform: scale(0.6);
       transform: scale(0.6);
       margin-bottom: 20px;
       display: block;
@@ -1111,6 +1131,10 @@ p {
   .start-grow .copy {
     margin-bottom: 30px; }
   .start-grow a:hover i {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
     text-shadow: 0 0 10px #ffff00; }
   .start-grow .services-list {
@@ -1138,6 +1162,10 @@ p {
     -o-transition: all 0.9s;
     transition: all 0.9s; }
   .start-grow.animate i {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1); }
 
 .about-bg {

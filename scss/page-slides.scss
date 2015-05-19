@@ -331,10 +331,17 @@
 // Giving Back
 .slide-giving-back-large {
 	padding: 6em 0;
-	h2 {
-		max-width: 500px;
+	h2, p {
+		max-width: 600px;
 		text-align: center;
-		margin: 0 auto 50px;
+		margin: 0 auto;
+
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 50px;
 	}
 }
 .logo-list {
@@ -416,6 +423,14 @@
 	}
 	.client-name {
 		text-align: center;
+	}
+	a {
+		display: block;
+		@include transition(all .3s);
+		&:hover {
+			@include transform(scale(1.1));
+		}
+
 	}
 }
 .cb-cross {	

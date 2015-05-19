@@ -82,7 +82,7 @@
 		}
 		i {
 			font-size: 80px;
-			transform: scale(.6);
+			@include transform(scale(.6));
 			margin-bottom: 20px;
 			display: block;
 			margin-left: -20px;
@@ -103,7 +103,7 @@
 	}
 	a:hover {
 		i {
-			transform: scale(1.1);
+			@include transform(scale(1.1));
 			text-shadow: 0 0 10px #ffff00;
 		}
 	}
@@ -132,7 +132,7 @@
 			}
 		}
 		i {
-			transform: scale(1);
+			@include transform(scale(1));
 		}
 
 	}

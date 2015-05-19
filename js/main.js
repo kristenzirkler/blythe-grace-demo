@@ -93,7 +93,7 @@ $(function(){
     // change grayscale on scroll
         if ($('.'+className).length) {
             var y = $(document).scrollTop();
-            var t = $('.'+className).offset().top - 300;
+            var t = $('.'+className).offset().top - 330;
 
             if (y > t) {
                 $('.'+className).removeClass('gray-pic');
