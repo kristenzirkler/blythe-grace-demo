@@ -230,6 +230,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-clearinsight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25255,
+		"inputAbbreviatedPath": "\/img\/logo-clearinsight.png",
+		"outputAbbreviatedPath": "\/img\/logo-clearinsight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-dresssuccess.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -248,6 +259,17 @@
 		"initialSize": 69686,
 		"inputAbbreviatedPath": "\/img\/logo-fiesta.png",
 		"outputAbbreviatedPath": "\/img\/logo-fiesta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-girlscouts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6386,
+		"inputAbbreviatedPath": "\/img\/logo-girlscouts.png",
+		"outputAbbreviatedPath": "\/img\/logo-girlscouts.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
