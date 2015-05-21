@@ -14,7 +14,6 @@ $(function(){
       function() {
         $('.map-slide .text span').html('Get Directions');
       }, function() {
-        console.log('text'+oldText);
         $('.map-slide .text span').html(oldText);
       }
     );
@@ -38,12 +37,11 @@ $(function(){
 		$(this).parent().parent().addClass('field-selected');
 	});
 	$('input[type=text]').blur(function() {
-		$(this).parent().parent().removeClass('field-selected')
+		$(this).parent().parent().removeClass('field-selected');
 	});
 
-	// Function to check hero placement
+	// Home Page Fade in 
 	function imageFade(){
-	// change grayscale on scroll
 		var y = $(document).scrollTop();
 		//var t = $('.hero').offset().top - 100;
 		var t = 1;
@@ -55,9 +53,8 @@ $(function(){
 		}
 
 	}
-	// Function to check hero placement
+	// Navigation Animation
 	function navFade(){
-	// change grayscale on scroll
 		var y = $(document).scrollTop();
 		//var t = $('.hero').offset().top - 100;
 		var t = 70;
@@ -69,9 +66,8 @@ $(function(){
 		}
 	}
 
-	// Function to check hero placement
+	// Animate Icons on Home Page
 	function startGrowAni(){
-	// change grayscale on scroll
 		if ($('.start-grow').length) {
 			var y = $(document).scrollTop();
 			var t = $('.start-grow').offset().top - 200;
@@ -85,13 +81,13 @@ $(function(){
 		}
 	}
 
+    // Animate Logos on Giving Back
     $('.logo-list li').each(function(i) {
         $(this).delay((i++) * 100).fadeTo(1000, 1);
     });
 
-    // Function to check hero placement
+    // Grayscale on scroll
     function aboutGray(className){
-    // change grayscale on scroll
         if ($('.'+className).length) {
             var y = $(document).scrollTop();
             var t = $('.'+className).offset().top - 330;
@@ -105,7 +101,7 @@ $(function(){
         }
     }
 
-	// Hero update on scroll
+	// Scroll Funcitons
 	$(document).scroll(function () {
 		navFade();
 		imageFade();
@@ -117,7 +113,7 @@ $(function(){
         aboutGray('reggie');
 	});
 
-
+/*
 // Google Map -----------------------
 function map_recenter(latlng,offsetx,offsety) {
     var point1 = map.getProjection().fromLatLngToPoint(
@@ -299,7 +295,7 @@ $('.map-slide').click(function () {
 	window.open('https://maps.google.com?daddr=6350+East+Thomas+Road+Suite+330+Scottsdale+Arizona+85251');
 });
 
-
+*/
 
 
 

@@ -789,22 +789,34 @@ p {
   .slide-giving-back-large h2, .slide-giving-back-large p {
     max-width: 600px;
     text-align: center;
-    margin: 0 auto; }
+    margin: 0 20px; }
   .slide-giving-back-large h2 {
     margin-bottom: 10px; }
   .slide-giving-back-large p {
     margin-bottom: 50px; }
 
-.logo-list ul {
-  overflow: hidden; }
-.logo-list li {
-  float: left;
-  width: 20%;
-  text-align: center;
-  margin-bottom: 40px;
-  opacity: 0; }
-.logo-list img {
-  width: 125px; }
+.logo-list {
+  overflow: hidden;
+  margin: 0 20px; }
+  .logo-list li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0; }
+  .logo-list img {
+    width: 125px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .4;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .logo-list a:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1; }
 
 .charity-list {
   clear: both;
@@ -843,7 +855,7 @@ p {
       color: #ccc;
       position: absolute;
       content: '”';
-      bottom: -35px;
+      bottom: -20px;
       right: -35px; }
   .testimonial .button {
     margin-left: 35px; }
@@ -895,9 +907,6 @@ p {
 .testimonial-bg {
   padding: 12em 0 10em;
   background-color: #213553; }
-  .testimonial-bg .quote {
-    width: 60%;
-    float: left; }
   .testimonial-bg p {
     font-family: "Roboto Slab", "Times New Roman", sans-serif;
     color: #fff;
@@ -933,9 +942,6 @@ p {
     line-height: 1.3em;
     margin-bottom: 1em; }
   .testimonial-bg .client-name {
-    width: 40%;
-    padding: 2em 0;
-    float: right;
     text-align: center; }
 
 .slide-contact {
@@ -1075,7 +1081,27 @@ p {
       font-size: 50px;
       color: #213553;
       position: absolute;
-      top: 0; } }
+      top: 0; }
+
+  .testimonial-bg .quote {
+    width: 60%;
+    float: left; }
+  .testimonial-bg .client-name {
+    width: 40%;
+    padding: 2em 0;
+    float: right; }
+
+  .slide-giving-back-large h2, .slide-giving-back-large p {
+    margin: 0 auto; }
+  .slide-giving-back-large h2 {
+    margin-bottom: 10px; }
+  .slide-giving-back-large p {
+    margin-bottom: 50px; }
+
+  .logo-list {
+    margin: 0; }
+    .logo-list li {
+      width: 20%; } }
 .intro-background {
   position: fixed;
   top: 0;

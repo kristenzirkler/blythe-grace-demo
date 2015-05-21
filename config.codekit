@@ -164,6 +164,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-avi-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8456,
+		"inputAbbreviatedPath": "\/img\/logo-avi-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-avi-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-avischaefer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -252,6 +263,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-fiesta-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71780,
+		"inputAbbreviatedPath": "\/img\/logo-fiesta-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-fiesta-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-fiesta.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -263,6 +285,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-girlscouts-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12241,
+		"inputAbbreviatedPath": "\/img\/logo-girlscouts-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-girlscouts-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-girlscouts.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -270,6 +303,17 @@
 		"initialSize": 6386,
 		"inputAbbreviatedPath": "\/img\/logo-girlscouts.png",
 		"outputAbbreviatedPath": "\/img\/logo-girlscouts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-humane-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10578,
+		"inputAbbreviatedPath": "\/img\/logo-humane-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-humane-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -351,6 +395,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-pfchangs-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45511,
+		"inputAbbreviatedPath": "\/img\/logo-pfchangs-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-pfchangs-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-radcliffe-bw.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -384,6 +439,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-tillman-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12159,
+		"inputAbbreviatedPath": "\/img\/logo-tillman-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-tillman-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-tourcure.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -395,6 +461,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-tourdecure-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11753,
+		"inputAbbreviatedPath": "\/img\/logo-tourdecure-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-tourdecure-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-tourdescottsdale-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41106,
+		"inputAbbreviatedPath": "\/img\/logo-tourdescottsdale-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-tourdescottsdale-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-tourdescottsdale.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -402,6 +490,17 @@
 		"initialSize": 7719,
 		"inputAbbreviatedPath": "\/img\/logo-tourdescottsdale.png",
 		"outputAbbreviatedPath": "\/img\/logo-tourdescottsdale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-usvet-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18079,
+		"inputAbbreviatedPath": "\/img\/logo-usvet-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-usvet-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
