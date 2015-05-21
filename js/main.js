@@ -23,6 +23,7 @@ $(function(){
 	$('.professionals-nav a').click(function(event) {
 	    event.preventDefault();
 	    var selectedBio = $(this).data('name');
+        $('html,body').animate({scrollTop: $('.professionals-nav').offset().top-70},'slow');
 
 		$('.professionals').addClass('bio-open');
 

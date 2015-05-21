@@ -163,6 +163,9 @@
 		text-align: center;
 		margin: 0 $mobile-side-space 2em;
 	}
+	h3 {
+		margin-bottom: .3em;
+	}
 	.professionals-nav {
 		overflow: hidden;
 		a {
@@ -171,8 +174,8 @@
 			position: relative;
 			background-size: cover;
 			background-position: center top;
-			height: 250px;
-			width: 50%;
+			height: 200px;
+			width: 25%;
 			float: left;
 			overflow: hidden;
 			&:hover {
@@ -194,7 +197,7 @@
 			position: absolute;
 			bottom: 0;
 			height: 60px;
-			width: 300px;
+			width: 600px;
 			overflow: hidden;
 		}
 		strong, em {
@@ -215,9 +218,7 @@
 		clear: both;
 
 		.bio {
-			padding: 5em;
-			border: 1px solid $gray-light;
-			border-top: none;
+			padding: $mobile-side-space;
 			display: none;
 			&.selected {
 				display: block;
@@ -225,14 +226,16 @@
 		}
 	}
 	.contact-info {
-		float: right;
-		padding: 0 0 30px 30px;
+		padding: 0 0 30px;
 		i {
-			font-size: 2em;
+			font-size: 1.3em;
 		}
 		a:hover i {
 			color: #000;
 		}
+	}
+	.hex-callout {
+		display: none;
 	}
 	&.bio-open {
 		.professionals-nav {
@@ -248,14 +251,8 @@
 					}
 					em {
 						font-size: 1em;
-						display: block;
 						@include transition(all .7s);
 						@include transition-delay(.3s);
-					}
-					&:hover {
-						span {
-							//height: 60px;
-						}
 					}
 				}
 				&.unselected {
@@ -563,6 +560,14 @@
 	h2 {
 		margin: 0 auto 2em;
 	}
+	.professionals-nav {
+		strong, em {
+			display: block;
+		}
+		a {
+			height: 400px;
+		}
+	}
 	.bio {
 		overflow: hidden;
 		.list {
@@ -574,15 +579,42 @@
 			}
 		}
 	}
-	.professionals-nav {
-		strong, em {
-			display: block;
-		}
-		a {
-			height: 400px;
-			width: 25%;
+	.page-content {
+		.bio {
+			padding: 5em;
+			border: 1px solid $gray-light;
+			border-top: none;
 		}
 	}
+	.contact-info {
+		float: right;
+		padding: 0 0 30px 30px;
+		i {
+			font-size: 2em;
+		}
+	}
+	.hex-callout {
+		display: block;
+	}
+	.name {
+		display: none;
+	}
+	&.bio-open {
+		.professionals-nav {
+			a {
+				&.selected {
+					strong {
+						display: block;
+					}
+					em {
+						display: block;
+					}
+				}
+			}
+
+		}
+	}
+
 }
 
 // Services 

@@ -660,6 +660,8 @@ p {
     max-width: 600px;
     text-align: center;
     margin: 0 20px 2em; }
+  .professionals h3 {
+    margin-bottom: .3em; }
   .professionals .professionals-nav {
     overflow: hidden; }
     .professionals .professionals-nav a {
@@ -668,8 +670,8 @@ p {
       position: relative;
       background-size: cover;
       background-position: center top;
-      height: 250px;
-      width: 50%;
+      height: 200px;
+      width: 25%;
       float: left;
       overflow: hidden; }
       .professionals .professionals-nav a:hover strong {
@@ -701,7 +703,7 @@ p {
       position: absolute;
       bottom: 0;
       height: 60px;
-      width: 300px;
+      width: 600px;
       overflow: hidden; }
     .professionals .professionals-nav strong, .professionals .professionals-nav em {
       display: none; }
@@ -715,19 +717,18 @@ p {
   .professionals .page-content {
     clear: both; }
     .professionals .page-content .bio {
-      padding: 5em;
-      border: 1px solid #ccc;
-      border-top: none;
+      padding: 20px;
       display: none; }
       .professionals .page-content .bio.selected {
         display: block; }
   .professionals .contact-info {
-    float: right;
-    padding: 0 0 30px 30px; }
+    padding: 0 0 30px; }
     .professionals .contact-info i {
-      font-size: 2em; }
+      font-size: 1.3em; }
     .professionals .contact-info a:hover i {
       color: #000; }
+  .professionals .hex-callout {
+    display: none; }
   .professionals.bio-open .professionals-nav a {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -748,7 +749,6 @@ p {
         transition-delay: 0.3s; }
       .professionals.bio-open .professionals-nav a.selected em {
         font-size: 1em;
-        display: block;
         -webkit-transition: all 0.7s;
         -moz-transition: all 0.7s;
         -o-transition: all 0.7s;
@@ -999,6 +999,10 @@ p {
     padding: 8em 0; }
     .professionals h2 {
       margin: 0 auto 2em; }
+    .professionals .professionals-nav strong, .professionals .professionals-nav em {
+      display: block; }
+    .professionals .professionals-nav a {
+      height: 400px; }
     .professionals .bio {
       overflow: hidden; }
       .professionals .bio .list {
@@ -1006,11 +1010,23 @@ p {
         float: left; }
         .professionals .bio .list .bullets {
           margin-right: 25px; }
-    .professionals .professionals-nav strong, .professionals .professionals-nav em {
+    .professionals .page-content .bio {
+      padding: 5em;
+      border: 1px solid #ccc;
+      border-top: none; }
+    .professionals .contact-info {
+      float: right;
+      padding: 0 0 30px 30px; }
+      .professionals .contact-info i {
+        font-size: 2em; }
+    .professionals .hex-callout {
       display: block; }
-    .professionals .professionals-nav a {
-      height: 400px;
-      width: 25%; }
+    .professionals .name {
+      display: none; }
+    .professionals.bio-open .professionals-nav a.selected strong {
+      display: block; }
+    .professionals.bio-open .professionals-nav a.selected em {
+      display: block; }
 
   .slide-service .inner {
     padding: 0; }
