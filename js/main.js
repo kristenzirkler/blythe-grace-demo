@@ -113,15 +113,15 @@ $(function(){
         aboutGray('reggie');
 	});
 
-/*
+
 // Google Map -----------------------
 function map_recenter(latlng,offsetx,offsety) {
     var point1 = map.getProjection().fromLatLngToPoint(
         (latlng instanceof google.maps.LatLng) ? latlng : map.getCenter()
     );
     var point2 = new google.maps.Point(
-        ( (typeof(offsetx) == 'number' ? offsetx : 0) / Math.pow(2, map.getZoom()) ) || 0,
-        ( (typeof(offsety) == 'number' ? offsety : 0) / Math.pow(2, map.getZoom()) ) || 0
+        ( (typeof(offsetx) === 'number' ? offsetx : 0) / Math.pow(2, map.getZoom()) ) || 0,
+        ( (typeof(offsety) === 'number' ? offsety : 0) / Math.pow(2, map.getZoom()) ) || 0
     );  
     map.setCenter(map.getProjection().fromPointToLatLng(new google.maps.Point(
         point1.x - point2.x,
@@ -130,6 +130,7 @@ function map_recenter(latlng,offsetx,offsety) {
 }
 
 var map,
+    google,
 	targetLocation = new google.maps.LatLng(33.48067, -111.94530),
 	mapStyles = [
 		{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},
@@ -139,8 +140,7 @@ var map,
 		{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
 		{"stylers":[{"hue":"#00aaff"},{"saturation":-80},{"gamma":1.75},{"lightness":25}]},
 		{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":10}]},
-		{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
-	,
+		{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}],
     mapHoverStyles = [
         {"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},
         {"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},
@@ -149,100 +149,7 @@ var map,
         {"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
         //{"stylers":[{"hue":"#00aaff"},{"saturation":-80},{"gamma":1.75},{"lightness":25}]},
         //{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":10}]},
-        {"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
-    ,
-	mapHoverStyles2 = [
-    {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#444444"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative.country",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "hue": "#00d2ff"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#f2f2f2"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 45
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "water",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#d7e4f7"
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    }
-],
+        {"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}],
 	mapOptions = {
 		// How zoomed in you want the map to start at (always required)
 		zoom: 13,
@@ -259,13 +166,13 @@ var map,
 		styles: mapStyles
 	};
 
-var mapMarkerIcon = {
-  url: 'img/marker-icon-2.png',
-  size: new google.maps.Size(80, 80),
-  origin: new google.maps.Point(0, 0),
-  anchor: new google.maps.Point(40, 40),
-  scaledSize: new google.maps.Size(40, 40)
-};
+//var mapMarkerIcon = {
+//  url: 'img/marker-icon-2.png',
+//  size: new google.maps.Size(80, 80),
+//  origin: new google.maps.Point(0, 0),
+//  anchor: new google.maps.Point(40, 40),
+//  scaledSize: new google.maps.Size(40, 40)
+//};
 
 function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -276,26 +183,25 @@ function newMapOptions() {
     map.set('styles', mapHoverStyles);
     map_recenter(targetLocation,150,0);
 }
-function addMarkerToMap(lat, long){
-    var myLatLng = new google.maps.LatLng(lat, long);
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-		icon: mapMarkerIcon
-    });
-}
+//function addMarkerToMap(lat, long){
+    //var myLatLng = new google.maps.LatLng(lat, long);
+    //var marker = new google.maps.Marker({
+    //    position: myLatLng,
+    //    map: map,
+	//	icon: mapMarkerIcon
+    //});
+//}
 google.maps.event.addDomListener(window, 'load', initialize);
 
 $('.map-slide').hover(function () {
   newMapOptions();
   $(this).addClass('map-open');
-  addMarkerToMap(33.48067, -111.94530);
+  //addMarkerToMap(33.48067, -111.94530);
 });
 $('.map-slide').click(function () {
 	window.open('https://maps.google.com?daddr=6350+East+Thomas+Road+Suite+330+Scottsdale+Arizona+85251');
 });
 
-*/
 
 
 
