@@ -130,7 +130,6 @@ function map_recenter(latlng,offsetx,offsety) {
 }
 
 var map,
-    google,
 	targetLocation = new google.maps.LatLng(33.48067, -111.94530),
 	mapStyles = [
 		{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},
@@ -166,13 +165,7 @@ var map,
 		styles: mapStyles
 	};
 
-//var mapMarkerIcon = {
-//  url: 'img/marker-icon-2.png',
-//  size: new google.maps.Size(80, 80),
-//  origin: new google.maps.Point(0, 0),
-//  anchor: new google.maps.Point(40, 40),
-//  scaledSize: new google.maps.Size(40, 40)
-//};
+
 
 function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -183,20 +176,27 @@ function newMapOptions() {
     map.set('styles', mapHoverStyles);
     map_recenter(targetLocation,150,0);
 }
-//function addMarkerToMap(lat, long){
-    //var myLatLng = new google.maps.LatLng(lat, long);
-    //var marker = new google.maps.Marker({
-    //    position: myLatLng,
-    //    map: map,
-	//	icon: mapMarkerIcon
-    //});
-//}
+function addMarkerToMap(lat, long){
+    var mapMarkerIcon = {
+      url: 'img/marker-icon-2.png',
+      size: new google.maps.Size(80, 80),
+      origin: new google.maps.Point(0, 0),
+      anchor: new google.maps.Point(40, 40),
+      scaledSize: new google.maps.Size(40, 40)
+    };
+    var myLatLng = new google.maps.LatLng(lat, long);
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+		icon: mapMarkerIcon
+    });
+}
 google.maps.event.addDomListener(window, 'load', initialize);
 
 $('.map-slide').hover(function () {
   newMapOptions();
   $(this).addClass('map-open');
-  //addMarkerToMap(33.48067, -111.94530);
+  addMarkerToMap(33.48067, -111.94530);
 });
 $('.map-slide').click(function () {
 	window.open('https://maps.google.com?daddr=6350+East+Thomas+Road+Suite+330+Scottsdale+Arizona+85251');
