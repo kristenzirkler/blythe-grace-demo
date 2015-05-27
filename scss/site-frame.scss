@@ -5,7 +5,8 @@ body {
 	margin-top: $nav-height;
 }
 body.home {
-	margin-top: 0;
+	margin-top: $nav-height;
+	//margin-top: 0;
 	background: $main-color;
 }
 
