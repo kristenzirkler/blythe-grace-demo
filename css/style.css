@@ -469,6 +469,7 @@ p {
 .blue-tag.site-tag {
   background: #213553;
   position: absolute;
+  overflow: hidden;
   box-shadow: none; }
   .blue-tag.site-tag .inner {
     max-width: 960px;

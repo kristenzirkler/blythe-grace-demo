@@ -150,11 +150,12 @@ p {
 	&.site-tag {
 		background: $main-color;
 		position: absolute;
+		overflow: hidden;
+		box-shadow: none;
 		.inner {
 			max-width: $page-size;
 			margin: 4em auto;
 		}
-		box-shadow: none;
 		a {
 			color: #fff;
 			&:hover {
