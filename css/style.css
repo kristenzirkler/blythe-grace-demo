@@ -495,19 +495,6 @@ p {
     padding: 0 12px;
     line-height: 40px;
     display: block; }
-  .blue-tag.site-tag .contact-button i {
-    font-size: 30px;
-    line-height: 0px; }
-  .blue-tag.site-tag .contact-button span {
-    margin-top: 5px;
-    margin-left: 3px;
-    margin-right: -4px;
-    height: 40px;
-    overflow: hidden;
-    display: inline-block;
-    float: right; }
-  .blue-tag.site-tag.open .contact-button i {
-    display: inline-block; }
 
 @media all and (max-width: 800px) {
   .site-tag.blue-tag .logo {

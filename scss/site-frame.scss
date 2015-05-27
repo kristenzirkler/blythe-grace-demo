@@ -179,30 +179,11 @@ p {
 		.contact-button {
 			a {
 				opacity: .5;
-				//background: lighten($main-color,20);
 				background: #fff;
 				color: $main-color;
 				padding: 0 12px;
 				line-height: 40px;
 				display: block;
-			}
-			i {
-				font-size: 30px;
-				line-height: 0px;
-			}
-			span {
-				margin-top: 5px;
-				margin-left: 3px;
-				margin-right: -4px;
-				height: 40px;
-				overflow: hidden;
-				display: inline-block;
-				float: right;
-			}
-		}
-		&.open {
-			.contact-button i {
-				display: inline-block;
 			}
 		}
 	}
