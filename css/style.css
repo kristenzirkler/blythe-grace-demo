@@ -482,10 +482,12 @@ p {
     margin: 0 -4px;
     overflow: hidden;
     height: 47px; }
-  .blue-tag.site-tag .nav a {
-    opacity: .4; }
-    .blue-tag.site-tag .nav a:hover {
-      opacity: 1; }
+  .blue-tag.site-tag .nav {
+    overflow: hidden; }
+    .blue-tag.site-tag .nav a {
+      opacity: .4; }
+      .blue-tag.site-tag .nav a:hover {
+        opacity: 1; }
   .blue-tag.site-tag .contact-button a {
     opacity: .5;
     background: #fff;
