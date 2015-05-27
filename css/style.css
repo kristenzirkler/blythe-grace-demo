@@ -1499,6 +1499,7 @@ p {
   font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif;
   border: 1px solid #213553;
   line-height: 50px;
+  height: 52px;
   padding: 0 15px;
   width: 100%; }
   .bg-form input[type="text"]:focus {
