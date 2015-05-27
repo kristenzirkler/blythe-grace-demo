@@ -1496,7 +1496,8 @@ p {
   line-height: 50px;
   height: 52px;
   padding: 0 15px;
-  width: 100%; }
+  width: 100%;
+  font-size: 16px; }
   .bg-form input[type="text"]:focus {
     box-shadow: none;
     border-color: #1d74a9; }
