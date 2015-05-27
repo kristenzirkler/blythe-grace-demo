@@ -496,6 +496,7 @@ p {
     line-height: 40px;
     display: block; }
   .blue-tag.site-tag .contact-button i {
+    display: none;
     font-size: 30px;
     line-height: 0px;
     float: right;
