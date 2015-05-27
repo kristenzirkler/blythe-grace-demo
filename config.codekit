@@ -120,6 +120,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-afrika-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34393,
+		"inputAbbreviatedPath": "\/img\/logo-afrika-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-afrika-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-afrika.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -131,6 +142,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-als-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58123,
+		"inputAbbreviatedPath": "\/img\/logo-als-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-als-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-als.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -138,6 +160,17 @@
 		"initialSize": 9763,
 		"inputAbbreviatedPath": "\/img\/logo-als.png",
 		"outputAbbreviatedPath": "\/img\/logo-als.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-amcancer-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35689,
+		"inputAbbreviatedPath": "\/img\/logo-amcancer-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-amcancer-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -164,13 +197,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-avi-color.png": {
+	"\/img\/logo-avischaefer-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8456,
-		"inputAbbreviatedPath": "\/img\/logo-avi-color.png",
-		"outputAbbreviatedPath": "\/img\/logo-avi-color.png",
+		"inputAbbreviatedPath": "\/img\/logo-avischaefer-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-avischaefer-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -186,6 +219,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-boysgirlsscotts-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42608,
+		"inputAbbreviatedPath": "\/img\/logo-boysgirlsscotts-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-boysgirlsscotts-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-boysgirlsscotts.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -193,6 +237,17 @@
 		"initialSize": 16529,
 		"inputAbbreviatedPath": "\/img\/logo-boysgirlsscotts.png",
 		"outputAbbreviatedPath": "\/img\/logo-boysgirlsscotts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-brotherssisters-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26016,
+		"inputAbbreviatedPath": "\/img\/logo-brotherssisters-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-brotherssisters-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -362,6 +417,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-patsrun-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29251,
+		"inputAbbreviatedPath": "\/img\/logo-patsrun-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-patsrun-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-patsrun.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -369,6 +435,17 @@
 		"initialSize": 9148,
 		"inputAbbreviatedPath": "\/img\/logo-patsrun.png",
 		"outputAbbreviatedPath": "\/img\/logo-patsrun.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-pattillman-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12159,
+		"inputAbbreviatedPath": "\/img\/logo-pattillman-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-pattillman-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -384,6 +461,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-pfchang-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45511,
+		"inputAbbreviatedPath": "\/img\/logo-pfchang-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-pfchang-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-pfchang.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -391,17 +479,6 @@
 		"initialSize": 35677,
 		"inputAbbreviatedPath": "\/img\/logo-pfchang.png",
 		"outputAbbreviatedPath": "\/img\/logo-pfchang.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo-pfchangs-color.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45511,
-		"inputAbbreviatedPath": "\/img\/logo-pfchangs-color.png",
-		"outputAbbreviatedPath": "\/img\/logo-pfchangs-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -428,6 +505,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-stvincent-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46662,
+		"inputAbbreviatedPath": "\/img\/logo-stvincent-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-stvincent-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-stvincent.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -439,13 +527,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-tillman-color.png": {
+	"\/img\/logo-tourcure-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12159,
-		"inputAbbreviatedPath": "\/img\/logo-tillman-color.png",
-		"outputAbbreviatedPath": "\/img\/logo-tillman-color.png",
+		"initialSize": 11753,
+		"inputAbbreviatedPath": "\/img\/logo-tourcure-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-tourcure-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -457,17 +545,6 @@
 		"initialSize": 9050,
 		"inputAbbreviatedPath": "\/img\/logo-tourcure.png",
 		"outputAbbreviatedPath": "\/img\/logo-tourcure.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo-tourdecure-color.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11753,
-		"inputAbbreviatedPath": "\/img\/logo-tourdecure-color.png",
-		"outputAbbreviatedPath": "\/img\/logo-tourdecure-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -545,6 +622,17 @@
 		"initialSize": 8520,
 		"inputAbbreviatedPath": "\/img\/logo-white-600.png",
 		"outputAbbreviatedPath": "\/img\/logo-white-600.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-wodstar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6053,
+		"inputAbbreviatedPath": "\/img\/logo-wodstar.png",
+		"outputAbbreviatedPath": "\/img\/logo-wodstar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -832,15 +920,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/map-inprogress.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/map-inprogress.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/our-firm.html": {
 		"fileType": 8192,

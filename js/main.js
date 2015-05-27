@@ -1,6 +1,5 @@
-// Main JS File Unminified 
-
 $(function(){
+// Main JS File Unminified
 
 	// Mobile Nav
 	$('.mobile-toggle').click(function(event) {
