@@ -566,7 +566,8 @@ p {
 .slide-page-header {
   background-color: #213553;
   color: #fff;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .slide-page-header .inner {
     padding: 4em 0 6em; }
   .slide-page-header h1 {
