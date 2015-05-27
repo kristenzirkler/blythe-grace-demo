@@ -189,14 +189,15 @@ p {
 			i {
 				font-size: 30px;
 				line-height: 0px;
-				float: right;
+			}
+			span {
 				margin-top: 5px;
 				margin-left: 3px;
 				margin-right: -4px;
-			}
-			span {
 				height: 40px;
 				overflow: hidden;
+				display: inline-block;
+				float: right;
 			}
 		}
 		&.open {

@@ -497,14 +497,15 @@ p {
     display: block; }
   .blue-tag.site-tag .contact-button i {
     font-size: 30px;
-    line-height: 0px;
-    float: right;
+    line-height: 0px; }
+  .blue-tag.site-tag .contact-button span {
     margin-top: 5px;
     margin-left: 3px;
-    margin-right: -4px; }
-  .blue-tag.site-tag .contact-button span {
+    margin-right: -4px;
     height: 40px;
-    overflow: hidden; }
+    overflow: hidden;
+    display: inline-block;
+    float: right; }
   .blue-tag.site-tag.open .contact-button i {
     display: inline-block; }
 
