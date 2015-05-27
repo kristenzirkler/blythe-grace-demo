@@ -187,7 +187,6 @@ p {
 				display: block;
 			}
 			i {
-				display: none;
 				font-size: 30px;
 				line-height: 0px;
 				float: right;
@@ -195,9 +194,12 @@ p {
 				margin-left: 3px;
 				margin-right: -4px;
 			}
+			span {
+				height: 40px;
+				overflow: hidden;
+			}
 		}
 		&.open {
-
 			.contact-button i {
 				display: inline-block;
 			}
