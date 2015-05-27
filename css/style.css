@@ -478,7 +478,9 @@ p {
     .blue-tag.site-tag a:hover {
       color: #fff; }
   .blue-tag.site-tag .logo {
-    margin: 0 -4px; }
+    margin: 0 -4px;
+    overflow: hidden;
+    height: 47px; }
   .blue-tag.site-tag .nav a {
     opacity: .4; }
     .blue-tag.site-tag .nav a:hover {
@@ -950,20 +952,12 @@ p {
   .testimonial-bg .client-name {
     text-align: center; }
 
-.slide-contact {
-  padding: 8em 0 4em; }
-  .slide-contact .copy {
-    width: 40%;
-    padding-right: 100px;
-    float: left; }
-  .slide-contact .phone {
-    margin-top: 3em;
-    font-size: 1.4em;
-    color: #213553;
-    font-family: "Roboto Slab", "Times New Roman", sans-serif; }
-  .slide-contact form {
-    width: 60%;
-    float: left; }
+.slide-contact .copy {
+  padding: 4em 20px 2em; }
+.slide-contact .phone {
+  display: none; }
+.slide-contact form {
+  padding: 0 20px; }
 
 .slide-disclaimer {
   text-align: center; }
@@ -1107,7 +1101,24 @@ p {
   .logo-list {
     margin: 0; }
     .logo-list li {
-      width: 20%; } }
+      width: 20%; }
+
+  .slide-contact {
+    padding: 8em 0 4em; }
+    .slide-contact .copy {
+      width: 40%;
+      padding: 0;
+      padding-right: 100px;
+      float: left; }
+    .slide-contact .phone {
+      margin-top: 3em;
+      font-size: 1.4em;
+      color: #213553;
+      font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+    .slide-contact form {
+      width: 60%;
+      float: left;
+      padding: 0; } }
 .intro-background {
   position: fixed;
   top: 0;

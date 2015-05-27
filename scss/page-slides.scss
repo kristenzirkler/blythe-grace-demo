@@ -474,22 +474,14 @@
 }
 // Contact
 .slide-contact {
-	padding: 8em 0 4em;
 	.copy {
-		width: 40%;
-		padding-right: 100px;
-		float: left;
+		padding: 4em $mobile-side-space 2em;
 	}
 	.phone {
-		margin-top: 3em;
-		font-size: 1.4em;
-		color: $main-color;
-		font-family: $accent-font;
+		display: none;
 	}
 	form {
-		width: 60%;
-		float: left;
-
+		padding: 0 $mobile-side-space;
 	}
 	
 }
@@ -714,6 +706,28 @@
 
 }
 
+// Contact
+.slide-contact {
+	padding: 8em 0 4em;
+	.copy {
+		width: 40%;
+		padding: 0;
+		padding-right: 100px;
+		float: left;
+	}
+	.phone {
+		margin-top: 3em;
+		font-size: 1.4em;
+		color: $main-color;
+		font-family: $accent-font;
+	}
+	form {
+		width: 60%;
+		float: left;
+		padding: 0;
+
+	}
+}
 
 
 }
