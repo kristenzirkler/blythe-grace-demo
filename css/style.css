@@ -347,7 +347,7 @@ h1, h2, h3, h4 {
   font-family: "Roboto Slab", "Times New Roman", sans-serif; }
 
 h1 {
-  font-size: 35px; }
+  font-size: 32px; }
 
 h2 {
   font-size: 20px;
@@ -504,7 +504,7 @@ p {
     margin: 0 20px; } }
 @media all and (min-width: 800px) {
   h1 {
-    font-size: 50px; }
+    font-size: 42px; }
 
   h2 {
     font-size: 28px; }
@@ -640,7 +640,7 @@ p {
       border-top: 1px solid #ccc;
       padding-top: 10px;
       font-size: .7em;
-      color: #aaaeb4; }
+      color: #8d9095; }
 
 .our-firm-page .give-back:before {
   display: none; }
@@ -811,11 +811,13 @@ p {
     filter: grayscale(100%);
     filter: gray;
     filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-    opacity: .4;
+    opacity: .7;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
+  .logo-list a {
+    display: block; }
   .logo-list a:hover img {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
@@ -869,7 +871,7 @@ p {
     margin-bottom: 1em; }
   .testimonial em {
     display: block;
-    color: #aaaeb4;
+    color: #8d9095;
     font-family: "Roboto Slab", "Times New Roman", sans-serif;
     margin-bottom: 1em;
     line-height: 1.3em; }
@@ -885,7 +887,7 @@ p {
       filter: grayscale(100%);
       filter: gray;
       filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-      opacity: .4; }
+      opacity: .7; }
       .testimonial .client-name a:hover {
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);

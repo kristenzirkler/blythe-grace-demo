@@ -285,6 +285,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-clarkstreet-lg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21302,
+		"inputAbbreviatedPath": "\/img\/logo-clarkstreet-lg.png",
+		"outputAbbreviatedPath": "\/img\/logo-clarkstreet-lg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-clarkstreet.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -325,8 +325,11 @@
 	img {
 		width: 125px;
 		@include grayscale(100%);
-		opacity: .4;
+		opacity: .7;
 		@include transition(all .5s);
+	}
+	a {
+		display: block;
 	}
 	a:hover img {
 		@include grayscale(0%);
@@ -401,7 +404,7 @@
 			display: block;
 			@include transition(all .3s);
 			@include grayscale(100%);
-			opacity: .4;
+			opacity: .7;
 
 			&:hover {
 				@include transform(scale(1.05));
