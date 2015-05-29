@@ -40,6 +40,7 @@ $(function(){
 	});
 
 	// Home Page Fade in 
+    /*
 	function imageFade(){
 		var y = $(document).scrollTop();
 		//var t = $('.hero').offset().top - 100;
@@ -52,6 +53,7 @@ $(function(){
 		}
 
 	}
+    */
 	// Navigation Animation
 	function navFade(){
 		var y = $(document).scrollTop();
@@ -103,7 +105,7 @@ $(function(){
 	// Scroll Funcitons
 	$(document).scroll(function () {
 		navFade();
-		imageFade();
+		//imageFade();
 		startGrowAni();
         aboutGray('about-bg');
         aboutGray('give-back');

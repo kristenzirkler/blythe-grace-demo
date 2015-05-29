@@ -670,28 +670,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/scottsdale-temporary-fade.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 331764,
-		"inputAbbreviatedPath": "\/img\/scottsdale-temporary-fade.jpg",
-		"outputAbbreviatedPath": "\/img\/scottsdale-temporary-fade.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/scottsdale-temporary.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 811121,
-		"inputAbbreviatedPath": "\/img\/scottsdale-temporary.jpg",
-		"outputAbbreviatedPath": "\/img\/scottsdale-temporary.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/slide-bg-about-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
