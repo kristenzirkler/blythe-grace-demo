@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/grayscale.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/grayscale.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/home-slides.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -670,17 +679,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/slide-bg-about-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 93163,
-		"inputAbbreviatedPath": "\/img\/slide-bg-about-2.jpg",
-		"outputAbbreviatedPath": "\/img\/slide-bg-about-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/slide-bg-about.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -710,17 +708,6 @@
 		"initialSize": 122334,
 		"inputAbbreviatedPath": "\/img\/slide-bg-crossfit.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-crossfit.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/slide-bg-dentist.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 103148,
-		"inputAbbreviatedPath": "\/img\/slide-bg-dentist.jpg",
-		"outputAbbreviatedPath": "\/img\/slide-bg-dentist.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -765,28 +752,6 @@
 		"initialSize": 217872,
 		"inputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/team-circle.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61741,
-		"inputAbbreviatedPath": "\/img\/team-circle.jpg",
-		"outputAbbreviatedPath": "\/img\/team-circle.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/temp-team.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72232,
-		"inputAbbreviatedPath": "\/img\/temp-team.jpg",
-		"outputAbbreviatedPath": "\/img\/temp-team.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -920,6 +885,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/forms.scss",
 		"outputAbbreviatedPath": "\/css\/forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/grayscale.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/grayscale.scss",
+		"outputAbbreviatedPath": "\/css\/grayscale.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
