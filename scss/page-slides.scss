@@ -422,6 +422,12 @@
 .melt-mel {
 	background-image: url(../img/slide-bg-melissa.jpg);
 	@include transition(all 1s);
+	img {
+		width:150px;
+	}
+	&.testimonial-bg .client-name {
+		padding: 0;
+	}
 }
 .reggie {
 	background-image: url(../img/slide-bg-reggie.jpg);

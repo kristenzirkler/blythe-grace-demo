@@ -901,6 +901,10 @@ p {
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s; }
+  .melt-mel img {
+    width: 150px; }
+  .melt-mel.testimonial-bg .client-name {
+    padding: 0; }
 
 .reggie {
   background-image: url(../img/slide-bg-reggie.jpg);
