@@ -123,16 +123,19 @@
 	}
 }
 .about-bg {
-	@include transition(all .3s);
+	@include transition(all .5s);
+	background: $main-color;
 	padding: 5em 0 7em;
+	p, i {
+		text-shadow: 0 0 5px #000;
+		color: #fff;
+	}
 	i {
 		font-size: 6em;
 		margin-left: -10px;
-		color: #fff;
 	}
 	p {
 		margin-bottom: 2em;
-		color: #fff;
 	}
 }
 .gray-pic {
