@@ -8,7 +8,7 @@
 	background-position: right bottom;
 	@include transition(all .3s);
 	@include grayscale2(100%);
-	opacity: .2;
+	//opacity: .2;
 }
 .home-intro {
 	color: #fff;
