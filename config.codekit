@@ -756,6 +756,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/slide-bg-wodstar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101538,
+		"inputAbbreviatedPath": "\/img\/slide-bg-wodstar.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-wodstar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/temporary-giveback.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

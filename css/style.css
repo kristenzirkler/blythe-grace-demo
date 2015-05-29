@@ -387,7 +387,7 @@ p {
     color: #213553; }
   .site-tag .logo {
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 2em;
     height: 70px;
     float: left;
     margin: 0 20px; }
@@ -914,6 +914,15 @@ p {
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s; }
+
+.wodstar {
+  background-image: url(../img/slide-bg-wodstar.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+  .wodstar:after {
+    display: none; }
 
 .testimonial-bg {
   padding: 12em 0 10em;
