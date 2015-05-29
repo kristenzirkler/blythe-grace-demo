@@ -757,7 +757,7 @@ p {
     .professionals.bio-open .professionals-nav a.unselected {
       width: 15%;
       filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-      filter: grayscale(100%);
+      filter: grayscale(1);
       filter: gray;
       -webkit-filter: grayscale(100%);
       opacity: .6; }
@@ -765,7 +765,7 @@ p {
         display: none; }
       .professionals.bio-open .professionals-nav a.unselected:hover {
         filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-        filter: grayscale(0%);
+        filter: grayscale(1);
         filter: gray;
         -webkit-filter: grayscale(0%);
         opacity: 1; }
@@ -808,7 +808,7 @@ p {
   .logo-list img {
     width: 125px;
     filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-    filter: grayscale(100%);
+    filter: grayscale(1);
     filter: gray;
     -webkit-filter: grayscale(100%);
     opacity: .7;
@@ -820,7 +820,7 @@ p {
     display: block; }
   .logo-list a:hover img {
     filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-    filter: grayscale(0%);
+    filter: grayscale(1);
     filter: gray;
     -webkit-filter: grayscale(0%);
     opacity: 1; }
@@ -884,7 +884,7 @@ p {
       -o-transition: all 0.3s;
       transition: all 0.3s;
       filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-      filter: grayscale(100%);
+      filter: grayscale(1);
       filter: gray;
       -webkit-filter: grayscale(100%);
       opacity: .7; }
@@ -895,7 +895,7 @@ p {
         -o-transform: scale(1.05);
         transform: scale(1.05);
         filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-        filter: grayscale(0%);
+        filter: grayscale(1);
         filter: gray;
         -webkit-filter: grayscale(0%);
         opacity: 1; }
@@ -1266,7 +1266,7 @@ p {
 
 .gray-pic {
   filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
-  filter: grayscale(100%);
+  filter: grayscale(1);
   filter: gray;
   -webkit-filter: grayscale(100%); }
 
