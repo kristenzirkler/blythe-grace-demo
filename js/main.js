@@ -112,6 +112,7 @@ $(function(){
         aboutGray('melt-mel');
         aboutGray('cb-cross');
         aboutGray('reggie');
+        aboutGray('wodstar');
 	});
 
 
