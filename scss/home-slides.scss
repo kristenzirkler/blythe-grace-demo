@@ -1,14 +1,12 @@
 .intro-background {
 	position: fixed;
-	//position: absolute;
 	top: $nav-height; bottom: 0;
 	left: 0; right: 0;
 	z-index: -1;
 	background-size: cover;
 	background-position: right bottom;
 	@include transition(all .3s);
-	@include grayscale2(100%);
-	//opacity: .2;
+	opacity: .2;
 }
 .home-intro {
 	color: #fff;
@@ -27,7 +25,6 @@
 		left: 0; right: 0;
 		z-index: 5;
 		@include transition(border-bottom 1s);
-
 	}
 	.logo {
 		font-size: 2.5em;
@@ -55,18 +52,6 @@
 			font-size: 1.1em;
 		}
 	}
-}
-.fadetocolor {
-	.intro-background {
-		//@include grayscale(0%);
-		//opacity: 1;
-		//@include transition(all 1.5s ease-out);
-	}
-	.hero {
-		//opacity: 0;
-		//@include transition(all 1s .5s);
-	}
-	
 }
 
 .start-grow {

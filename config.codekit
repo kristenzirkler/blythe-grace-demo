@@ -769,39 +769,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/slide-bg-team.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47978,
-		"inputAbbreviatedPath": "\/img\/slide-bg-team.jpg",
-		"outputAbbreviatedPath": "\/img\/slide-bg-team.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/static-map.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 169425,
-		"inputAbbreviatedPath": "\/img\/static-map.jpg",
-		"outputAbbreviatedPath": "\/img\/static-map.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/static-map.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 372809,
-		"inputAbbreviatedPath": "\/img\/static-map.png",
-		"outputAbbreviatedPath": "\/img\/static-map.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/team-circle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
