@@ -1258,7 +1258,7 @@ p {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  background: #213553;
+  background-color: #213553;
   padding: 5em 0 7em; }
   .about-bg p, .about-bg i {
     text-shadow: 0 0 5px #000;

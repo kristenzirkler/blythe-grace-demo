@@ -124,7 +124,7 @@
 }
 .about-bg {
 	@include transition(all .5s);
-	background: $main-color;
+	background-color: $main-color;
 	padding: 5em 0 7em;
 	p, i {
 		text-shadow: 0 0 5px #000;
