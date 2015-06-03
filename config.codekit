@@ -437,6 +437,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-mts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11174,
+		"inputAbbreviatedPath": "\/img\/logo-mts.png",
+		"outputAbbreviatedPath": "\/img\/logo-mts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-patsrun-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -587,6 +598,17 @@
 		"initialSize": 7719,
 		"inputAbbreviatedPath": "\/img\/logo-tourdescottsdale.png",
 		"outputAbbreviatedPath": "\/img\/logo-tourdescottsdale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-tracklight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5949,
+		"inputAbbreviatedPath": "\/img\/logo-tracklight.png",
+		"outputAbbreviatedPath": "\/img\/logo-tracklight.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

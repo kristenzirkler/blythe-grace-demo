@@ -436,9 +436,6 @@
 .wodstar {
 	background-image: url(../img/slide-bg-wodstar.jpg);
 	@include transition(all 1s);
-	&:after {
-		display: none;
-	}
 }
 .testimonial-bg {
 	padding: 12em 0 10em;
@@ -501,6 +498,19 @@
 		padding: 0 $mobile-side-space;
 	}
 	
+}
+.traklight {
+	text-align: center;
+	.inner {
+		border-top: 1px solid darken($gray-lightest,10);
+	}
+	a {
+		display: inline-block;
+		margin: 2em 0;
+	}
+	img {
+		width: 150px;
+	}
 }
 
 .slide-disclaimer {

@@ -919,8 +919,6 @@ p {
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s; }
-  .wodstar:after {
-    display: none; }
 
 .testimonial-bg {
   padding: 12em 0 10em;
@@ -968,6 +966,16 @@ p {
   display: none; }
 .slide-contact form {
   padding: 0 20px; }
+
+.traklight {
+  text-align: center; }
+  .traklight .inner {
+    border-top: 1px solid #d3dbde; }
+  .traklight a {
+    display: inline-block;
+    margin: 2em 0; }
+  .traklight img {
+    width: 150px; }
 
 .slide-disclaimer {
   text-align: center; }
