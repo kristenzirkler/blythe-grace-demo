@@ -74,6 +74,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/badge-avmartindale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21091,
+		"inputAbbreviatedPath": "\/img\/badge-avmartindale.png",
+		"outputAbbreviatedPath": "\/img\/badge-avmartindale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/badge-swsuper.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16974,
+		"inputAbbreviatedPath": "\/img\/badge-swsuper.png",
+		"outputAbbreviatedPath": "\/img\/badge-swsuper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -224,6 +246,17 @@
 		"initialSize": 8931,
 		"inputAbbreviatedPath": "\/img\/logo-avischaefer.png",
 		"outputAbbreviatedPath": "\/img\/logo-avischaefer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-azdcs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54932,
+		"inputAbbreviatedPath": "\/img\/logo-azdcs.png",
+		"outputAbbreviatedPath": "\/img\/logo-azdcs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -411,6 +444,17 @@
 		"initialSize": 7720,
 		"inputAbbreviatedPath": "\/img\/logo-jewishlaw.png",
 		"outputAbbreviatedPath": "\/img\/logo-jewishlaw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-maam.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56033,
+		"inputAbbreviatedPath": "\/img\/logo-maam.png",
+		"outputAbbreviatedPath": "\/img\/logo-maam.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

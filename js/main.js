@@ -39,6 +39,13 @@ $(function(){
 		$(this).parent().parent().removeClass('field-selected');
 	});
 
+    $('textarea').focus(function() {
+        $(this).parent().parent().addClass('field-selected');
+    });
+    $('textarea').blur(function() {
+        $(this).parent().parent().removeClass('field-selected');
+    });
+
 	// Home Page Fade in 
     /*
 	function imageFade(){
