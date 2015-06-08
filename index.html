@@ -1,66 +1,30 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Blythe Grace</title>
-<meta name="description" content="Blythe Grace">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="css/style.css">
-
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-<script type="text/javascript">
-
-</script>
-</head>
-
-<body class="home">
-<!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-<div class="site-tag">
-  <div class="inner">
-    <a class="logo" href="http://kristenzirkler.github.io/blythe-grace-demo/"><i class="bg-icon icon-logo-black"></i></a>
-    <a class="mobile-toggle" href="http://kristenzirkler.github.io/blythe-grace-demo/"><i class="bg-icon icon-menu"></i></a>
-
-    <ul class="nav">
-      <li><a href="our-firm.html">Our&nbsp;Firm</a></li>
-      <li><a href="professionals.html">Professionals</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="clients.html">Clients</a></li>
-      <li><a href="giving-back.html">Giving&nbsp;Back</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</div>
+---
+layout: default
+title: Home
+path: ../
+---
 
 <div class="home-intro">
   <div class="hero">
-    <a class="logo" href="http://kristenzirkler.github.io/blythe-grace-demo/"><i class="bg-icon icon-logo-black"></i></a>
+    <a class="logo" href="{{ site.baseurl }}/"><i class="bg-icon icon-logo-black"></i></a>
     <p>Your partner for practical legal advice and experienced representation to protect your business.</p>
   </div>
-  <div class="intro-background" id="hero-image" style="background-image: url(img/slide-bg-office.jpg);"></div>
+  <div class="intro-background" id="hero-image" style="background-image: url({{ site.baseurl }}/img/slide-bg-office.jpg);"></div>
 </div>
 <div class="slide start-grow">
   <div class="inner">
     <div class="callout">
       <ul>
-          <li><a href="services.html"><i class="bg-icon icon-start"></i>Start.</a></li>
-          <li><a href="services.html"><i class="bg-icon icon-grow"></i>Grow.</a></li>
-          <li><a href="services.html"><i class="bg-icon icon-protect"></i>Protect.</a></li>
+          <li><a href="{{ site.baseurl }}/services"><i class="bg-icon icon-start"></i>Start.</a></li>
+          <li><a href="{{ site.baseurl }}/services"><i class="bg-icon icon-grow"></i>Grow.</a></li>
+          <li><a href="{{ site.baseurl }}/services"><i class="bg-icon icon-protect"></i>Protect.</a></li>
       </ul>
 
-      <div class="services-list"><a href="services.html">Business & Civil Litigation</a><a href="services.html">Mediation & Arbitration</a><a href="services.html">Employment Law Compliance & Counseling</a><a href="services.html">Employment Litigation</a><a href="services.html">Corporate & Limited Liability Company Matters</a></div>
+      <div class="services-list"><a href="{{ site.baseurl }}/services">Business & Civil Litigation</a><a href="{{ site.baseurl }}/services">Mediation & Arbitration</a><a href="{{ site.baseurl }}/services">Employment Law Compliance & Counseling</a><a href="{{ site.baseurl }}/services">Employment Litigation</a><a href="{{ site.baseurl }}/services">Corporate & Limited Liability Company Matters</a></div>
     </div>
     <div class="copy">
       <p>Blythe Grace offers legal services to help business owners start or grow their businesses while preventing litigation. If litigation is unavoidable, we aggressively represent our clients in court.</p>
-      <a href="services.html" class="button">Services</a>
+      <a href="{{ site.baseurl }}/services" class="button">Services</a>
     </div>
   </div>
 </div>
@@ -69,7 +33,7 @@
     <div class="copy">
       <i class="bg-icon icon-bg"></i>
       <p>At Blythe Grace we treat each other and our clients like family. We pride ourselves on responsiveness and dedication to our work. We focus on getting results without compromising our client's interests and are committed to efficient and cost effective representation.</p>
-      <a href="our-firm.html" class="button-white">Our Firm</a>
+      <a href="{{ site.baseurl }}/our-firm" class="button-white">Our Firm</a>
     </div>
   </div>
 </div>
@@ -93,7 +57,7 @@
         <h3>Practical Solutions.</h3>
         <p>We cut through the legal jargon and get to the point, without wasting valuable time.</p>
       </div>
-      <a href="our-firm.html#values" class="button">Our Values</a>
+      <a href="{{ site.baseurl }}/our-firm#values" class="button">Our Values</a>
     </div>
     
   </div>
@@ -101,11 +65,11 @@
 <div class="slide slide-bg-image give-back gray-pic">
   <div class="inner">
     <div class="image">
-      <a href="giving-back.html"><img src="img/giveback-logos.png" alt="Bythe Grace supports multiple local & national charities." /></a>
+      <a href="{{ site.baseurl }}/giving-back"><img src="{{ site.baseurl }}/img/giveback-logos.png" alt="Bythe Grace supports multiple local & national charities." /></a>
     </div>
     <div class="copy">
       <h2>Blythe Grace is committed to supporting and improving all of Arizona's communities.</h2>
-      <a href="giving-back.html" class="button-white">Giving Back</a>
+      <a href="{{ site.baseurl }}/giving-back" class="button-white">Giving Back</a>
     </div>
   </div>
 </div>
@@ -114,13 +78,13 @@
   <div class="inner">
       <div class="client-name">
         <a href="http://www.docrad.com/" target="_blank">
-          <img src="img/logo-radcliffe.png" />
+          <img src="{{ site.baseurl }}/img/logo-radcliffe.png" />
           <em>Michael J. Radcliffe<br>DMD Dentistry</em>
         </a>
       </div>
     <div class="copy">
       <p><strong>I had the pleasure of working with Blythe Grace for over three years on a very complex lawsuit.</strong> They were always professional and respectful of my time and money that was being spent. Their energy level was strong and they displayed passion for getting the job done right. I would have no problem hiring Blythe Grace again.</p>
-      <a href="clients.html" class="button">Clients</a>
+      <a href="{{ site.baseurl }}/clients" class="button">Clients</a>
     </div>
   </div>
 </div>
@@ -134,63 +98,6 @@
         <em>Scottsdale, AZ</em>
       </div>
     </div>
-    <div class="map-image">
-      <img src="img/static-map.png" alt="6350 East Thomas Road, Suite 330 - Scottsdale, Arizona 85251" />
-    </div>
     <div class="map-canvas" id="map-canvas">&nbsp;</div>
   </div>
 </div>
-
-<div class="slide contact-home">
-  <div class="inner">
-      <p><a href="contact.html" class="button-white">Send Message</a><span>If Blythe Grace would be a good fit for your legal needs, please send us a message or call (480) 663-8838.</span></p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <div class="inner">
-
-    <a href="http://kristenzirkler.github.io/blythe-grace-demo/" class="logo"><i class="bg-icon icon-bg"></i></a>
-    <ul class="nav">
-      <li><a href="our-firm.html">Our&nbsp;Firm</a></li>
-      <li><a href="professionals.html">Professionals</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="clients.html">Clients</a></li>
-      <li><a href="giving-back.html">Giving&nbsp;Back</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <ul class="social">
-      <li><a target="_new" href="https://www.facebook.com/blythegracepllc"><i class="bg-icon icon-facebook"></i></a></li>
-      <li><a target="_new" href="https://twitter.com/rsrlawaz"><i class="bg-icon icon-twitter"></i></a></li>
-      <li><a target="_new" href="https://plus.google.com/+Blythegrace"><i class="bg-icon icon-gplus"></i></a></li>
-      <li><a target="_new" href="http://www.linkedin.com/company/blythe-grace-pllc"><i class="bg-icon icon-linkedin"></i></a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="disclaimer">
-  <div class="inner">
-    Sending emails to the firm will not create an attorney-client relationship and may not be kept confidential. Viewing the website also does not create an attorney-client relationship and is informational only. The firm is located in Arizona and its legal practice is in that jurisdiction or in any other jurisdiction where firm lawyers are admitted to practice law.
-  </div>
-</div>
-
-<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script-->
-<script src="js/vendor/jquery-1.11.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-<script src="js/main.js"></script>
-
-<!-- Google Analytics -->
-<!--script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54629411-2', 'auto');
-  ga('send', 'pageview');
-
-</script-->
-</body>
-</html>
