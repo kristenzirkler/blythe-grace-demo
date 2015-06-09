@@ -434,6 +434,10 @@
 	background-image: url(../img/slide-bg-wodstar.jpg);
 	@include transition(all 1s);
 }
+.taxanista {
+	background-image: url(../img/slide-bg-taxanista.jpg);
+	@include transition(all 1s);
+}
 .testimonial-bg {
 	padding: 12em 0 10em;
 	background-color: $main-color;

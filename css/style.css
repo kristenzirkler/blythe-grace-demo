@@ -918,6 +918,13 @@ p {
   -o-transition: all 1s;
   transition: all 1s; }
 
+.taxanista {
+  background-image: url(../img/slide-bg-taxanista.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
 .testimonial-bg {
   padding: 12em 0 10em;
   background-color: #213553; }

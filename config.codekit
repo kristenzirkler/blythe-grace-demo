@@ -860,6 +860,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/taxanista.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39538,
+		"inputAbbreviatedPath": "\/_site\/img\/taxanista.png",
+		"outputAbbreviatedPath": "\/_site\/img\/taxanista.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/temporary-giveback.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1710,6 +1721,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-taxanista.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43221,
+		"inputAbbreviatedPath": "\/img\/logo-taxanista.png",
+		"outputAbbreviatedPath": "\/img\/logo-taxanista.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-tourcure-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1926,6 +1948,17 @@
 		"initialSize": 217872,
 		"inputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-reggie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-taxanista.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64550,
+		"inputAbbreviatedPath": "\/img\/slide-bg-taxanista.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-taxanista.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

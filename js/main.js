@@ -120,6 +120,7 @@ $(function(){
         aboutGray('cb-cross');
         aboutGray('reggie');
         aboutGray('wodstar');
+        aboutGray('taxanista');
 	});
 
 
