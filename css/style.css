@@ -1558,6 +1558,16 @@ p {
   display: block;
   width: 100%;
   font-size: 1em; }
+.bg-form .parsley-error input[type="text"], .bg-form .parsley-error textarea {
+  border-color: #d92424; }
+.bg-form .parsley-error label {
+  background: #d92424;
+  border-color: #d92424; }
+.bg-form .parsley-errors-list {
+  color: #d92424;
+  font-family: "Roboto Slab", "Times New Roman", sans-serif;
+  text-transform: uppercase;
+  font-size: .8em; }
 
 html {
   box-sizing: border-box; }

@@ -60,11 +60,6 @@
 			width: calc(100% - 100px);
 		}
 	}
-
-	.text-field-wide {
-
-
-	}
 	.button {
 		border: 1px solid $main-color;
 		line-height: 50px;
@@ -72,6 +67,23 @@
 		display: block;
 		width: 100%;
 		font-size: 1em;
+	}
+	// validation
+	.parsley-error {
+		input[type="text"], textarea {
+			border-color: $error;
+		}
+		label {
+			background: $error;
+			border-color: $error;
+		}
+	}
+	.parsley-errors-list {
+		color: $error;
+
+		font-family: $accent-font;
+		text-transform: uppercase;
+		font-size: .8em;
 	}
 }
 

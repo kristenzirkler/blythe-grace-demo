@@ -123,8 +123,7 @@ $(function(){
         aboutGray('taxanista');
 	});
 
-
-// Google Map -----------------------
+// Google Map ---------------------------------------------------------------
 if ($('body').hasClass('home') || $('body').hasClass('contact')) {
     function map_recenter(latlng,offsetx,offsety) {
         var point1 = map.getProjection().fromLatLngToPoint(

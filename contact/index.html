@@ -12,39 +12,38 @@ meta-description: We are ready and waiting to answer your questions and provide 
       <p class="phone"><i class="bg-icon icon-mobile"></i>480.663.8838</p>
     </div>
 
-    <form class="bg-form" action="//formspree.io/kristenzirkler@gmail.com" method="POST">
+    <form class="bg-form" action="//formspree.io/kristenzirkler@gmail.com" method="POST" data-parsley-validate>
       <input type="hidden" name="_next" value="{{ site.baseurl }}/thank-you" />
       <input type="hidden" name="_cc" value="bazirkler@gmail.com" />
-      <!--input type="hidden" name="_cc" value="kristen@bicyclette.com" /-->
       <input type="hidden" name="_subject" value="Contact Form Submission From BlytheGrace.com" />
       <input type="text" name="_gotcha" style="display:none" />
       <ul>
-        <li class="field-ctr text-field">
+        <li class="field-ctr text-field field-1">
           <label for="Name">Name</label>
           <div class="ginput_container">
-            <input name="Name" id="Name" type="text" value="" tabindex="1">
+            <input name="Name" id="Name" type="text" value="" required data-parsley-error-message="Required" data-parsley-class-handler=".field-1" tabindex="1">
           </div>
         </li>
-        <li class="field-ctr text-field">
+        <li class="field-ctr text-field field-2">
           <label for="email">Email</label>
           <div class="ginput_container">
-            <input name="email" id="email" type="text" value="" class="medium" tabindex="2">
+            <input name="email" id="email" type="text" value="" data-parsley-type="email" required data-parsley-error-message="Required" data-parsley-class-handler=".field-2" class="medium" tabindex="2">
           </div>
         </li>
-        <li class="field-ctr text-field">
+        <li class="field-ctr text-field field-3">
           <label for="phone">Phone</label>
           <div class="ginput_container">
-            <input name="phone" id="phone" type="text" value="" class="medium" tabindex="3">
+            <input name="phone" id="phone" type="text" value="" required data-parsley-error-message="Required" data-parsley-class-handler=".field-3" class="medium" tabindex="3">
           </div>
         </li>
-        <li class="field-ctr text-field-wide">
+        <li class="field-ctr text-field-wide field-4">
           <label for="comments">Questions or Comments</label>
           <div class="ginput_container">
-            <textarea name="comments" id="comments" tabindex="4"></textarea>
+            <textarea name="comments" id="comments" required data-parsley-error-message="Required" data-parsley-class-handler=".field-4" tabindex="4"></textarea>
           </div>
         </li>
         <li class="field-ctr submit">
-          <button class="button">Send Message</button>
+          <button id="submit" class="button">Send Message</button>
         </li>
       </ul>
     </form>
