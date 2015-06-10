@@ -6,8 +6,8 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>{% if page.title %}{{ page.title }} | {% endif %}Blythe Grace</title>
-<meta name="description" content="Blythe Grace">
+<title>{% if page.meta-title %}{{ page.meta-title }} | {% elsif page.title %}{{ page.title }} | {% endif %}Blythe Grace</title>
+<meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% endif %}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
