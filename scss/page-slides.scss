@@ -140,6 +140,11 @@
 	}
 }
 .our-firm-page {
+	.slide-page-header {
+		&:after {
+			display: none;
+		}
+	}
 	.give-back {
 		&:before {
 			display: none;

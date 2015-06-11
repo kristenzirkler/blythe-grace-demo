@@ -642,6 +642,8 @@ p {
       font-size: .7em;
       color: #8d9095; }
 
+.our-firm-page .slide-page-header:after {
+  display: none; }
 .our-firm-page .give-back:before {
   display: none; }
 .our-firm-page .values {
