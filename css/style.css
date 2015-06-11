@@ -885,6 +885,8 @@ p {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
         opacity: 1; }
+  .testimonial .no-logo {
+    font-weight: bold; }
 
 .cb-cross {
   background-image: url(../img/slide-bg-crossfit.jpg);
