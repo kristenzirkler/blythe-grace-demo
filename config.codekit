@@ -838,6 +838,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/slide-bg-ourfirm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65747,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-ourfirm.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-ourfirm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/slide-bg-reggie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
