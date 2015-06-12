@@ -3,13 +3,18 @@
 @import 'reset';
 @import 'bg-icons';
 @import 'site-frame';
+@import 'page-slides';
 @import 'home-slides';
+@import 'forms';
 
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+*:focus {
+   outline: 0;
 }
 body {
   background: $body-background;
@@ -42,9 +47,18 @@ p {
     background: lighten($main-color,10);
   }
 }
-
-
-
+.button-white {
+  padding: 1em 1.5em;
+  color: $main-color;
+  display: inline-block;
+  background: #eee;
+  font-family: $accent-font;
+  text-transform: uppercase;
+  &:hover {
+    color: $main-color;
+    background: #fff;
+  }
+}
 
 
 /* KZ Love Footer */

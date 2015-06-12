@@ -1,0 +1,76 @@
+---
+layout: default
+title: Contact
+meta-title: Contact Blythe Grace
+meta-description: We are ready and waiting to answer your questions and provide an initial consultation, no strings attached.
+---
+
+<div class="slide slide-contact">
+  <div class="inner">
+    <div class="copy">
+      <h2>If Blythe Grace would be a good fit for your legal needs, please send us a message or call (480) 663-8838.</h2>
+      <p class="phone"><i class="bg-icon icon-mobile"></i>480.663.8838</p>
+    </div>
+
+    <form class="bg-form" action="//formspree.io/patti@blythegrace.com " method="POST" data-parsley-validate>
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/thank-you" />
+      <input type="hidden" name="_cc" value="robert@blythegrace.com" />
+      <input type="hidden" name="_subject" value="Contact Form Submission From BlytheGrace.com" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <ul>
+        <li class="field-ctr text-field field-1">
+          <label for="Name">Name</label>
+          <div class="ginput_container">
+            <input name="Name" id="Name" type="text" value="" required data-parsley-error-message="Required" data-parsley-class-handler=".field-1" tabindex="1">
+          </div>
+        </li>
+        <li class="field-ctr text-field field-2">
+          <label for="email">Email</label>
+          <div class="ginput_container">
+            <input name="email" id="email" type="text" value="" data-parsley-type="email" required data-parsley-error-message="Required" data-parsley-class-handler=".field-2" class="medium" tabindex="2">
+          </div>
+        </li>
+        <li class="field-ctr text-field field-3">
+          <label for="phone">Phone</label>
+          <div class="ginput_container">
+            <input name="phone" id="phone" type="text" value="" required data-parsley-error-message="Required" data-parsley-class-handler=".field-3" class="medium" tabindex="3">
+          </div>
+        </li>
+        <li class="field-ctr text-field-wide field-4">
+          <label for="comments">Questions or Comments</label>
+          <div class="ginput_container">
+            <textarea name="comments" id="comments" required data-parsley-error-message="Required" data-parsley-class-handler=".field-4" tabindex="4"></textarea>
+          </div>
+        </li>
+        <li class="field-ctr submit">
+          <button id="submit" class="button">Send Message</button>
+        </li>
+      </ul>
+    </form>
+
+  </div>
+</div>
+<!--div class="slide traklight">
+  <div class="inner">
+    <a href="https://traklight.apps.traklight.com/store"><img src="{{ site.baseurl }}/img/logo-tracklight.png" alt="TrakLight - Enter the promo code - BGATTORNEYS15"/></a>
+  </div>
+</div-->
+<div class="slide slide-disclaimer disclaimer-large">
+  <div class="inner">
+    Sending emails to the firm will not create an attorney-client relationship and may not be kept confidential. Viewing the website also does not create an attorney-client relationship and is informational only. The firm is located in Arizona and its legal practice is in that jurisdiction or in any other jurisdiction where firm lawyers are admitted to practice law.
+  </div>
+</div>
+
+
+<div class="map-slide">
+  <div class="inner">
+    <div class="hex-callout">
+      <div class="hex">&nbsp;</div>
+      <div class="text" data-text-swap="Get Directions">
+        <span>Thomas And<br>64th Street</span>
+        <em>Scottsdale, AZ</em>
+      </div>
+    </div>
+    <div class="map-canvas" id="map-canvas">&nbsp;</div>
+  </div>
+</div>

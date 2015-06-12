@@ -1,0 +1,776 @@
+.slide  {
+	background: #fff;
+	.inner {
+		max-width: $page-size;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+.slide-bg-image {
+	background-color: $gray-lightest;
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+	
+	&:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0 solid transparent;
+		border-top: $slant-amount solid #fff;
+
+		position: absolute;
+		top: 0;
+		left: 0; right: 0;
+		z-index: 5;
+	}
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0 solid transparent;
+		border-bottom: $slant-amount solid #fff;
+
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+		z-index: 5;
+	}
+	
+	.image {
+		img {
+			max-width: 100%;
+		}
+	}
+}
+.slide-page-header {
+	background-color: $main-color;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	.inner {
+		padding: 4em 0 6em;
+	}
+	h1 {
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 1.3em;
+	}
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0 solid transparent;
+		border-bottom: $slant-amount solid #fff;
+
+		position: absolute;
+		bottom: 0;
+		left: 0; right: 0;
+		z-index: 5;
+	}
+
+}
+/*
+.slide-page-header {
+	.inner {
+		padding: 5em 0;
+	}
+	h1 {
+		margin-bottom: 20px;
+		color: $main-color;
+	}
+	p {
+		font-size: 1.3em;
+		padding: 20px 0;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+} 
+*/
+/* bg slide template
+.about-bg {
+	background-image: url(../img/slide-bg-about.jpg);
+	padding: 10em 2em 15em;
+	i {
+		font-size: 8em;
+		margin-left: -20px;
+	}
+	p {
+		margin-bottom: 2em;
+	}
+}
+*/
+
+
+// Our Firm
+.about-overview {
+	font-size: 1.2em;
+	strong {
+		font-size: 1.4em;
+		line-height: 1.3em;
+	}
+	.inner {
+		padding: 3em 0;
+	}
+	.copy {
+		padding: 0 $mobile-side-space;
+	}
+	p {
+		margin-bottom: 1em;
+	}
+	.image {
+		width: 35%;
+		float: left;
+		text-align: center;
+		img {
+			max-width: 80%;
+			display: block;
+			margin: 0 auto;
+		}
+		p {
+			border-top: 1px solid $gray-light;
+			padding-top: 10px;
+			font-size: .7em;
+			color: $gray;
+		}
+	}
+}
+.our-firm-page {
+	.slide-page-header {
+		&:after {
+			display: none;
+		}
+	}
+	.give-back {
+		&:before {
+			display: none;
+		}
+	}
+	.values {
+		overflow: hidden;
+		.copy {
+			margin-bottom: 20px;
+			div:nth-child(5n) {
+				clear: both;
+			}
+		}
+	}
+}
+
+// Professionals
+.professionals {
+	padding: 4em 0;
+	h2 {
+		max-width: 600px;
+		text-align: center;
+		margin: 0 $mobile-side-space 2em;
+	}
+	h3 {
+		margin-bottom: .3em;
+	}
+	.professionals-nav {
+		overflow: hidden;
+		a {
+			cursor: pointer;
+			display: block;
+			position: relative;
+			background-size: cover;
+			background-position: center top;
+			height: 200px;
+			width: 25%;
+			float: left;
+			overflow: hidden;
+			&:hover {
+				strong {
+					@include transition(all .5s);
+					font-size: 1.5em;
+					text-shadow: 0 0 5px rgba(#000,.8);
+				}
+			}
+		}
+		span {
+			display: block;
+			//background: rgba($main-color,.9);
+			@include gradient(#000,0,#000,.5);
+			text-shadow: 0 0 5px rgba(#000,.5);
+			color: #fff;
+			padding: .3em .5em;
+			line-height: 1.4em;
+			position: absolute;
+			bottom: 0;
+			height: 60px;
+			width: 600px;
+			overflow: hidden;
+		}
+		strong, em {
+			display: none;
+		}
+		strong {
+			font-size: 1.3em;
+		}
+		em {
+			font-size: .8em;
+			width: 500px;
+		}
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	.page-content {
+		clear: both;
+
+		.bio {
+			padding: $mobile-side-space;
+			display: none;
+			&.selected {
+				display: block;
+			}
+		}
+	}
+	.contact-info {
+		padding: 0 0 30px;
+		i {
+			font-size: 1.3em;
+		}
+		a:hover i {
+			color: #000;
+		}
+	}
+	.hex-callout {
+		display: none;
+	}
+	&.bio-open {
+		.professionals-nav {
+			a {
+				@include transition(all 1s);
+				&.selected {
+					width: 55%;
+					strong {
+						font-size: 1.5em;
+						text-shadow: 0 0 5px rgba(#000,.8);
+						@include transition(all .7s);
+						@include transition-delay(.3s);
+					}
+					em {
+						font-size: 1em;
+						@include transition(all .7s);
+						@include transition-delay(.3s);
+					}
+				}
+				&.unselected {
+					width: 15%;
+					@include grayscale(100%);
+					opacity: .6;
+					em {
+						display: none;
+					}
+					&:hover {
+						@include grayscale(0%);
+						opacity: 1;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+// Services 
+.slide-service {
+	.inner {
+		overflow: visible;
+		padding: 4em $mobile-side-space;
+	}
+	h2 {
+		position: relative;
+		&:after {
+			content: '';
+		}
+		&:before {
+			content: '-';
+			font-size: 50px;
+			color: $main-color;
+			position: absolute;
+			top: -3px;
+			left: -25px;
+		}
+	}
+
+}
+// Giving Back
+.slide-giving-back-large {
+	padding: 6em 0;
+	h2, p {
+		max-width: 600px;
+		text-align: center;
+		margin: 0 $mobile-side-space;
+
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 50px;
+	}
+}
+.logo-list {
+	overflow: hidden;
+	margin: 0 $mobile-side-space;
+	li {
+		float: left;
+		width: 50%;
+		text-align: center;
+		margin-bottom: 40px;
+		opacity: 0;
+	}
+	img {
+		width: 125px;
+		@include grayscale(100%);
+		opacity: .7;
+		@include transition(all .5s);
+	}
+	img:hover {
+		@include grayscale(0%);
+		opacity: 1;
+	}
+}
+.charity-list {
+	clear: both;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	color: $main-color;
+	font-family: $accent-font;
+	text-transform: uppercase;
+	span {
+		display: inline-block;
+		&:before, &:last-child:after {
+			content: ' ';
+			padding: 0 10px;
+		}
+	}
+}
+// Clients
+.testimonial {
+	padding: 6em 0 4em;
+	strong {
+		font-family: $accent-font;
+		font-size: 1.3em;
+	}
+	p {
+		position: relative;
+		margin-top: 25px;
+		margin-left: 35px;
+		margin-right: 35px;
+		margin-bottom: 3em;
+		&:before {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '“';
+			top: 2px;
+			left: -35px;
+		}
+		&:after {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '”';
+			bottom: -20px;
+			right: -35px;
+		}
+	}
+	.button {
+		margin-left: 35px;
+	}
+	img {
+		max-width: 150px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: $gray;
+		font-family: $accent-font;
+		margin-bottom: 1em;
+		line-height: 1.3em;
+	}
+	.client-name {
+		text-align: center;
+		a {
+			display: block;
+			@include transition(all .3s);
+			@include grayscale(100%);
+			opacity: .7;
+
+			&:hover {
+				@include transform(scale(1.05));
+				@include grayscale(0%);
+				opacity: 1;
+			}
+		}
+	}
+	.no-logo {
+		font-weight: bold;
+	}
+}
+.cb-cross {	
+	background-image: url(../img/slide-bg-crossfit.jpg);
+	@include transition(all 1s);
+}
+.melt-mel {
+	background-image: url(../img/slide-bg-melissa.jpg);
+	@include transition(all 1s);
+	img {
+		width:150px;
+	}
+	&.testimonial-bg .client-name {
+		padding: 0;
+	}
+}
+.reggie {
+	background-image: url(../img/slide-bg-reggie.jpg);
+	@include transition(all 1s);
+}
+.wodstar {
+	background-image: url(../img/slide-bg-wodstar.jpg);
+	@include transition(all 1s);
+}
+.taxanista {
+	background-image: url(../img/slide-bg-taxanista.jpg);
+	@include transition(all 1s);
+}
+.testimonial-bg {
+	padding: 12em 0 10em;
+	background-color: $main-color;
+	p {
+		font-family: $accent-font;
+		color: #fff;
+		text-shadow: 0 0 10px #000;
+
+		position: relative;
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-right: 20px;
+		margin-bottom: 3em;
+		strong {
+			font-size: 1.5em;
+		}
+		&:before, &:after {
+			font-size: 4em;
+			color: #fff;
+			position: absolute;
+			opacity: .5;
+			font-family: $font-family;
+		}
+		&:before {
+			content: '“';
+			top: 2px;
+			left: -50px;
+		}
+		&:after {
+			content: '”';
+			bottom: -35px;
+			right: 0px;
+		}
+	}
+	img {
+		max-width: 250px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: #fff;
+		font-family: $accent-font;
+		line-height: 1.3em;
+		margin-bottom: 1em;
+	}
+	.client-name {
+		text-align: center;
+	}
+}
+// Contact
+.slide-contact {
+	.copy {
+		padding: 4em $mobile-side-space 2em;
+	}
+	.phone {
+		display: none;
+	}
+	form {
+		padding: 0 $mobile-side-space;
+	}
+}
+.traklight {
+	text-align: center;
+	.inner {
+		border-top: 1px solid darken($gray-lightest,10);
+	}
+	a {
+		display: inline-block;
+		margin: 2em 0;
+	}
+	img {
+		width: 150px;
+	}
+}
+
+.slide-disclaimer {
+	text-align: center;
+	.inner {
+		border-top: 1px solid darken($gray-lightest,10);
+		padding: 50px 0;
+		line-height: 1.3em;
+	}
+	&.disclaimer-large {
+		font-size: 1.3em;
+		.inner {
+			border-top: none;
+			padding-top: 0;
+		}
+	}
+
+}
+
+// Responsive
+@media all and (max-width: 420px) {
+.slide-bg-image {
+	.button, .button-white {
+		display: block;
+		text-align: center;
+	}
+	.copy {
+		padding: 0 30px;
+	}
+}
+
+}
+@media all and (min-width: 420px) {
+.slide-bg-image {
+	.copy {
+		width: 40%;
+		float: right;
+	}
+	.image {
+		width: 40%;
+		float: left;
+	}
+
+}
+.testimonial {
+	padding: 10em 0 8em;
+	.copy {
+		width: 60%;
+		float: left;
+	}
+	.client-name {
+		width: 40%;
+		float: left;
+	}
+
+}
+// Our Firm
+.about-overview {
+	background-image: url(../img/slide-bg-ourfirm.jpg);
+	background-size: cover;
+	background-position: center top;
+	.inner {
+		padding: 6em 0;
+	}
+	.copy {
+		width: 60%;
+		margin-right: 5%;
+		float: left;
+		padding: 0;
+	}
+
+}
+}
+@media all and (min-width: 800px) {
+.professionals {
+	padding: 8em 0;
+	h2 {
+		margin: 0 auto 2em;
+	}
+	.professionals-nav {
+		strong, em {
+			display: block;
+		}
+		a {
+			height: 400px;
+		}
+	}
+	.bio {
+		overflow: hidden;
+		.list {
+			width: 50%;
+			float: left;
+			.bullets {
+				margin-right: 25px;
+				
+			}
+		}
+	}
+	.page-content {
+		.bio {
+			padding: 5em;
+			border: 1px solid $gray-light;
+			border-top: none;
+		}
+	}
+	.contact-info {
+		float: right;
+		padding: 0 0 30px 30px;
+		i {
+			font-size: 2em;
+		}
+	}
+	.hex-callout {
+		display: block;
+	}
+	.name {
+		display: none;
+	}
+	&.bio-open {
+		.professionals-nav {
+			a {
+				&.selected {
+					strong {
+						display: block;
+					}
+					em {
+						display: block;
+					}
+				}
+			}
+
+		}
+	}
+
+}
+
+// Services 
+.slide-service {
+	.inner {
+		padding: 0;
+	}
+	ul {
+		overflow: hidden;
+		position: relative;
+		padding: 10em 0 6em;
+		margin-top: -2em;
+		z-index: 10;
+		&:before {
+			content: '-';
+			width: 4px;
+			font-size: 1px;
+			color: $main-color;
+			background: $main-color;
+			position: absolute;
+			top: 0; bottom: 0;
+			left: 50%;
+			margin-left: -2px;
+		}
+	}
+	li {
+		width: 50%;
+		float: left;
+		padding-bottom: 40px;
+		&:nth-child(odd) {
+			padding-right: 50px;
+			clear: left;
+			text-align: right;
+			h2:after {
+				right: -53px;
+			}
+		}
+		&:nth-child(even) {
+			padding-left: 50px;
+			@include transform(translateY(100px));
+			h2:after {
+				left: -53px;
+			}
+		}
+	}
+	h2 {
+		position: relative;
+		&:before {
+			content: '';
+		}
+		&:after {
+			content: '-';
+			font-size: 50px;
+			color: $main-color;
+			position: absolute;
+			top: 0;
+		}
+	}
+
+}
+
+// Clients
+.testimonial-bg {
+	.quote {
+		width: 60%;
+		float: left;
+	}
+	.client-name {
+		width: 40%;
+		padding: 2em 0;
+		float: right;
+	}
+}
+
+// Giving Back
+.slide-giving-back-large {
+	h2, p {
+		margin: 0 auto;
+
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 50px;
+	}
+}
+.logo-list {
+	margin: 0;
+	li {
+		width: 20%;
+	}
+
+}
+
+// Contact
+.slide-contact {
+	padding: 8em 0 4em;
+	.copy {
+		width: 40%;
+		padding: 0;
+		padding-right: 100px;
+		float: left;
+	}
+	.phone {
+		margin-top: 3em;
+		font-size: 1.4em;
+		color: $main-color;
+		font-family: $accent-font;
+	}
+	form {
+		width: 60%;
+		float: left;
+		padding: 0;
+
+	}
+}
+
+
+}
+
+
