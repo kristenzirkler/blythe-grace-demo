@@ -1,4 +1,4 @@
-# blythe-grace-demo
+# BlytheGrace.com 6-2015
 
 * Hosting: https://pages.github.com/ - Free hosting
 * Programming Language: Jekyll - http://jekyllrb.com/ 
