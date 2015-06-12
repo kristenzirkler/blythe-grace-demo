@@ -185,6 +185,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/favicon-144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4274,
+		"inputAbbreviatedPath": "\/_site\/img\/favicon-144.png",
+		"outputAbbreviatedPath": "\/_site\/img\/favicon-144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/favicon-152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4386,
+		"inputAbbreviatedPath": "\/_site\/img\/favicon-152.png",
+		"outputAbbreviatedPath": "\/_site\/img\/favicon-152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/giveback-logos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1295,6 +1317,39 @@
 		"initialSize": 97130,
 		"inputAbbreviatedPath": "\/img\/bio-robert.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-robert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon-144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4274,
+		"inputAbbreviatedPath": "\/img\/favicon-144.png",
+		"outputAbbreviatedPath": "\/img\/favicon-144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon-152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4386,
+		"inputAbbreviatedPath": "\/img\/favicon-152.png",
+		"outputAbbreviatedPath": "\/img\/favicon-152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1671,
+		"inputAbbreviatedPath": "\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/img\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
