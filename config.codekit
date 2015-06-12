@@ -207,6 +207,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1671,
+		"inputAbbreviatedPath": "\/_site\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/_site\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/giveback-logos.png": {
 		"fileType": 32768,
 		"ignore": 0,
