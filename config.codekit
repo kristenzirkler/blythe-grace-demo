@@ -218,11 +218,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/fbimage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32073,
+		"inputAbbreviatedPath": "\/_site\/img\/fbimage.png",
+		"outputAbbreviatedPath": "\/_site\/img\/fbimage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/giveback-logos.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 117724,
+		"initialSize": 111290,
 		"inputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
 		"outputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
 		"outputPathIsOutsideProject": 0,
@@ -489,6 +500,17 @@
 		"initialSize": 6386,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-girlscouts.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-girlscouts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-homefurgood-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15508,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-homefurgood-color.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-homefurgood-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -953,28 +975,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/main.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/vendor\/instafeed.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1044,15 +1044,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/professionals\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/README.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1395,6 +1386,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fbimage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32073,
+		"inputAbbreviatedPath": "\/img\/fbimage.png",
+		"outputAbbreviatedPath": "\/img\/fbimage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/giveback-logos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1666,6 +1668,17 @@
 		"initialSize": 6386,
 		"inputAbbreviatedPath": "\/img\/logo-girlscouts.png",
 		"outputAbbreviatedPath": "\/img\/logo-girlscouts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-homefurgood-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15508,
+		"inputAbbreviatedPath": "\/img\/logo-homefurgood-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-homefurgood-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

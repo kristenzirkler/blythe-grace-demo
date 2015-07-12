@@ -91,7 +91,10 @@ $(function(){
 
     // Animate Logos on Giving Back
     $('.logo-list li').each(function(i) {
-        $(this).delay((i++) * 100).fadeTo(1000, 1);
+        if ($(this).hasClass('hidden-xs')) {
+        } else {
+            $(this).delay((i++) * 100).fadeTo(1000, 1);
+        }
     });
 
     // Grayscale on scroll

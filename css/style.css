@@ -524,6 +524,10 @@ p {
 
   .footer .nav {
     display: inline-block; } }
+/* Portrait and Landscape */
+@media (max-device-width: 480px) {
+  .hidden-xs {
+    display: none; } }
 .slide {
   background: #fff; }
   .slide .inner {
@@ -670,7 +674,7 @@ p {
       background-size: cover;
       background-position: center top;
       height: 200px;
-      width: 25%;
+      width: 33.333%;
       float: left;
       overflow: hidden; }
       .professionals .professionals-nav a:hover strong {
@@ -734,7 +738,7 @@ p {
     -o-transition: all 1s;
     transition: all 1s; }
     .professionals.bio-open .professionals-nav a.selected {
-      width: 55%; }
+      width: 50%; }
       .professionals.bio-open .professionals-nav a.selected strong {
         font-size: 1.5em;
         text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -757,7 +761,7 @@ p {
         -o-transition-delay: 0.3s;
         transition-delay: 0.3s; }
     .professionals.bio-open .professionals-nav a.unselected {
-      width: 15%;
+      width: 25%;
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
       opacity: .6; }

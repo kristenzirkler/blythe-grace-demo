@@ -249,4 +249,9 @@ p {
 
 }
 
-
+/* Portrait and Landscape */
+@media (max-device-width: 480px) {
+	.hidden-xs {
+		display: none;
+	}
+}

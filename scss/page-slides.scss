@@ -181,7 +181,7 @@
 			background-size: cover;
 			background-position: center top;
 			height: 200px;
-			width: 25%;
+			width: 33.333%;
 			float: left;
 			overflow: hidden;
 			&:hover {
@@ -248,7 +248,7 @@
 			a {
 				@include transition(all 1s);
 				&.selected {
-					width: 55%;
+					width: 50%;
 					strong {
 						font-size: 1.5em;
 						text-shadow: 0 0 5px rgba(#000,.8);
@@ -262,7 +262,7 @@
 					}
 				}
 				&.unselected {
-					width: 15%;
+					width: 25%;
 					@include grayscale(100%);
 					opacity: .6;
 					em {
