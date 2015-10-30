@@ -191,7 +191,7 @@ if ($('body').hasClass('home') || $('body').hasClass('contact')) {
     }
     function addMarkerToMap(lat, long){
         var mapMarkerIcon = {
-          url: 'img/marker-icon-2.png',
+          url: 'http://blythegrace.com/img/marker-icon-2.png',
           size: new google.maps.Size(80, 80),
           origin: new google.maps.Point(0, 0),
           anchor: new google.maps.Point(40, 40),
