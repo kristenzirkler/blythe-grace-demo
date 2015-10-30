@@ -143,7 +143,7 @@ if ($('body').hasClass('home') || $('body').hasClass('contact')) {
     }
 
     var map,
-    	targetLocation = new google.maps.LatLng(33.48067, -111.94530),
+    	targetLocation = new google.maps.LatLng(33.485222, -111.90989),
     	mapStyles = [
     		{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},
     		{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},
@@ -209,10 +209,10 @@ if ($('body').hasClass('home') || $('body').hasClass('contact')) {
     $('.map-slide').hover(function () {
       newMapOptions();
       $(this).addClass('map-open');
-      addMarkerToMap(33.48067, -111.94530);
+      addMarkerToMap(33.485222, -111.90989);
     });
     $('.map-slide').click(function () {
-    	window.open('https://maps.google.com?daddr=6350+East+Thomas+Road+Suite+330+Scottsdale+Arizona+85251');
+    	window.open('https://maps.google.com?daddr=3260+N+Hayden+Rd,+Scottsdale,+AZ+85251');
     });
 }
 

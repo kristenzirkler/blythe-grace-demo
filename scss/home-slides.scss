@@ -279,10 +279,25 @@ $callout-offset: 200px;
 		margin-top: -(($hex-size-side*4)/2);
 		margin-left: -($hex-size/2);
 	}
+	.map-address {
+		@include transition(all .5s);
+		font-size: 18px;
+		padding: 10px;
+		color: #fff;
+		text-align: center;
+		background: rgba($main-color,.8);
+		position: absolute;
+		bottom: -50px;
+		left: 0; right: 0;
+		z-index: 2;
+	}
 	&.map-open {
 	    .hex, .text {
 	    	@include transform(scale(.8));
 			@include transition(all .5s);
+	    }
+	    .map-address {
+			bottom: 0;
 	    }
 	}
 	&:hover {

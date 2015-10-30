@@ -975,8 +975,6 @@ p {
 
 .slide-contact .copy {
   padding: 4em 20px 2em; }
-.slide-contact .phone {
-  display: none; }
 .slide-contact form {
   padding: 0 20px; }
 
@@ -1151,6 +1149,8 @@ p {
       font-size: 1.4em;
       color: #213553;
       font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+      .slide-contact .phone em {
+        font-size: 14px; }
     .slide-contact form {
       width: 60%;
       float: left;
@@ -1419,6 +1419,21 @@ p {
     left: 50%;
     margin-top: -120px;
     margin-left: -100px; }
+  .map-slide .map-address {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    background: rgba(33, 53, 83, 0.8);
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    z-index: 2; }
   .map-slide.map-open .hex, .map-slide.map-open .text {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -1429,6 +1444,8 @@ p {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
+  .map-slide.map-open .map-address {
+    bottom: 0; }
   .map-slide:hover .text {
     content: 'Get Directions'; }
 

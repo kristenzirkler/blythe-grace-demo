@@ -499,9 +499,6 @@
 	.copy {
 		padding: 4em $mobile-side-space 2em;
 	}
-	.phone {
-		display: none;
-	}
 	form {
 		padding: 0 $mobile-side-space;
 	}
@@ -761,6 +758,9 @@
 		font-size: 1.4em;
 		color: $main-color;
 		font-family: $accent-font;
+		em {
+			font-size: 14px;
+		}
 	}
 	form {
 		width: 60%;
