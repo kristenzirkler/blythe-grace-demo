@@ -8,7 +8,10 @@
 }
 .article {
   border-top: 1px solid #ccc;
-  padding-top: 20px;
+  padding-top: 40px;
+}
+.page-body {
+  background: #fff;
 }
 
 /* Edited Mailchimp Styles */
@@ -100,7 +103,7 @@
   @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
   */
     body,#bodyTable{
-      /*@editable*/background-color:#FAFAFA;
+      /*@editable*/background-color:{{ page.gray-lightest }};
     }
   /*
   @tab Page
@@ -174,7 +177,7 @@
   @tip Set the background color and borders for your email's preheader area.
   */
     #templatePreheader{
-      /*@editable*/background-color:#FAFAFA;
+      /*@editable*/background-color:{{ page.gray-lightest }};
       /*@editable*/border-top:0;
       /*@editable*/border-bottom:0;
       /*@editable*/padding-top:9px;
@@ -208,10 +211,10 @@
   @tip Set the background color and borders for your email's header area.
   */
     #templateHeader{
-      /*@editable*/background-color:#FFFFFF;
+      /*@editable*/background-color:{{ page.gray-lightest }};
       /*@editable*/border-top:0;
       /*@editable*/border-bottom:0;
-      /*@editable*/padding-top:9px;
+      /*@editable*/padding-top:0;
       /*@editable*/padding-bottom:0;
     }
   /*
@@ -242,11 +245,11 @@
   @tip Set the background color and borders for your email's body area.
   */
     #templateBody{
-      /*@editable*/background-color:#FFFFFF;
+      /*@editable*/background-color:{{ page.gray-lightest }};
       /*@editable*/border-top:0;
       /*@editable*/border-bottom:0;
-      /*@editable*/padding-top:9px;
-      /*@editable*/padding-bottom:9px;
+      /*@editable*/padding-top:0;
+      /*@editable*/padding-bottom:0;
     }
   /*
   @tab Body
@@ -310,7 +313,7 @@
   @tip Set the background color and borders for your email's footer area.
   */
     #templateFooter{
-      /*@editable*/background-color:#FAFAFA;
+      /*@editable*/background-color:{{ page.gray-lightest }};
       /*@editable*/border-top:0;
       /*@editable*/border-bottom:0;
       /*@editable*/padding-top:9px;

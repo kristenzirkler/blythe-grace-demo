@@ -7,6 +7,8 @@ path: ../
 meta-title: 
 meta-description: 
 
+gray-lightest: |
+ #eee;
 gray-darkest: |
  #333333;
 main-color: |
@@ -40,7 +42,7 @@ subheader-style: |
         <title>*|MC:SUBJECT|*</title>
 
 <style type="text/css">
-body { font-family: arial; margin:0; padding:0; background-color:#ffffff; background:#ffffff; color: #444444;} 
+body { font-family: arial; margin:0; padding:0; background-color: {{ page.gray-lightest }}; background:{{ page.gray-lightest }}; color: {{ page.gray-darkest }};} 
 p { max-width: 575px; }
 table.footer td.subscription a { color: #434343; }
 a, a:visited { color: {{ page.main-color }}; }
@@ -52,7 +54,7 @@ a, a:visited { color: {{ page.main-color }}; }
 <!--<![endif]-->
 
 </head>
-    <body bgcolor="#fff" link="{{ page.main-color }}" vlink="{{ page.main-color }}">
+    <body bgcolor="{{ page.gray-lightest }}" link="{{ page.main-color }}" vlink="{{ page.main-color }}">
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
                 <tr>
@@ -110,18 +112,16 @@ a, a:visited { color: {{ page.main-color }}; }
                                     <tr>
                                     <td align="center" valign="top" width="600" style="width:600px;">
                                     <![endif]-->
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer page-body">
                                         <tr>
                                             <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
-                <td valign="top" style="padding:9px" class="mcnImageBlockInner">
+                <td valign="top" class="mcnImageBlockInner">
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
                         <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0;">
-                                
-                                <table style="width:564px;" class="mcpreview-image-uploader"></table>
-                                
+                            <td class="mcnImageContent" valign="top" style="padding-bottom: 30px;">
+                                <img src="http://blythegrace.com/img/email-header.jpg" style="width:100%;"/>
                             </td>
                         </tr>
                     </tbody></table>
@@ -145,7 +145,7 @@ a, a:visited { color: {{ page.main-color }}; }
                                     <tr>
                                     <td align="center" valign="top" width="600" style="width:600px;">
                                     <![endif]-->
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer page-body">
                                         <tr>
                                             <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
                                                 <tbody class="mcnTextBlockOuter">
@@ -154,7 +154,7 @@ a, a:visited { color: {{ page.main-color }}; }
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+                                                                    <td valign="top" class="mcnTextContent" style="padding-top: 0; padding-right: 40px; padding-bottom: 20px; padding-left: 40px;">
 
 <div class="firm-update-header"><h1 mc:edit="firm-update-header">Firm Update</h1></div>
 <div class="firm-update" mc:edit="firm-update">
@@ -178,10 +178,32 @@ a, a:visited { color: {{ page.main-color }}; }
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
                                                                 <tbody>
                                                                 <tr>
-                                                                    <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+                                                                    <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
 <div class="article" mc:repeatable>
     <h2 mc:edit="article_title"><a href="#">Article Titles Can Be About This Long</a></h2>
     <p mc:edit="article_content">Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas eleifend tempor. Vestibulum accumsan magna ut placerat congue. Sed eget nibh ut eros egestas tempor id et magna. Donec malesuada, orci vulputate convallis aliquam.</p>
+</div>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody></table>
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                                <tbody class="mcnTextBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" class="mcnTextBlockInner">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+<div class="referrals" style="border-top: 1px solid #ccc; padding-top: 20px;">
+    <p mc:edit="referral_content">P.S. Thank you for your referrals, they are making a big difference in our practice.  Feel free to share our name with your friends, family, and colleagues on LinkedIn and Facebook.</p>
 </div>
 
                                                                     </td>
