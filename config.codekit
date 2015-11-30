@@ -194,6 +194,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-staci.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167684,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-staci.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-staci.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/favicon-144.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -984,6 +995,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/main.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/js\/vendor\/instafeed.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1358,6 +1391,17 @@
 		"initialSize": 90057,
 		"inputAbbreviatedPath": "\/img\/bio-robert.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-robert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-staci.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164212,
+		"inputAbbreviatedPath": "\/img\/bio-staci.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-staci.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

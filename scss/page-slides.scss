@@ -181,7 +181,8 @@
 			background-size: cover;
 			background-position: center top;
 			height: 200px;
-			width: 33.333%;
+			//width: 33.333%; // 3 people
+			width: 25%; // 4 people
 			float: left;
 			overflow: hidden;
 			&:hover {
@@ -248,7 +249,8 @@
 			a {
 				@include transition(all 1s);
 				&.selected {
-					width: 50%;
+					//width: 50%; // 3 people
+					width: 55%; // 4 people
 					strong {
 						font-size: 1.5em;
 						text-shadow: 0 0 5px rgba(#000,.8);
@@ -262,7 +264,8 @@
 					}
 				}
 				&.unselected {
-					width: 25%;
+					//width: 25%; // 3 people
+					width: 15%; // 4 people
 					@include grayscale(100%);
 					opacity: .6;
 					em {

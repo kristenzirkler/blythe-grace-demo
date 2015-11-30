@@ -674,7 +674,7 @@ p {
       background-size: cover;
       background-position: center top;
       height: 200px;
-      width: 33.333%;
+      width: 25%;
       float: left;
       overflow: hidden; }
       .professionals .professionals-nav a:hover strong {
@@ -738,7 +738,7 @@ p {
     -o-transition: all 1s;
     transition: all 1s; }
     .professionals.bio-open .professionals-nav a.selected {
-      width: 50%; }
+      width: 55%; }
       .professionals.bio-open .professionals-nav a.selected strong {
         font-size: 1.5em;
         text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -761,7 +761,7 @@ p {
         -o-transition-delay: 0.3s;
         transition-delay: 0.3s; }
     .professionals.bio-open .professionals-nav a.unselected {
-      width: 25%;
+      width: 15%;
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
       opacity: .6; }
