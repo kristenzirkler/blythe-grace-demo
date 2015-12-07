@@ -621,6 +621,108 @@ p {
 	}
 }
 */
+.associations h2 {
+  color: #213553;
+  margin-bottom: 40px;
+  text-align: left; }
+.associations p a {
+  text-decoration: underline; }
+  .associations p a:hover {
+    color: #304c77; }
+.associations strong {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Roboto Slab", "Times New Roman", sans-serif;
+  color: #213553; }
+.associations .inner {
+  padding: 3em 0;
+  overflow: hidden; }
+.associations .copy, .associations .logos {
+  padding: 0 20px; }
+.associations .logos {
+  margin-bottom: 30px; }
+  .associations .logos img {
+    width: 100%; }
+.associations .divider {
+  height: 150px;
+  position: relative;
+  text-align: center; }
+  .associations .divider:after, .associations .divider:before {
+    border-bottom: 4px solid #959595;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 0;
+    left: 57%;
+    content: '';
+    z-index: 2; }
+  .associations .divider:before {
+    right: 57%;
+    left: 0; }
+  .associations .divider span {
+    font-weight: bold;
+    font-size: 140px;
+    color: #eee;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: 0; }
+  .associations .divider em {
+    font-weight: bold;
+    color: #959595;
+    line-height: 150px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+
+.association-header {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 50px; }
+  .association-header h2 {
+    color: #213553;
+    max-width: 500px;
+    margin: 0 auto 25px; }
+  .association-header img {
+    max-width: 275px;
+    margin-top: 25px; }
+  .association-header .divider {
+    display: none;
+    width: 150px;
+    margin: 0 25px;
+    height: 90px;
+    position: relative;
+    text-align: center; }
+    .association-header .divider:after, .association-header .divider:before {
+      border-bottom: 4px solid #959595;
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      right: 0;
+      left: 70%;
+      content: '';
+      z-index: 2; }
+    .association-header .divider:before {
+      right: 70%;
+      left: 0; }
+    .association-header .divider span {
+      font-weight: bold;
+      font-size: 130px;
+      color: #eee;
+      position: absolute;
+      top: -20px;
+      right: 0;
+      left: 0; }
+    .association-header .divider em {
+      font-weight: bold;
+      color: #959595;
+      line-height: 90px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+      font-family: "Roboto Slab", "Times New Roman", sans-serif; }
+
 .about-overview {
   font-size: 1.2em; }
   .about-overview strong {
@@ -1022,6 +1124,14 @@ p {
     .testimonial .client-name {
       width: 40%;
       float: left; }
+
+  .associations .copy {
+    float: left;
+    width: 55%; }
+  .associations .logos {
+    float: left;
+    width: 40%;
+    padding-right: 5%; }
 
   .about-overview {
     background-image: url(../img/slide-bg-ourfirm.jpg);
