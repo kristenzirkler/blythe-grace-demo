@@ -105,6 +105,127 @@
 }
 */
 
+// Associations
+.associations {
+	h2 {
+		color: $main-color;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+	p a {
+		text-decoration: underline;
+		&:hover {
+			color: lighten($main-color,10);
+		}
+	}
+	strong {
+		font-size: 24px;
+		line-height: 32px;
+		font-family: $accent-font;
+		color: $main-color;
+	}
+	.inner {
+		padding: 3em 0;
+		overflow: hidden;
+	}
+	.copy, .logos {
+		padding: 0 $mobile-side-space;
+	}
+	.logos {
+		//text-align: center;
+		margin-bottom: 30px;
+		img {
+			width: 100%;
+		}
+	}
+	.divider {
+		height: 150px;
+		position: relative;
+		text-align: center;
+		&:after, &:before {
+			border-bottom: 4px solid #959595;
+			position: absolute;
+			top: 50%; margin-top: -2px;
+			right: 0; left: 57%;
+			content: '';
+			z-index: 2;
+		}
+		&:before {
+			right: 57%; left: 0; 
+		}
+		span {
+			font-weight: bold;
+			font-size: 140px;
+			color: #eee;
+			position: absolute;
+			top: -10px;
+			right: 0; left: 0;
+		}
+		em {
+			font-weight: bold;
+			color: #959595;
+			line-height: 150px;
+			margin: 0 auto;
+			position: relative;
+			z-index: 2;
+			font-family: $accent-font;
+		}
+	}
+}
+.association-header {
+	text-align: center;
+	overflow: hidden;
+	padding-top: 50px;
+	h2 {
+		color: $main-color;
+		max-width: 500px;
+		margin: 0 auto 25px;
+	}
+	img {
+		max-width: 275px;
+		margin-top: 25px;
+	}
+	img, .divider {
+		//float: left;
+	}
+	.divider {
+		display: none;
+		width: 150px;
+		margin: 0 25px;
+		height: 90px;
+		position: relative;
+		text-align: center;
+		&:after, &:before {
+			border-bottom: 4px solid #959595;
+			position: absolute;
+			top: 50%; margin-top: -2px;
+			right: 0; left: 70%;
+			content: '';
+			z-index: 2;
+		}
+		&:before {
+			right: 70%; left: 0; 
+		}
+		span {
+			font-weight: bold;
+			font-size: 130px;
+			color: #eee;
+			position: absolute;
+			top: -20px;
+			right: 0; left: 0;
+		}
+		em {
+			font-weight: bold;
+			color: #959595;
+			line-height: 90px;
+			margin: 0 auto;
+			position: relative;
+			z-index: 2;
+			font-family: $accent-font;
+		}
+	}
+
+}
 
 // Our Firm
 .about-overview {
@@ -573,6 +694,18 @@
 		float: left;
 	}
 
+}
+// Associations
+.associations {
+	.copy {
+		float: left;
+		width: 55%;
+	}
+	.logos {
+		float: left;
+		width: 40%;
+		padding-right: 5%;
+	}
 }
 // Our Firm
 .about-overview {
