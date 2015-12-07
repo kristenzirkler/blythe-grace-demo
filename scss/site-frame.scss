@@ -56,7 +56,7 @@ p {
 		font-size: 2em;
 		height: $nav-height;
 		float: left;
-		margin: 0 20px;
+		margin: 0 0 0 20px;
 		i {
 			display: inline-block;
 			line-height: $nav-height;
@@ -214,7 +214,7 @@ p {
 	}
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 950px) {
 
 	h1 {
 		font-size: 42px;
@@ -233,7 +233,7 @@ p {
 			float: right;
 			overflow: hidden;
 			line-height: $nav-height;
-			margin: 0 20px;
+			margin: 0 20px 0 0;
 			li {
 				display: inline-block;
 				margin: 0 .5em;

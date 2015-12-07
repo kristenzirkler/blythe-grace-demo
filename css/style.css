@@ -390,7 +390,7 @@ p {
     font-size: 2em;
     height: 70px;
     float: left;
-    margin: 0 20px; }
+    margin: 0 0 0 20px; }
     .site-tag .logo i {
       display: inline-block;
       line-height: 70px; }
@@ -502,7 +502,7 @@ p {
 
   .slide-page-header h1 {
     margin: 0 20px; } }
-@media all and (min-width: 800px) {
+@media all and (min-width: 950px) {
   h1 {
     font-size: 42px; }
 
@@ -517,7 +517,7 @@ p {
     float: right;
     overflow: hidden;
     line-height: 70px;
-    margin: 0 20px; }
+    margin: 0 20px 0 0; }
     .site-tag .nav li {
       display: inline-block;
       margin: 0 .5em; }
