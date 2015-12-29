@@ -274,11 +274,37 @@
 	.values {
 		overflow: hidden;
 		.copy {
-			margin-bottom: 20px;
 			div:nth-child(5n) {
 				clear: both;
 			}
 		}
+	}
+}
+.instafeed {
+	background-color: $main-color;
+    background-image: url(../img/slide-bg-camelback.jpg);
+    &:after {
+    	display: none;
+    }
+	.inner {
+		padding: 6em 2em;
+	}
+	h2 {
+		color: #fff;
+		margin-bottom: 20px;
+		a {
+			color: #fff;
+		}
+	}
+	.images {
+		img {
+			width: 100%;
+		}
+		a {
+			display: inline-block;
+			width: 50%;
+		}
+
 	}
 }
 
@@ -876,6 +902,18 @@
 	margin: 0;
 	li {
 		width: 20%;
+	}
+
+}
+.instafeed {
+	.inner {
+		padding: 9em 2em;
+	}
+	.images {
+		a {
+			width: 25%;
+			padding: 0 20px 20px 0;
+		}
 	}
 
 }

@@ -754,10 +754,26 @@ p {
   display: none; }
 .our-firm-page .values {
   overflow: hidden; }
-  .our-firm-page .values .copy {
+  .our-firm-page .values .copy div:nth-child(5n) {
+    clear: both; }
+
+.instafeed {
+  background-color: #213553;
+  background-image: url(../img/slide-bg-camelback.jpg); }
+  .instafeed:after {
+    display: none; }
+  .instafeed .inner {
+    padding: 6em 2em; }
+  .instafeed h2 {
+    color: #fff;
     margin-bottom: 20px; }
-    .our-firm-page .values .copy div:nth-child(5n) {
-      clear: both; }
+    .instafeed h2 a {
+      color: #fff; }
+  .instafeed .images img {
+    width: 100%; }
+  .instafeed .images a {
+    display: inline-block;
+    width: 50%; }
 
 .professionals {
   padding: 4em 0; }
@@ -1246,6 +1262,12 @@ p {
     margin: 0; }
     .logo-list li {
       width: 20%; }
+
+  .instafeed .inner {
+    padding: 9em 2em; }
+  .instafeed .images a {
+    width: 25%;
+    padding: 0 20px 20px 0; }
 
   .slide-contact {
     padding: 8em 0 4em; }
