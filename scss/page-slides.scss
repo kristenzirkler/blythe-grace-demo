@@ -107,6 +107,7 @@
 
 // Associations
 .associations {
+	border-bottom: 3px solid $main-color;
 	h2 {
 		color: $main-color;
 		margin-bottom: 40px;
@@ -481,7 +482,7 @@
 		width: 125px;
 		@include grayscale(100%);
 		opacity: .7;
-		@include transition(all .5s);
+		@include transition(all .3s);
 	}
 	img:hover {
 		@include grayscale(0%);

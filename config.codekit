@@ -284,9 +284,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 111290,
+		"initialSize": 121337,
 		"inputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
 		"outputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hrready-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14781,
+		"inputAbbreviatedPath": "\/_site\/img\/hrready-photo.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hrready-photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -496,6 +507,17 @@
 		"initialSize": 17420,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-clearinsight.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-clearinsight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-desertbotanical-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62763,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-desertbotanical-color.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-desertbotanical-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1525,6 +1547,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hrready-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14781,
+		"inputAbbreviatedPath": "\/img\/hrready-photo.jpg",
+		"outputAbbreviatedPath": "\/img\/hrready-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-afrika-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1730,6 +1763,17 @@
 		"initialSize": 17420,
 		"inputAbbreviatedPath": "\/img\/logo-clearinsight.png",
 		"outputAbbreviatedPath": "\/img\/logo-clearinsight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-desertbotanical-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62763,
+		"inputAbbreviatedPath": "\/img\/logo-desertbotanical-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-desertbotanical-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
