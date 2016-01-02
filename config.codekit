@@ -218,7 +218,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 103470,
+		"initialSize": 89046,
 		"inputAbbreviatedPath": "\/_site\/img\/email-footer.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/email-footer.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2181,6 +2181,17 @@
 		"initialSize": 1884,
 		"inputAbbreviatedPath": "\/img\/marker-icon.png",
 		"outputAbbreviatedPath": "\/img\/marker-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/robert-signature.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3199,
+		"inputAbbreviatedPath": "\/img\/robert-signature.png",
+		"outputAbbreviatedPath": "\/img\/robert-signature.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
