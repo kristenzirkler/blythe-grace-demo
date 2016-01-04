@@ -170,6 +170,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-cliff-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19983,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-cliff-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-cliff-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-cliff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103583,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-cliff.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-cliff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-julie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -929,6 +951,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/robert-signature.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3199,
+		"inputAbbreviatedPath": "\/_site\/img\/robert-signature.png",
+		"outputAbbreviatedPath": "\/_site\/img\/robert-signature.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/rsalaw-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1422,6 +1455,28 @@
 		"initialSize": 84760,
 		"inputAbbreviatedPath": "\/img\/bio-chantel.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-chantel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-cliff-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19983,
+		"inputAbbreviatedPath": "\/img\/bio-cliff-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-cliff-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-cliff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103583,
+		"inputAbbreviatedPath": "\/img\/bio-cliff.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-cliff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
