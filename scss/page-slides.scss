@@ -104,7 +104,11 @@
 	}
 }
 */
-
+.give-back {
+	.image a {
+		display: block;
+	}
+}
 // Associations
 .associations {
 	border-bottom: 3px solid $main-color;

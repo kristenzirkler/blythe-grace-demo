@@ -137,6 +137,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/img\/azfinest.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60028,
+		"inputAbbreviatedPath": "\/_site\/img\/azfinest.png",
+		"outputAbbreviatedPath": "\/_site\/img\/azfinest.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/badge-avmartindale.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1425,6 +1436,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/azfinest.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60028,
+		"inputAbbreviatedPath": "\/img\/azfinest.png",
+		"outputAbbreviatedPath": "\/img\/azfinest.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/badge-avmartindale.png": {
 		"fileType": 32768,

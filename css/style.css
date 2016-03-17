@@ -444,6 +444,8 @@ p {
     float: right;
     font-size: 1.3em;
     margin-right: 20px; }
+    .footer .social span {
+      display: none; }
   .footer .nav {
     font-size: .8em;
     display: none; }
@@ -621,6 +623,9 @@ p {
 	}
 }
 */
+.give-back .image a {
+  display: block; }
+
 .associations {
   border-bottom: 3px solid #213553; }
   .associations h2 {

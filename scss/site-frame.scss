@@ -120,6 +120,9 @@ p {
 		float: right;
 		font-size: 1.3em;
 		margin-right: 20px;
+		span {
+			display: none;
+		}
 	}
 	.nav {
 		font-size: .8em;
