@@ -385,6 +385,13 @@ p {
   z-index: 100; }
   .site-tag a {
     color: #213553; }
+  .site-tag .skip-main {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; }
   .site-tag .logo {
     display: inline-block;
     font-size: 2em;
@@ -394,6 +401,12 @@ p {
     .site-tag .logo i {
       display: inline-block;
       line-height: 70px; }
+    .site-tag .logo span {
+      width: 1px;
+      overflow: hidden;
+      display: block;
+      float: left;
+      text-indent: -5000px; }
   .site-tag .mobile-toggle {
     float: right;
     border: 1px solid #213553;
@@ -444,8 +457,15 @@ p {
     float: right;
     font-size: 1.3em;
     margin-right: 20px; }
+    .footer .social a {
+      position: relative;
+      overflow: hidden; }
     .footer .social span {
-      display: none; }
+      display: block;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      top: -2px; }
   .footer .nav {
     font-size: .8em;
     display: none; }
@@ -812,25 +832,25 @@ p {
     .professionals .professionals-nav span {
       display: block;
       background: #000;
-      background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+      background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.9) 100%);
       /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.5)));
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.9)));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+      background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.9) 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+      background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.9) 100%);
       /* Opera 11.10+ */
-      background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+      background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.9) 100%);
       /* IE10+ */
-      background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+      background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.9) 100%);
       /* W3C */
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
       color: #fff;
-      padding: .3em .5em;
+      padding: 1.5em .5em .3em;
       line-height: 1.4em;
       position: absolute;
       bottom: 0;
-      height: 60px;
+      height: 80px;
       width: 600px;
       overflow: hidden; }
     .professionals .professionals-nav strong, .professionals .professionals-nav em {
@@ -1336,6 +1356,12 @@ p {
     color: #fff; }
     .home-intro .logo i {
       margin-left: -10px; }
+    .home-intro .logo span {
+      width: 1px;
+      overflow: hidden;
+      display: block;
+      float: left;
+      text-indent: -5000px; }
   .home-intro .site-tag {
     position: relative;
     z-index: 2; }

@@ -349,14 +349,14 @@
 		span {
 			display: block;
 			//background: rgba($main-color,.9);
-			@include gradient(#000,0,#000,.5);
-			text-shadow: 0 0 5px rgba(#000,.5);
+			@include gradient(#000,0,#000,.9);
+			text-shadow: 0 0 5px rgba(#000,.9);
 			color: #fff;
-			padding: .3em .5em;
+			padding: 1.5em .5em .3em;
 			line-height: 1.4em;
 			position: absolute;
 			bottom: 0;
-			height: 60px;
+			height: 80px;
 			width: 600px;
 			overflow: hidden;
 		}

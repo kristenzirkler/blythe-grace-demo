@@ -51,6 +51,14 @@ p {
 	a {
 		color: $main-color;
 	}
+	.skip-main {
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
 	.logo {
 		display: inline-block;
 		font-size: 2em;
@@ -60,6 +68,13 @@ p {
 		i {
 			display: inline-block;
 			line-height: $nav-height;
+		}
+		span {
+			width: 1px;
+			overflow: hidden;
+			display: block;
+			float: left;
+			text-indent: -5000px;
 		}
 	}
 	.mobile-toggle {
@@ -120,8 +135,15 @@ p {
 		float: right;
 		font-size: 1.3em;
 		margin-right: 20px;
+		a {
+			position: relative;
+			overflow: hidden;
+		}
 		span {
-			display: none;
+			display: block;
+			width: 1px; height: 1px;
+			overflow: hidden;
+			top: -2px;
 		}
 	}
 	.nav {
