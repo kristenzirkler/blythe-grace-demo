@@ -170,6 +170,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bgpharma-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26693,
+		"inputAbbreviatedPath": "\/_site\/img\/bgpharma-photo.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bgpharma-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1466,6 +1477,17 @@
 		"initialSize": 16974,
 		"inputAbbreviatedPath": "\/img\/badge-swsuper.png",
 		"outputAbbreviatedPath": "\/img\/badge-swsuper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bgpharma-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26693,
+		"inputAbbreviatedPath": "\/img\/bgpharma-photo.jpg",
+		"outputAbbreviatedPath": "\/img\/bgpharma-photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
