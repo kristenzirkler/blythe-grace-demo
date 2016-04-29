@@ -247,6 +247,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-roberti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72905,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-roberti.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-roberti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-staci.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1294,6 +1305,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/scss\/professionals.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/professionals.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/professionals.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/scss\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1554,6 +1581,17 @@
 		"initialSize": 90057,
 		"inputAbbreviatedPath": "\/img\/bio-robert.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-robert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-roberti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72905,
+		"inputAbbreviatedPath": "\/img\/bio-roberti.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-roberti.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2598,6 +2636,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/page-slides.scss",
 		"outputAbbreviatedPath": "\/css\/page-slides.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/professionals.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/professionals.scss",
+		"outputAbbreviatedPath": "\/css\/professionals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
