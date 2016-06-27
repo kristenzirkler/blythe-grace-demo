@@ -170,10 +170,7 @@
 	}
 	.copy {
 		overflow: hidden;
-		.photo {
-			display: none;
-		}
-		.col {
+		div {
 			padding: 0 30px;
 		}
 	}
@@ -426,16 +423,7 @@ $callout-offset: 200px;
 		}
 	}
 	.copy {
-		.photo {
-			display: block;
-			width: 50%;
-			float: left;
-			padding: 0 15px;
-			img {
-				width: 100%;
-			}
-		}
-		.col {
+		div {
 			width: 25%;
 			float: left;
 			padding: 0 15px;

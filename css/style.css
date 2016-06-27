@@ -1489,9 +1489,7 @@ p {
     margin-bottom: 25px; }
   .values .copy {
     overflow: hidden; }
-    .values .copy .photo {
-      display: none; }
-    .values .copy .col {
+    .values .copy div {
       padding: 0 30px; }
   .values .button {
     margin: 0 30px;
@@ -1690,14 +1688,7 @@ p {
       margin-left: 15px; }
       .values h2 span {
         padding: 0 0 10px; }
-    .values .copy .photo {
-      display: block;
-      width: 50%;
-      float: left;
-      padding: 0 15px; }
-      .values .copy .photo img {
-        width: 100%; }
-    .values .copy .col {
+    .values .copy div {
       width: 25%;
       float: left;
       padding: 0 15px;
