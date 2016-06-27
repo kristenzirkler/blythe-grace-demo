@@ -1,0 +1,141 @@
+
+// Clients
+.testimonial {
+	padding: 6em 0 4em;
+	strong {
+		font-family: $accent-font;
+		font-size: 1.3em;
+	}
+	p {
+		position: relative;
+		margin-top: 25px;
+		margin-left: 35px;
+		margin-right: 35px;
+		margin-bottom: 3em;
+		&:before {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '“';
+			top: 2px;
+			left: -35px;
+		}
+		&:after {
+			font-size: 4em;
+			color: #ccc;
+			position: absolute;
+
+			content: '”';
+			bottom: -20px;
+			right: -35px;
+		}
+	}
+	.button {
+		margin-left: 35px;
+	}
+	img {
+		max-width: 150px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: $gray;
+		font-family: $accent-font;
+		margin-bottom: 1em;
+		line-height: 1.3em;
+	}
+	.client-name {
+		text-align: center;
+		a {
+			display: block;
+			@include transition(all .3s);
+			@include grayscale(100%);
+			opacity: .7;
+
+			&:hover {
+				@include transform(scale(1.05));
+				@include grayscale(0%);
+				opacity: 1;
+			}
+		}
+	}
+	.no-logo {
+		font-weight: bold;
+	}
+}
+.cb-cross {	
+	background-image: url(../img/slide-bg-crossfit.jpg);
+	@include transition(all 1s);
+}
+.melt-mel {
+	background-image: url(../img/slide-bg-melissa.jpg);
+	@include transition(all 1s);
+	img {
+		width:150px;
+	}
+	&.testimonial-bg .client-name {
+		padding: 0;
+	}
+}
+.reggie {
+	background-image: url(../img/slide-bg-reggie.jpg);
+	@include transition(all 1s);
+}
+.baum {
+	background-image: url(../img/slide-bg-baum.jpg);
+	@include transition(all 1s);
+}
+.taxanista {
+	background-image: url(../img/slide-bg-taxanista.jpg);
+	@include transition(all 1s);
+}
+.testimonial-bg {
+	padding: 12em 0 10em;
+	background-color: $main-color;
+	p {
+		font-family: $accent-font;
+		color: #fff;
+		text-shadow: 0 0 10px #000;
+
+		position: relative;
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-right: 20px;
+		margin-bottom: 3em;
+		strong {
+			font-size: 1.5em;
+		}
+		&:before, &:after {
+			font-size: 4em;
+			color: #fff;
+			position: absolute;
+			opacity: .5;
+			font-family: $font-family;
+		}
+		&:before {
+			content: '“';
+			top: 2px;
+			left: -50px;
+		}
+		&:after {
+			content: '”';
+			bottom: -35px;
+			right: 0px;
+		}
+	}
+	img {
+		max-width: 250px;
+		margin-bottom: 1em;
+	}
+	em {
+		display: block;
+		color: #fff;
+		font-family: $accent-font;
+		line-height: 1.3em;
+		margin-bottom: 1em;
+	}
+	.client-name {
+		text-align: center;
+	}
+}

@@ -865,144 +865,6 @@ p {
       content: ' ';
       padding: 0 10px; }
 
-.testimonial {
-  padding: 6em 0 4em; }
-  .testimonial strong {
-    font-family: "Roboto Slab", "Times New Roman", sans-serif;
-    font-size: 1.3em; }
-  .testimonial p {
-    position: relative;
-    margin-top: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 3em; }
-    .testimonial p:before {
-      font-size: 4em;
-      color: #ccc;
-      position: absolute;
-      content: '“';
-      top: 2px;
-      left: -35px; }
-    .testimonial p:after {
-      font-size: 4em;
-      color: #ccc;
-      position: absolute;
-      content: '”';
-      bottom: -20px;
-      right: -35px; }
-  .testimonial .button {
-    margin-left: 35px; }
-  .testimonial img {
-    max-width: 150px;
-    margin-bottom: 1em; }
-  .testimonial em {
-    display: block;
-    color: #8d9095;
-    font-family: "Roboto Slab", "Times New Roman", sans-serif;
-    margin-bottom: 1em;
-    line-height: 1.3em; }
-  .testimonial .client-name {
-    text-align: center; }
-    .testimonial .client-name a {
-      display: block;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      -o-transition: all 0.3s;
-      transition: all 0.3s;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      opacity: .7; }
-      .testimonial .client-name a:hover {
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        transform: scale(1.05);
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-        opacity: 1; }
-  .testimonial .no-logo {
-    font-weight: bold; }
-
-.cb-cross {
-  background-image: url(../img/slide-bg-crossfit.jpg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s; }
-
-.melt-mel {
-  background-image: url(../img/slide-bg-melissa.jpg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s; }
-  .melt-mel img {
-    width: 150px; }
-  .melt-mel.testimonial-bg .client-name {
-    padding: 0; }
-
-.reggie {
-  background-image: url(../img/slide-bg-reggie.jpg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s; }
-
-.wodstar {
-  background-image: url(../img/slide-bg-wodstar.jpg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s; }
-
-.taxanista {
-  background-image: url(../img/slide-bg-taxanista.jpg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s; }
-
-.testimonial-bg {
-  padding: 12em 0 10em;
-  background-color: #213553; }
-  .testimonial-bg p {
-    font-family: "Roboto Slab", "Times New Roman", sans-serif;
-    color: #fff;
-    text-shadow: 0 0 10px #000;
-    position: relative;
-    margin-top: 25px;
-    margin-left: 50px;
-    margin-right: 20px;
-    margin-bottom: 3em; }
-    .testimonial-bg p strong {
-      font-size: 1.5em; }
-    .testimonial-bg p:before, .testimonial-bg p:after {
-      font-size: 4em;
-      color: #fff;
-      position: absolute;
-      opacity: .5;
-      font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif; }
-    .testimonial-bg p:before {
-      content: '“';
-      top: 2px;
-      left: -50px; }
-    .testimonial-bg p:after {
-      content: '”';
-      bottom: -35px;
-      right: 0px; }
-  .testimonial-bg img {
-    max-width: 250px;
-    margin-bottom: 1em; }
-  .testimonial-bg em {
-    display: block;
-    color: #fff;
-    font-family: "Roboto Slab", "Times New Roman", sans-serif;
-    line-height: 1.3em;
-    margin-bottom: 1em; }
-  .testimonial-bg .client-name {
-    text-align: center; }
-
 .slide-contact .copy {
   padding: 4em 20px 2em; }
 .slide-contact form {
@@ -1222,7 +1084,7 @@ p {
       bottom: 0;
       left: 0;
       right: 0;
-      height: 90px;
+      height: 105px;
       overflow: hidden; }
     .professionals .professionals-nav strong, .professionals .professionals-nav em {
       display: none; }
@@ -1321,6 +1183,144 @@ p {
       display: block; }
     .professionals.bio-open .professionals-nav a.selected em {
       display: block; } }
+.testimonial {
+  padding: 6em 0 4em; }
+  .testimonial strong {
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    font-size: 1.3em; }
+  .testimonial p {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 3em; }
+    .testimonial p:before {
+      font-size: 4em;
+      color: #ccc;
+      position: absolute;
+      content: '“';
+      top: 2px;
+      left: -35px; }
+    .testimonial p:after {
+      font-size: 4em;
+      color: #ccc;
+      position: absolute;
+      content: '”';
+      bottom: -20px;
+      right: -35px; }
+  .testimonial .button {
+    margin-left: 35px; }
+  .testimonial img {
+    max-width: 150px;
+    margin-bottom: 1em; }
+  .testimonial em {
+    display: block;
+    color: #8d9095;
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    margin-bottom: 1em;
+    line-height: 1.3em; }
+  .testimonial .client-name {
+    text-align: center; }
+    .testimonial .client-name a {
+      display: block;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: .7; }
+      .testimonial .client-name a:hover {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+        opacity: 1; }
+  .testimonial .no-logo {
+    font-weight: bold; }
+
+.cb-cross {
+  background-image: url(../img/slide-bg-crossfit.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.melt-mel {
+  background-image: url(../img/slide-bg-melissa.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+  .melt-mel img {
+    width: 150px; }
+  .melt-mel.testimonial-bg .client-name {
+    padding: 0; }
+
+.reggie {
+  background-image: url(../img/slide-bg-reggie.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.baum {
+  background-image: url(../img/slide-bg-baum.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.taxanista {
+  background-image: url(../img/slide-bg-taxanista.jpg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.testimonial-bg {
+  padding: 12em 0 10em;
+  background-color: #213553; }
+  .testimonial-bg p {
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 3em; }
+    .testimonial-bg p strong {
+      font-size: 1.5em; }
+    .testimonial-bg p:before, .testimonial-bg p:after {
+      font-size: 4em;
+      color: #fff;
+      position: absolute;
+      opacity: .5;
+      font-family: "Source Sans Pro", Helvetica, Arial, "Lucida Grande", sans-serif; }
+    .testimonial-bg p:before {
+      content: '“';
+      top: 2px;
+      left: -50px; }
+    .testimonial-bg p:after {
+      content: '”';
+      bottom: -35px;
+      right: 0px; }
+  .testimonial-bg img {
+    max-width: 250px;
+    margin-bottom: 1em; }
+  .testimonial-bg em {
+    display: block;
+    color: #fff;
+    font-family: "Roboto Slab", "Times New Roman", sans-serif;
+    line-height: 1.3em;
+    margin-bottom: 1em; }
+  .testimonial-bg .client-name {
+    text-align: center; }
+
 .intro-background {
   position: fixed;
   top: 70px;
@@ -1489,7 +1489,9 @@ p {
     margin-bottom: 25px; }
   .values .copy {
     overflow: hidden; }
-    .values .copy div {
+    .values .copy .photo {
+      display: none; }
+    .values .copy .col {
       padding: 0 30px; }
   .values .button {
     margin: 0 30px;
@@ -1688,7 +1690,14 @@ p {
       margin-left: 15px; }
       .values h2 span {
         padding: 0 0 10px; }
-    .values .copy div {
+    .values .copy .photo {
+      display: block;
+      width: 50%;
+      float: left;
+      padding: 0 15px; }
+      .values .copy .photo img {
+        width: 100%; }
+    .values .copy .col {
       width: 25%;
       float: left;
       padding: 0 15px;

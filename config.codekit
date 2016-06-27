@@ -110,15 +110,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/email-template-importable.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -251,7 +242,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 72905,
+		"initialSize": 142277,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-roberti.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-roberti.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -463,6 +454,17 @@
 		"initialSize": 71521,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-azdcs.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-azdcs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-baum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13475,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-baum.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-baum.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -918,6 +920,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/logo-vipmort.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48511,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-vipmort.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-vipmort.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo-vlp.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1017,6 +1030,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/slide-bg-baum.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128685,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-baum.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-baum.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/slide-bg-camelback.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1101,6 +1125,17 @@
 		"initialSize": 76184,
 		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-wodstar.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-wodstar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/team-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135711,
+		"inputAbbreviatedPath": "\/_site\/img\/team-photo.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/team-photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1257,6 +1292,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/scss\/clients.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/clients.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/clients.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/scss\/forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1266,22 +1317,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/forms.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/forms.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/_site\/scss\/home-slides.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/home-slides.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/home-slides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1805,6 +1840,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-baum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26080,
+		"inputAbbreviatedPath": "\/img\/logo-baum.png",
+		"outputAbbreviatedPath": "\/img\/logo-baum.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-boysgirlsscotts-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2256,6 +2302,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-vipmort.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48511,
+		"inputAbbreviatedPath": "\/img\/logo-vipmort.png",
+		"outputAbbreviatedPath": "\/img\/logo-vipmort.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-vlp.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2355,6 +2412,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/slide-bg-baum.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172960,
+		"inputAbbreviatedPath": "\/img\/slide-bg-baum.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-baum.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/slide-bg-camelback.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2439,6 +2507,17 @@
 		"initialSize": 76184,
 		"inputAbbreviatedPath": "\/img\/slide-bg-wodstar.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-wodstar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135711,
+		"inputAbbreviatedPath": "\/img\/team-photo.jpg",
+		"outputAbbreviatedPath": "\/img\/team-photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2588,6 +2667,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/bg-icons.scss",
 		"outputAbbreviatedPath": "\/css\/bg-icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/clients.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/clients.scss",
+		"outputAbbreviatedPath": "\/css\/clients.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
