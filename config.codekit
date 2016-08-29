@@ -110,6 +110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/email-template-importable.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -201,6 +210,17 @@
 		"initialSize": 103583,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-cliff.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-cliff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-debbie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94569,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-debbie.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-debbie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1324,6 +1344,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/scss\/home-slides.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/home-slides.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/home-slides.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/scss\/page-slides.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1583,6 +1619,17 @@
 		"initialSize": 103583,
 		"inputAbbreviatedPath": "\/img\/bio-cliff.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-cliff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-debbie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94569,
+		"inputAbbreviatedPath": "\/img\/bio-debbie.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-debbie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2408,6 +2455,17 @@
 		"initialSize": 258211,
 		"inputAbbreviatedPath": "\/img\/slide-bg-about.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-about2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53757,
+		"inputAbbreviatedPath": "\/img\/slide-bg-about2.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-about2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

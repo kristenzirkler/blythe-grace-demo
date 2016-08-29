@@ -1457,7 +1457,7 @@ p {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #213553;
-  padding: 5em 0 7em; }
+  padding: 5em 10px 7em; }
   .about-bg p, .about-bg i {
     text-shadow: 0 0 5px #000;
     color: #fff; }
@@ -1675,8 +1675,9 @@ p {
         display: inline-block; }
 
   .about-bg {
-    background-image: url(../img/slide-bg-about.jpg);
-    padding: 10em 2em 15em; }
+    background-image: url(../img/slide-bg-about2.jpg); }
+    .about-bg .copy {
+      width: 50%; }
     .about-bg i {
       font-size: 8em;
       margin-left: -20px; }
