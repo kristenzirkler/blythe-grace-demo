@@ -900,7 +900,7 @@ p {
     padding: 0 30px; } }
 @media all and (min-width: 420px) {
   .slide-bg-image .copy {
-    width: 40%;
+    width: 50%;
     float: right; }
   .slide-bg-image .image {
     width: 40%;
@@ -1675,8 +1675,8 @@ p {
         display: inline-block; }
 
   .about-bg {
-    background-image: url(../img/slide-bg-about.jpg);
-    padding: 10em 2em 15em; }
+    background-image: url(../img/slide-bg-about3.jpg);
+    padding: 8em 2em 15em; }
     .about-bg i {
       font-size: 8em;
       margin-left: -20px; }

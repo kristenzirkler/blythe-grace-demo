@@ -110,6 +110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/email-template-importable.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -127,6 +136,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/img\/about-photo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 683801,
+		"inputAbbreviatedPath": "\/_site\/img\/about-photo.png",
+		"outputAbbreviatedPath": "\/_site\/img\/about-photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/img\/azfinest.png": {
 		"fileType": 32768,
@@ -1052,6 +1072,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/slide-bg-about3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157750,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-about3.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-about3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/slide-bg-baum.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1346,6 +1377,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/scss\/home-slides.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/home-slides.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/home-slides.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/scss\/page-slides.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1531,6 +1578,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/about-photo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/about-photo.png",
+		"outputAbbreviatedPath": "\/img\/about-photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/azfinest.png": {
 		"fileType": 32768,
@@ -2452,6 +2510,17 @@
 		"initialSize": 53757,
 		"inputAbbreviatedPath": "\/img\/slide-bg-about2.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-about2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-about3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157750,
+		"inputAbbreviatedPath": "\/img\/slide-bg-about3.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-about3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
