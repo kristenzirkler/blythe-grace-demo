@@ -1677,6 +1677,8 @@ p {
   .about-bg {
     background-image: url(../img/slide-bg-about3.jpg);
     padding: 8em 2em 15em; }
+    .about-bg .image {
+      width: 47%; }
     .about-bg i {
       font-size: 8em;
       margin-left: -20px; }

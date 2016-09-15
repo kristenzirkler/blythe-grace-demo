@@ -361,7 +361,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 121337,
+		"initialSize": 122143,
 		"inputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
 		"outputAbbreviatedPath": "\/_site\/img\/giveback-logos.png",
 		"outputPathIsOutsideProject": 0,
@@ -749,6 +749,17 @@
 		"initialSize": 10612,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-mts.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-mts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-onecomm-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21568,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-onecomm-color.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-onecomm-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2191,6 +2202,17 @@
 		"initialSize": 10612,
 		"inputAbbreviatedPath": "\/img\/logo-mts.png",
 		"outputAbbreviatedPath": "\/img\/logo-mts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-onecomm-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21568,
+		"inputAbbreviatedPath": "\/img\/logo-onecomm-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-onecomm-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
