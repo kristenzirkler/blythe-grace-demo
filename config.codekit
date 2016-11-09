@@ -47,6 +47,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/team-slider-person.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/team-slider-person.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/team-slider.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/team-slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -106,15 +124,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/grayscale.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -192,6 +201,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-bw-chantel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71435,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-chantel.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-chantel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-cliff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77173,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-cliff.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-cliff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-debbie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70610,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-debbie.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-debbie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92109,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-patti.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-robert-i.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98808,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-robert-i.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-robert-i.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-robert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76409,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -254,6 +329,17 @@
 		"initialSize": 95651,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-patti.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-robert-i.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142277,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-robert-i.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-robert-i.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1224,28 +1310,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/main.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/vendor\/instafeed.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1645,6 +1709,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-bw-chantel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71435,
+		"inputAbbreviatedPath": "\/img\/bio-bw-chantel.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-chantel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-cliff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77173,
+		"inputAbbreviatedPath": "\/img\/bio-bw-cliff.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-cliff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-debbie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70610,
+		"inputAbbreviatedPath": "\/img\/bio-bw-debbie.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-debbie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-patti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92109,
+		"inputAbbreviatedPath": "\/img\/bio-bw-patti.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-robert-i.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98808,
+		"inputAbbreviatedPath": "\/img\/bio-bw-robert-i.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-robert-i.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-robert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76409,
+		"inputAbbreviatedPath": "\/img\/bio-bw-robert.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-robert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1707,6 +1837,17 @@
 		"initialSize": 95651,
 		"inputAbbreviatedPath": "\/img\/bio-patti.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-robert-i.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142277,
+		"inputAbbreviatedPath": "\/img\/bio-robert-i.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-robert-i.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2930,6 +3071,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/style.scss",
 		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/team-slider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/team-slider.scss",
+		"outputAbbreviatedPath": "\/css\/team-slider.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

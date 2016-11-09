@@ -34,6 +34,9 @@
 					text-shadow: 0 0 5px rgba(#000,.8);
 				}
 			}
+			&.selected {
+				opacity: 1;
+			}
 		}
 		span {
 			display: block;

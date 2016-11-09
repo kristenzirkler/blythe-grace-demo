@@ -31,6 +31,54 @@ $(function(){
 		$('.page-content div').removeClass('selected');
 		$('.bio-'+selectedBio).addClass('selected');
 	});
+    // Professional - Select person based on hash
+    if(window.location.hash) {
+        var selectedBio = window.location.hash.substring(1);
+        
+        $('html,body').animate({scrollTop: $('.professionals-nav').offset().top-70},'slow');
+
+        $('.professionals').addClass('bio-open');
+
+        $('.professionals-nav a').removeClass('selected').addClass('unselected');
+        $('a[data-name="'+selectedBio+'"]').removeClass('unselected').addClass('selected');
+
+        $('.page-content div').removeClass('selected');
+        $('.bio-'+selectedBio).addClass('selected');
+        // hash found
+    } else {
+    // No hash found
+    }
+
+    // Team Slider
+    $('[rel="slider-toggle"]').click(function(event) {
+        event.preventDefault();
+        var direction = $(this).attr('data-direction');
+        if (direction == 'left') {
+            $('.team-slider').removeClass('anchor-right');
+        } else {
+            $('.team-slider').addClass('anchor-right');
+        }
+    });
+
+    // Team Slider(complicated)
+    $('[rel="slider-toggle-auto"]').click(function(event) {
+        event.preventDefault();
+        var direction = $(this).attr('data-direction'),
+            parentPosition = $('.team-slider .inner').offset(),
+            bodyWidth = $('body').width(),
+            itemWidth = $();
+        var parentPositionNew = 0;
+
+            console.log('position:'+parentPosition.left+';bodyWidth:'+bodyWidth+';parentPositionNew:'+parentPositionNew);
+
+        if (direction == 'left') {
+            $('.team-slider .inner').offset({ top: 0, left: parentPositionNew });
+        } else {
+            parentPositionNew = parentPosition.left-bodyWidth;
+            $('.team-slider .inner').offset({ top: 0, left: parentPositionNew });
+        }
+    });
+
 
 	$('input[type=text]').focus(function() {
 		$(this).parent().parent().addClass('field-selected');

@@ -1,0 +1,133 @@
+$team-width: 22vw;
+$team-members: 6;
+$team-width-mobile: 50vw;
+
+.team-slider {
+	overflow: hidden;
+	position: relative;
+	//height: $team-width-mobile;
+	.inner {
+		//width: $team-width-mobile*$team-members;
+		//height: $team-width-mobile;
+		@include transition(all .8s);
+		//position: absolute;
+		//left: 0;
+	}
+	&.anchor-right .inner {
+		//left: -($team-width-mobile*1.5);
+	}
+	.next, .prev {
+		display: none;
+
+		position: absolute;
+		z-index: 5;
+		top: 0; bottom: 0;
+		font-size: 50px;
+		color: $white;
+		line-height: $team-width-mobile;
+		width: 50px;
+		text-align: center;
+		@include transition(all .4s);
+		&:hover {
+			background: rgba($main-color,.8);
+		}
+	}
+	.next {
+		right: 0;
+	}
+	.prev {
+		left: 0;
+	}
+	a {
+		display: block;
+		width: $team-width-mobile;
+		height: $team-width-mobile;
+		float: left;
+		position: relative;
+		background: $main-color;
+		&:hover {
+			&:before {
+				width: 20vw;
+				height: 20vw;
+				opacity: 1;
+			}
+			.image {
+				opacity: .3;
+			}
+			.copy {
+				opacity: 1;
+				margin: 30px;
+			}
+		}
+	}
+	span {
+		display: block;
+		color: $white;
+		@include transition(all .5s);
+	}
+	.copy {
+		position: absolute;
+		margin: 40px 20px 20px 40px;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		opacity: 0;
+		//background: rgba($main-color,.8);
+		z-index: 3;
+	}
+	.name {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 5px; 
+		font-family: $accent-font;
+	}
+	.title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.image {
+		background-size: cover;
+		background-position: center top;
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+	}
+}
+
+@media all and (min-width: 500px) {
+.team-slider {
+	height: $team-width;
+	.inner {
+		width: $team-width*$team-members;
+		height: $team-width;
+		position: absolute;
+		left: 0;
+	}
+	&.anchor-right .inner {
+		left: -($team-width*1.5);
+	}
+	.next, .prev {
+		line-height: $team-width;
+		display: block;
+	}
+	a {
+		display: block;
+		width: $team-width;
+		height: $team-width;
+		&:before {
+			width: 10px;
+			height: 10px;
+			position: absolute;
+			margin: auto;
+			top: 0; bottom: 0;
+			left: 0; right: 0;
+			border: 1px solid $white;
+			//background: rgba($main-color,.8);
+			content: '';
+			display: block;
+			z-index: 2;
+			opacity: 0;
+			@include transition(all .5s);
+		}
+	}
+}
+}
