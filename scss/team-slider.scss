@@ -5,16 +5,8 @@ $team-width-mobile: 50vw;
 .team-slider {
 	overflow: hidden;
 	position: relative;
-	//height: $team-width-mobile;
 	.inner {
-		//width: $team-width-mobile*$team-members;
-		//height: $team-width-mobile;
 		@include transition(all .8s);
-		//position: absolute;
-		//left: 0;
-	}
-	&.anchor-right .inner {
-		//left: -($team-width-mobile*1.5);
 	}
 	.next, .prev {
 		display: none;
@@ -71,7 +63,6 @@ $team-width-mobile: 50vw;
 		top: 0; bottom: 0;
 		left: 0; right: 0;
 		opacity: 0;
-		//background: rgba($main-color,.8);
 		z-index: 3;
 	}
 	.name {
@@ -121,7 +112,6 @@ $team-width-mobile: 50vw;
 			top: 0; bottom: 0;
 			left: 0; right: 0;
 			border: 1px solid $white;
-			//background: rgba($main-color,.8);
 			content: '';
 			display: block;
 			z-index: 2;
