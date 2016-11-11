@@ -1459,15 +1459,18 @@ p {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #213553;
-  padding: 5em 0 7em; }
+  padding: 2em 2em 4em; }
   .about-bg p, .about-bg i {
-    text-shadow: 0 0 5px #000;
     color: #fff; }
   .about-bg i {
     font-size: 6em;
     margin-left: -10px; }
   .about-bg p {
     margin-bottom: 2em; }
+  .about-bg .copy {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; }
 
 .gray-pic {
   -webkit-filter: grayscale(100%);
@@ -1678,9 +1681,7 @@ p {
 
   .about-bg {
     background-image: url(../img/slide-bg-about3.jpg);
-    padding: 8em 2em 15em; }
-    .about-bg .image {
-      width: 47%; }
+    padding: 4em 2em 6em; }
     .about-bg i {
       font-size: 8em;
       margin-left: -20px; }
