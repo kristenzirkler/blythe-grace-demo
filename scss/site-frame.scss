@@ -59,23 +59,16 @@ p {
 		height: 1px;
 		overflow: hidden;
 	}
+	.logo-svg {
+		margin-top: 17px;
+		width: 200px;
+		fill: $main-color;
+	}
 	.logo {
 		display: inline-block;
-		font-size: 2em;
 		height: $nav-height;
 		float: left;
 		margin: 0 0 0 20px;
-		i {
-			display: inline-block;
-			line-height: $nav-height;
-		}
-		span {
-			width: 1px;
-			overflow: hidden;
-			display: block;
-			float: left;
-			text-indent: -5000px;
-		}
 	}
 	.mobile-toggle {
 		float: right;

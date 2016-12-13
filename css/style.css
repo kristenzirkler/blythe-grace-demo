@@ -227,12 +227,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* No Icon Set */
-/* Icons for KZ Footer */
 @font-face {
-  font-family: 'bg-fontello';
-  src: url("fonts/bg-fontello.eot?59247950");
-  src: url("fonts/bg-fontello.eot?59247950#iefix") format("embedded-opentype"), url("fonts/bg-fontello.woff?59247950") format("woff"), url("fonts/bg-fontello.ttf?59247950") format("truetype"), url("fonts/bg-fontello.svg?59247950#bg-fontello") format("svg");
+  font-family: 'blythegrace';
+  src: url("/css/fonts/blythegrace.eot?52483176");
+  src: url("/css/fonts/blythegrace.eot?52483176#iefix") format("embedded-opentype"), url("/css/fonts/blythegrace.woff2?52483176") format("woff2"), url("/css/fonts/blythegrace.woff?52483176") format("woff"), url("/css/fonts/blythegrace.ttf?52483176") format("truetype"), url("/css/fonts/blythegrace.svg?52483176#blythegrace") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
@@ -240,31 +238,30 @@ table {
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?59247950#fontello') format('svg');
+    font-family: 'blythegrace';
+    src: url('/css/fonts/blythegrace.svg?52483176#blythegrace') format('svg');
   }
 }
 */
-.bg-icon:before {
-  font-family: "bg-fontello";
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "blythegrace";
   font-style: normal;
   font-weight: normal;
   speak: none;
   display: inline-block;
   text-decoration: inherit;
-  margin-right: .2em;
-  text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
   /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
@@ -328,14 +325,6 @@ table {
   content: '\e80e'; }
 
 /* '' */
-.icon-heart-empty:before {
-  content: '\e810'; }
-
-/* '' */
-.icon-arizona:before {
-  content: '\e811'; }
-
-/* '' */
 body {
   margin-top: 70px; }
 
@@ -392,21 +381,15 @@ p {
     width: 1px;
     height: 1px;
     overflow: hidden; }
+  .site-tag .logo-svg {
+    margin-top: 17px;
+    width: 200px;
+    fill: #213553; }
   .site-tag .logo {
     display: inline-block;
-    font-size: 2em;
     height: 70px;
     float: left;
     margin: 0 0 0 20px; }
-    .site-tag .logo i {
-      display: inline-block;
-      line-height: 70px; }
-    .site-tag .logo span {
-      width: 1px;
-      overflow: hidden;
-      display: block;
-      float: left;
-      text-indent: -5000px; }
   .site-tag .mobile-toggle {
     float: right;
     border: 1px solid #213553;
@@ -1342,6 +1325,9 @@ p {
   color: #fff;
   padding: 15vh 0;
   position: relative; }
+  .home-intro .logo-svg {
+    width: 200px;
+    fill: #fff; }
   .home-intro:after {
     content: '';
     width: 0;
@@ -1359,18 +1345,8 @@ p {
     -o-transition: border-bottom 1s;
     transition: border-bottom 1s; }
   .home-intro .logo {
-    font-size: 2.5em;
     margin-bottom: 15px;
-    display: inline-block;
-    color: #fff; }
-    .home-intro .logo i {
-      margin-left: -10px; }
-    .home-intro .logo span {
-      width: 1px;
-      overflow: hidden;
-      display: block;
-      float: left;
-      text-indent: -5000px; }
+    display: inline-block; }
   .home-intro .site-tag {
     position: relative;
     z-index: 2; }
@@ -1653,11 +1629,10 @@ p {
     height: 80vh;
     min-height: 420px;
     max-height: 540px; }
+    .home-intro .logo-svg {
+      width: 300px; }
     .home-intro .logo {
-      font-size: 5.5em;
       margin-bottom: 20px; }
-      .home-intro .logo i {
-        margin-left: -22px; }
     .home-intro .hero p {
       font-size: 1.4em;
       max-width: 575px; }
@@ -1709,6 +1684,9 @@ p {
     float: right;
     margin-left: 30px;
     margin-bottom: 0; } }
+@media all and (min-width: 800px) {
+  .home-intro .logo-svg {
+    width: 480px; } }
 .bg-form .field-ctr {
   overflow: hidden;
   margin-bottom: 1em; }

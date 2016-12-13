@@ -12,6 +12,10 @@
 	color: #fff;
 	padding: 15vh 0;
 	position: relative;
+	.logo-svg {
+		width: 200px;
+		fill: $white;
+	}
 	&:after {
 		content: '';
 		width: 0;
@@ -27,20 +31,8 @@
 		@include transition(border-bottom 1s);
 	}
 	.logo {
-		font-size: 2.5em;
 		margin-bottom: 15px;
 		display: inline-block;
-		color: #fff;
-		i {
-			margin-left: -10px;
-		}
-		span {
-			width: 1px;
-			overflow: hidden;
-			display: block;
-			float: left;
-			text-indent: -5000px;
-		}
 	}
 	.site-tag {
 		position: relative;
@@ -361,13 +353,11 @@ $callout-offset: 200px;
 		height: 80vh;
 		min-height: 420px;
 		max-height: 540px;
+		.logo-svg {
+			width: 300px;
+		}
 		.logo {
-			font-size: 5.5em;
 			margin-bottom: 20px;
-			i {
-				margin-left: -22px;
-			}
-
 		}
 		.hero {
 			p {
@@ -452,6 +442,11 @@ $callout-offset: 200px;
 
 }
 @media all and (min-width: 800px) {
+	.home-intro {
+		.logo-svg {
+			width: 480px;
+		}
+	}
 
 }
 
