@@ -21,8 +21,8 @@
 			height: 170px;
 			//width: 33.333%; // 3 people
 			//width: 25%; // 4 people
-			//width: 20%; // 5 people
-			width: 16.666%; // 6 people
+			width: 20%; // 5 people
+			//width: 16.666%; // 6 people
 			float: left;
 			overflow: hidden;
 			opacity: .8;
@@ -97,8 +97,8 @@
 				&.selected {
 					//width: 50%; // 3 people
 					//width: 55%; // 4 people
-					//width: 40%; // 5 people
-					width: 30%; // 6 people
+					width: 40%; // 5 people
+					//width: 30%; // 6 people
 					strong {
 						font-size: 1.5em;
 						text-shadow: 0 0 5px rgba(#000,.8);
@@ -114,8 +114,8 @@
 				&.unselected {
 					//width: 25%; // 3 people
 					//width: 15%; // 4 people
-					//width: 15%; // 5 people
-					width: 14%; // 6 people
+					width: 15%; // 5 people
+					//width: 14%; // 6 people
 					@include grayscale(100%);
 					opacity: .6;
 					em {
