@@ -137,15 +137,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/email-template-importable.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -285,6 +276,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-bw-stephanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53119,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-stephanie.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -395,6 +397,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-stephanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74088,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-stephanie.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/email-footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -479,6 +492,17 @@
 		"initialSize": 14781,
 		"inputAbbreviatedPath": "\/_site\/img\/hrready-photo.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/hrready-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/iussalaw-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57225,
+		"inputAbbreviatedPath": "\/_site\/img\/iussalaw-photo.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/iussalaw-photo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1524,22 +1548,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/scss\/professionals.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/professionals.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/professionals.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/_site\/scss\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1831,6 +1839,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-bw-stephanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53119,
+		"inputAbbreviatedPath": "\/img\/bio-bw-stephanie.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1937,6 +1956,17 @@
 		"initialSize": 164212,
 		"inputAbbreviatedPath": "\/img\/bio-staci.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-staci.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-stephanie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74088,
+		"inputAbbreviatedPath": "\/img\/bio-stephanie.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-stephanie.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

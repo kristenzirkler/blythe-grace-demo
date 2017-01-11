@@ -21,7 +21,7 @@
 			height: 170px;
 			//width: 33.333%; // 3 people
 			//width: 25%; // 4 people
-			width: 20%; // 5 people
+			//width: 20%; // 5 people
 			//width: 16.666%; // 6 people
 			float: left;
 			overflow: hidden;
@@ -97,7 +97,7 @@
 				&.selected {
 					//width: 50%; // 3 people
 					//width: 55%; // 4 people
-					width: 40%; // 5 people
+					//width: 40%; // 5 people
 					//width: 30%; // 6 people
 					strong {
 						font-size: 1.5em;
@@ -114,7 +114,7 @@
 				&.unselected {
 					//width: 25%; // 3 people
 					//width: 15%; // 4 people
-					width: 15%; // 5 people
+					//width: 15%; // 5 people
 					//width: 14%; // 6 people
 					@include grayscale(100%);
 					opacity: .6;
@@ -128,6 +128,36 @@
 				}
 			}
 
+		}
+	}
+	&.five-people {
+		.professionals-nav a {
+			width: 20%; // 5 people
+		}
+		&.bio-open .professionals-nav {
+			a {
+				&.selected {
+					width: 40%; // 5 people
+				}
+				&.unselected {
+					width: 15%; // 5 people
+				}
+			}
+		}
+	}
+	&.six-people {
+		.professionals-nav a {
+			width: 16.666%; // 6 people
+		}
+		&.bio-open .professionals-nav {
+			a {
+				&.selected {
+					width: 30%; // 6 people
+				}
+				&.unselected {
+					width: 14%; // 6 people
+				}
+			}
 		}
 	}
 }
