@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Professionals: Patti"
+slug: bio
+path: ../
+
+team-name: "Patti A. Jennings" 
+team-title: "Paralegal &amp; Firm Administrator"
+team-slug: patti
+
+meta-title: "Patti A. Jennings" 
+
+team-order: 3
+
+---
+
+<p>Patti was born and raised in Phoenix, Arizona. Her family moved from Massachusetts to Arizona in 1948. Patti graduated from Shadow Mountain High School and received her Associate Degree in Paralegal Studies from Phoenix College in 1985.</p>
+
+<p>Patti worked for some of the largest firms in Phoenix before becoming a Paralegal and Firm Administrator for Blythe Grace. Patti brings to the firm over thirty years of experience working with matters involving litigation, employment law, real estate, and corporate transactions. She has also assisted with numerous trials. Patti is a notary public.</p>
+
+<p>Patti is active in the pet rescue community, fostering and volunteering for Arizona Small Dog Rescue. She enjoys taking care of her dogs, and spending time working out, camping, gardening and reading.</p>

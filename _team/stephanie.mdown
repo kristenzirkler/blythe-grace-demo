@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Professionals: Stephanie"
+slug: bio
+path: ../
+
+team-name: "Stephanie Passaro" 
+team-title: "Legal Clerk &amp; HR Specialist"
+team-slug: stephanie
+
+meta-title: "Stephanie Passaro"
+
+team-order: 4
+
+---
+<p>Stephanie Passaro is a human resource professional with over six years of experience working for large Arizona companies with hundred of employees. Stephanie is well versed in state and federal employment laws, employee relations, performance management, benefits, insurance, and developing and implementing policies and procedures.</p>
+<p>Stephanie has her Bachelor of Arts from Arizona State University in Business and Communication and is in the process of obtaining her Masters in Legal Studies, also from ASU.</p>
+<p>Stephanie enjoys spending time with her family, helping coordinate league soccer tournaments, working out, and traveling.</p>

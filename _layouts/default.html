@@ -47,7 +47,11 @@
 </div>
 {% endif %}
 
+{% if page.slug == "bio" %}
+{% include team-bio.html %}
+{% else %}
 {{ content }}
+{% endif %}
 
 {% include footer.html %}
 

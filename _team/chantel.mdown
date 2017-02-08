@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Professionals: Chant&eacute;l"
+slug: bio
+path: ../
+
+team-name: "Chant&eacute;l N. Braithwaite" 
+team-title: "Marketing &amp; Accounting Manager"
+team-slug: chantel
+
+meta-title: "Chant&eacute;l N. Braithwaite"
+
+team-order: 5
+
+---
+<p>Chant&eacute;l grew up in a military family.  Her father served in the United States Army. She has lived and traveled all over the world. Chantél and her family settled in Fairport, New York. In 2011 she moved to Mesa, Arizona to pursue her degree in Accounting.</p>
+
+<p>Chant&eacute;l is the Accounting and Marketing Manager for the firm, handling the firm's finances, marketing and client billing.</p>
+
+<p>She enjoys traveling, reading, painting, watching movies and spending time outdoors.</p>

@@ -1,0 +1,54 @@
+// Team Bio Page
+.bio-page {
+	img {
+		width: 100%;
+		max-width: 300px;
+		float: right;
+		margin: 0 0 40px 40px;
+	}
+	div {
+		//clear: both;
+	}
+	.title {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+	.contact-info {
+		padding: 0 0 50px;
+		i {
+			font-size: 1.3em;
+		}
+		a {margin: 5px;}
+		a:hover i {
+			color: #000;
+		}
+	}
+	.hex-callout {
+		display: none;
+	}
+}
+
+@media all and (min-width: 800px) {
+.bio-page {
+	.inner {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.list {
+		width: 50%;
+		float: left;
+		.bullets {
+			margin-right: 25px;
+		}
+	}
+	.contact-info {
+		i {
+			font-size: 2em;
+		}
+	}
+	.hex-callout {
+		display: block;
+	}
+}
+
+}

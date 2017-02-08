@@ -3,6 +3,13 @@ github: [Repository metadata]
 
 baseurl: "http://www.blythegrace.com"
 
+# Collection Pages
+collections:
+  team:
+    output: true
+    output_ext: .html
+    permalink: /professionals/:path/
+
 # Sass
 sass:
   sass_dir: scss

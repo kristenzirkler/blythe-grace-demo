@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Professionals: Debbie"
+slug: bio
+path: ../
+
+team-name: "Debbie A. Messing" 
+team-title: "Paralegal &amp; Business Manager"
+team-slug: debbie
+
+meta-title: "Debbie A. Messing" 
+
+team-order: 2
+
+---
+<p>Debbie was born and raised in New York, New York, before moving to Arizona in 1975. Her legal career started on Wall Street and has worked as a Legal Assistant for over 40 years.</p>
+
+<p>Debbie has worked for some of the largest law firms in Phoenix, and as Senior Paralegal brings to Blythe Grace unparalleled skills in the areas of civil litigation and employment law. Debbie also has extensive trial experience and leads the firm's trial support team. She is a notary public.</p>
+
+<p>Debbie is a former restaurateur and her passions include fine wine and cooking. She enjoys spending time at her cabin in Prescott, Arizona, vegetable gardening, reading and traveling.</p>

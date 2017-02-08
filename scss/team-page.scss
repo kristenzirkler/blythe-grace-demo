@@ -1,7 +1,4 @@
 // Team Page
-body.modal-open {
-	overflow: hidden;
-}
 .team-page {
 	padding: 4em 0;
 	h2 {
@@ -9,84 +6,8 @@ body.modal-open {
 		text-align: center;
 		margin: 0 $mobile-side-space 2em;
 	}
-	.bio {
-		display: none;
-
-		position: fixed;
-		top: 0; bottom: 0;
-		left: 0; right: 0;
-		background: $white;
-		border: 6px solid $main-color;
-		z-index: $z-index-modal;
-		max-width: 800px;
-		height: 100vh;
-		margin: auto;
-		.inner {
-			padding: $mobile-side-space;
-			overflow-y: auto;
-			position: absolute;
-			top: 0; bottom: 0;
-			left: 0; right: 0;
-		}
-		&.selected {
-			display: block;
-		}
-	}
-	.bio-overlay {
-		display: none;
-
-		padding: $mobile-side-space;
-		position: fixed;
-		top: 0; bottom: 0;
-		left: 0; right: 0;
-		background: rgba($main-color,.8);
-		z-index: ($z-index-modal - 1);
-	}
-	.bio-close {
-		position: absolute;
-		top: 0; right: 0;
-		z-index: $z-index-modal + 1;
-		margin: 10px;
-		color: $main-color;
-		width: 36px;
-		height: 36px;
-
-		&:before, &:after {
-			content: '';
-			position: absolute;
-			width: 36px;
-			height: 4px;
-			background-color: $main-color;
-			top: 16px;
-		}
-		&:before {
-			@include transform(rotate(45deg));
-			left: -1px;
-		}
-		&:after {
-			@include transform(rotate(-45deg));
-			right: 2px;
-		}
-		&:hover:before, &:hover:after {
-			background: lighten($main-color,10);
-		}
-	}
-	.contact-info {
-		padding: 0 0 30px;
-		i {
-			font-size: 1.3em;
-		}
-		a {margin: 5px;}
-		a:hover i {
-			color: #000;
-		}
-	}
-	.hex-callout {
-		display: none;
-	}
 
 }
-
 @media all and (min-width: 500px) {
 }
 
@@ -95,27 +16,6 @@ body.modal-open {
 	padding: 8em 0;
 	h2 {
 		margin: 0 auto 2em;
-	}
-	.bio {
-		height: 80vh;
-
-		.list {
-			width: 50%;
-			float: left;
-			.bullets {
-				margin-right: 25px;
-			}
-		}
-	}
-	.contact-info {
-		float: right;
-		padding: 0 0 30px 30px;
-		i {
-			font-size: 2em;
-		}
-	}
-	.hex-callout {
-		display: block;
 	}
 }
 

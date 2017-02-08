@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Professionals: Cliff"
+slug: bio
+path: ../
+
+team-name: "Clifford P. Bendau" 
+team-title: "Consultant"
+team-slug: cliff
+
+meta-title: "Clifford P. Bendau"
+
+team-order: 7
+
+---
+
+<p>Cliff is a financial consultant for Blythe Grace's clients and has over forty years of experience in banking, mortgage brokerage and financial services. In 1992, Cliff conceptualized and founded a financial services company that worked with hundreds of small, medium-sized and large banks and financial institutions to implement optional products. Although Cliff retired this year from his company he still works with Blythe Grace and is a valuable member of the team.</p>
+
+<p>With Cliff's experience, he assists Blythe Grace's business clients with obtaining capital and funding, understanding and complying with banking and mortgage laws and regulations, and counseling them to help grow their businesses. Cliff has been an entrepreneur his entire professional life, and is also a valuable resource for Blythe Grace's clients looking to start and grow a company.</p>
+
+<p>In addition to consulting for Blythe Grace's clients, Cliff is a Captain with the Pleasant Valley Fire Department. He enjoys being a first responder and giving back to and protecting Arizona's communities.</p>
+
+<p><img src="{{ site.baseurl }}/img/bio-cliff-2.jpg" alt="Cliff, Captain with the Pleasant Valley Fire Department" /></p>
