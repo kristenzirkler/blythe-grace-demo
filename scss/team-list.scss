@@ -1,12 +1,17 @@
-$team-width: 22vw;
-$team-members: 6;
+$team-width: 33.33%;
+$team-width-slider: 22vw;
+$team-members: 7; // Change the left value below as well
 $team-width-mobile: 50vw;
 
-.team-slider {
+.team-list {
 	overflow: hidden;
 	position: relative;
+	box-sizing: border-box;
 	.inner {
 		@include transition(all .8s);
+	}
+	&.slider {
+
 	}
 	.next, .prev {
 		display: none;
@@ -31,7 +36,7 @@ $team-width-mobile: 50vw;
 		left: 0;
 	}
 	a {
-		display: block;
+		display: block;box-sizing: border-box;
 		width: $team-width-mobile;
 		height: $team-width-mobile;
 		float: left;
@@ -39,8 +44,7 @@ $team-width-mobile: 50vw;
 		background: $main-color;
 		&:hover {
 			&:before {
-				width: 20vw;
-				height: 20vw;
+				margin: 10px;
 				opacity: 1;
 			}
 			.image {
@@ -85,30 +89,38 @@ $team-width-mobile: 50vw;
 }
 
 @media all and (min-width: 500px) {
-.team-slider {
-	height: $team-width;
-	.inner {
-		width: $team-width*$team-members;
-		height: $team-width;
-		position: absolute;
-		left: 0;
+.team-list {
+	&.slider {
+		height: $team-width-slider;
+		.inner {
+			width: $team-width-slider*$team-members;
+			height: $team-width-slider;
+			position: absolute;
+			left: 0;
+		}
+		.next, .prev {
+			display: block;
+		}
+		a {
+			display: block;
+			width: $team-width-slider;
+			height: $team-width-slider;
+		}
 	}
 	&.anchor-right .inner {
-		left: -($team-width*1.5);
+		left: -54vw; // This one is weird, cant figure out math so just change it.
 	}
 	.next, .prev {
-		line-height: $team-width;
-		display: block;
+		line-height: $team-width-slider;
 	}
 	a {
 		display: block;
 		width: $team-width;
-		height: $team-width;
+		height: 250px;
 		&:before {
-			width: 10px;
-			height: 10px;
 			position: absolute;
 			margin: auto;
+			margin: 60px;
 			top: 0; bottom: 0;
 			left: 0; right: 0;
 			border: 1px solid $white;

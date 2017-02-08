@@ -47,7 +47,7 @@ p {
 
 	position: fixed;
 	top: 0; left: 0; right: 0;
-	z-index: 100;
+	z-index: $z-index-nav;
 	a {
 		color: $main-color;
 	}
@@ -176,14 +176,16 @@ p {
 			margin: 4em auto;
 		}
 		a {
-			color: #fff;
+			color: $white;
 			&:hover {
-				color: #fff;
+				color: $white;
 			}
+		}
+		.logo-svg {
+			fill: $white;
 		}
 		.logo {
 			margin: 0 -4px;
-			overflow: hidden;
 			height: 47px;
 		}
 		.nav {

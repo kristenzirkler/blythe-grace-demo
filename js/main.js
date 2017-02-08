@@ -49,14 +49,29 @@ $(function(){
     // No hash found
     }
 
+    // Team Bios
+    $('.team-page [rel="team-list-bio"]').click(function(event) {
+        event.preventDefault();
+        var selectedBio = $(this).data('person');
+        $('body').addClass('modal-open');
+        $('.bio-'+selectedBio).addClass('selected');
+        $('.bio-overlay').show();
+    });
+    $('.team-page [rel="team-list-close"]').click(function(event) {
+        event.preventDefault();
+        var selectedBio = $(this).data('person');
+        $('body').removeClass('modal-open');
+        $('.bio').removeClass('selected');
+        $('.bio-overlay').hide();
+    });
     // Team Slider
     $('[rel="slider-toggle"]').click(function(event) {
         event.preventDefault();
         var direction = $(this).attr('data-direction');
         if (direction == 'left') {
-            $('.team-slider').removeClass('anchor-right');
+            $('.team-list.slider').removeClass('anchor-right');
         } else {
-            $('.team-slider').addClass('anchor-right');
+            $('.team-list.slider').addClass('anchor-right');
         }
     });
 
