@@ -31,6 +31,7 @@ $(function(){
 		$('.page-content div').removeClass('selected');
 		$('.bio-'+selectedBio).addClass('selected');
 	});
+    /*
     // Professional - Select person based on hash
     if(window.location.hash) {
         var selectedBio = window.location.hash.substring(1);
@@ -47,7 +48,7 @@ $(function(){
         // hash found
     } else {
     // No hash found
-    }
+    }*/
 
     // Team Bios
     $('.team-page [rel="team-list-bio"]').click(function(event) {
