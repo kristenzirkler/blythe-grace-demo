@@ -17,8 +17,8 @@ $(function(){
       }
     );
 
-	// Professionals Nav
     /*
+	// Professionals Nav
 	$('.professionals-nav a').click(function(event) {
 	    event.preventDefault();
 	    var selectedBio = $(this).data('name');

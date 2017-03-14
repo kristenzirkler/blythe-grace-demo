@@ -1,3 +1,8 @@
+{% if include.layout == "professionals-page" %}
+<li><a data-name="{{ include.slug }}" class="unselected" href="/professionals/{{ include.slug }}" style="background-image: url({{ site.baseurl }}/img/bio-{{ include.slug }}.jpg);">
+<span><strong>{{ include.name }}</strong><em>{{ include.title }}</em></span>
+</a></li>
+{% else %}
 <a rel="team-list-bio" data-person="{{ include.slug }}" class="item" href="/professionals/{{ include.slug }}">
   <span class="image" style="background-image: url({{ site.baseurl }}/img/bio-bw-{{ include.slug }}.jpg);">&nbsp;</span>
   <span class="copy">
@@ -5,3 +10,4 @@
     <span class="title">{{ include.title }}</span>
   </span>
 </a>
+{% endif %}
