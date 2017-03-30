@@ -74,10 +74,10 @@ team-order: 1
   <div class="list">
 <h4>Community Involvement</h4>
 <ul class="bullets">
-    <li>Judge Pro Tempore, Maricopa County Superior Court (2013 – 2016)</li>
-    <li>Volunteer Lawyer’s Program, Volunteer Attorney (2006 – Present)</li>
-    <li>Desert Botanical Gardens, Committee Member (2017)</li>
-    <li>Girl Scouts Arizona Cactus Pine, Join the Journey Sponsor (2015 – Present)</li>
+    <li>Girl Scouts Arizona Cactus Pine, Join the Journey Sponsor (2015 - Present)</li>
+    <li>Volunteer Lawyer's Program, Volunteer Attorney (2006 - Present)</li>
+    <li>Desert Botanical Gardens - Operations Support Committee (2016 - Present)</li>
+    <li>Judge Pro Tempore, Maricopa County Superior Court (2013 - 2016)</li>
     <li>State Bar of Arizona, Bar Leadership Institute (2009 Program)</li>
 </ul>
 <h4>Recognitions</h4>

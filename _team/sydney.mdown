@@ -13,5 +13,5 @@ meta-title: "Sydney Ferry"
 team-order: 6
 
 ---
-<p> Sydney is a receptionist with the firm, who also assists with file management, research, and social media marketing.  Sydney is pursing her pre-health / pre-medical degree at Arizona State University.</p>
+<p> Sydney is a receptionist with the firm, who also assists with file management, research, and social media marketing.  Sydney is pursuing her pre-health / pre-medical degree at Arizona State University.</p>
 <p>Sydney enjoys hiking, photography, working out, and traveling.</p>
