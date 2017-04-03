@@ -1,6 +1,6 @@
 $team-width: 33.33%;
 $team-width-slider: 22vw;
-$team-members: 7; // Change the left value below as well
+$team-members: 6; // Change the left value below as well (.anchor-right)
 $team-width-mobile: 50vw;
 
 .team-list {
@@ -88,13 +88,6 @@ $team-width-mobile: 50vw;
 	}
 }
 
-@media all and (max-width: 500px) {
-	.team-list {
-		.item-sydney {
-			display: none;
-		}
-	}
-}
 @media all and (min-width: 500px) {
 .team-list {
 	&.slider {
@@ -115,7 +108,7 @@ $team-width-mobile: 50vw;
 		}
 	}
 	&.anchor-right .inner {
-		left: -54vw; // This one is weird, cant figure out math so just change it.
+		left: -32vw; // This one is weird, cant figure out math so just change it.
 	}
 	.next, .prev {
 		line-height: $team-width-slider;
