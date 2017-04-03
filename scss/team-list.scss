@@ -88,6 +88,13 @@ $team-width-mobile: 50vw;
 	}
 }
 
+@media all and (max-width: 500px) {
+	.team-list {
+		.item-sydney {
+			display: none;
+		}
+	}
+}
 @media all and (min-width: 500px) {
 .team-list {
 	&.slider {
