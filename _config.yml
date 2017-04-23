@@ -1,7 +1,7 @@
 highlighter: rouge
 github: [Repository metadata]
 
-#baseurl: "http://www.blythegrace.com"
+baseurl: "http://www.blythegrace.com"
 
 # Collection Pages
 collections:
