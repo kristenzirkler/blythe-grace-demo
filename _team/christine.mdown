@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Professionals: Christine"
+slug: bio
+path: ../
+
+team-name: "Christine Hackett" 
+team-title: "Legal Secretary"
+team-slug: christine
+
+meta-title: "Christine Hackett"
+
+team-order: 7
+
+---
+<p>The daughter of a career Air Force pilot, Christine has lived all over the country and the world. Her legal career began in Phoenix, Arizona, her permanent residence for over 40 years.</p>
+<p>Christine’s background includes primarily bankruptcy, civil litigation and intellectual property, having worked in law firms ranging in size from small to very large.</p>
+<p>Five dogs, gardening, reading, traveling and a retired husband keep Christine quite busy when not at Blythe Grace.</p>

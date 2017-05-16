@@ -56,20 +56,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/team-slider-person.html": {
+	"\/_includes\/team-bio-contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/team-slider-person.html",
+		"inputAbbreviatedPath": "\/_includes\/team-bio-contact.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/team-slider.html": {
+	"\/_includes\/team-bio.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/team-slider.html",
+		"inputAbbreviatedPath": "\/_includes\/team-bio.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/team-list-person.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/team-list-person.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/team-list.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/team-list.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -115,24 +133,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/contact\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/bg-icons.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/bg-icons.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/grayscale.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/grayscale.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -230,6 +230,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bio-bw-christine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108698,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-christine.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-christine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bio-bw-cliff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -278,7 +289,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 76409,
+		"initialSize": 101143,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -289,9 +300,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53119,
+		"initialSize": 81547,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-stephanie.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-sydney.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108179,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-sydney.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-sydney.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -300,9 +322,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 84760,
+		"initialSize": 91569,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-chantel.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-chantel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-christine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169883,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-christine.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-christine.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -355,9 +388,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 95651,
+		"initialSize": 136074,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-patti.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-patti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-robert-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138567,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-robert-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-robert-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -377,7 +421,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90057,
+		"initialSize": 142935,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-robert.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-robert.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -410,9 +454,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 74088,
+		"initialSize": 116335,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-stephanie.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-sydney.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153389,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-sydney.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-sydney.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/category-banner-outdoor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42066,
+		"inputAbbreviatedPath": "\/_site\/img\/category-banner-outdoor.png",
+		"outputAbbreviatedPath": "\/_site\/img\/category-banner-outdoor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -421,7 +487,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89046,
+		"initialSize": 75571,
 		"inputAbbreviatedPath": "\/_site\/img\/email-footer.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/email-footer.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -754,6 +820,17 @@
 		"initialSize": 11661,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-dresssuccess.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-dresssuccess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-esperanca-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41992,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-esperanca-color.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-esperanca-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1187,6 +1264,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/robert-stairs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81354,
+		"inputAbbreviatedPath": "\/_site\/img\/robert-stairs.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/robert-stairs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/rsalaw-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1224,7 +1312,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 157750,
+		"initialSize": 153750,
 		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-about3.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-about3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1282,6 +1370,17 @@
 		"initialSize": 111674,
 		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-office.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-office.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/slide-bg-ourfirm-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184662,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-ourfirm-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-ourfirm-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1447,11 +1546,92 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/professionals\/chantel\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/chantel\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/christine\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/christine\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/cliff\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/cliff\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/debbie\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/debbie\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/professionals\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/professionals\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/new-team.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/new-team.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/patti\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/patti\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/robert\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/robert\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/stephanie\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/stephanie\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/sydney\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/sydney\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1482,10 +1662,26 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/bg-icons.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/bg-icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_site\/scss\/bio-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/bio-page.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/bio-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1498,7 +1694,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/clients.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/clients.css",
@@ -1514,7 +1710,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/forms.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/forms.css",
@@ -1530,26 +1726,10 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/home-slides.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/home-slides.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/_site\/scss\/page-slides.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/page-slides.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/page-slides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1562,7 +1742,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/professionals.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/professionals.css",
@@ -1578,7 +1758,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/reset.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/reset.css",
@@ -1594,7 +1774,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/site-frame.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/site-frame.css",
@@ -1605,15 +1785,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/scss\/style.scss": {
+	"\/_site\/scss\/team-list.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/style.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/style.css",
+		"inputAbbreviatedPath": "\/_site\/scss\/team-list.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/team-list.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1621,15 +1801,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/scss\/team-slider.scss": {
+	"\/_site\/scss\/team-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/team-slider.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/team-slider.css",
+		"inputAbbreviatedPath": "\/_site\/scss\/team-page.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/team-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1642,7 +1822,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scss\/variables.scss",
 		"outputAbbreviatedPath": "\/_site\/css\/variables.css",
@@ -1698,32 +1878,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/bg-icons.css": {
-		"fileType": 16,
-		"ignore": 1,
+	"\/css\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bg-icons.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/css\/style.scss",
+		"outputAbbreviatedPath": "\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/grayscale.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/grayscale.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/email-template-importable.html": {
 		"fileType": 8192,
@@ -1809,6 +1978,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-bw-christine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108698,
+		"inputAbbreviatedPath": "\/img\/bio-bw-christine.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-christine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-bw-cliff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1875,6 +2055,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-bw-sydney.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108179,
+		"inputAbbreviatedPath": "\/img\/bio-bw-sydney.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-sydney.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1882,6 +2073,17 @@
 		"initialSize": 84760,
 		"inputAbbreviatedPath": "\/img\/bio-chantel.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-chantel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-christine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169883,
+		"inputAbbreviatedPath": "\/img\/bio-christine.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-christine.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1941,6 +2143,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-robert-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138567,
+		"inputAbbreviatedPath": "\/img\/bio-robert-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-robert-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-robert-i.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1992,6 +2205,28 @@
 		"initialSize": 74088,
 		"inputAbbreviatedPath": "\/img\/bio-stephanie.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-stephanie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-sydney.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153389,
+		"inputAbbreviatedPath": "\/img\/bio-sydney.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-sydney.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/category-banner-outdoor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42066,
+		"inputAbbreviatedPath": "\/img\/category-banner-outdoor.png",
+		"outputAbbreviatedPath": "\/img\/category-banner-outdoor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2333,6 +2568,17 @@
 		"initialSize": 11661,
 		"inputAbbreviatedPath": "\/img\/logo-dresssuccess.png",
 		"outputAbbreviatedPath": "\/img\/logo-dresssuccess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-esperanca-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41992,
+		"inputAbbreviatedPath": "\/img\/logo-esperanca-color.png",
+		"outputAbbreviatedPath": "\/img\/logo-esperanca-color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2766,6 +3012,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/robert-stairs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81354,
+		"inputAbbreviatedPath": "\/img\/robert-stairs.jpg",
+		"outputAbbreviatedPath": "\/img\/robert-stairs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rsalaw-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2861,6 +3118,17 @@
 		"initialSize": 111674,
 		"inputAbbreviatedPath": "\/img\/slide-bg-office.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-office.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-ourfirm-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184662,
+		"inputAbbreviatedPath": "\/img\/slide-bg-ourfirm-2.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-ourfirm-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3035,6 +3303,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/professionals\/new-team.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/professionals\/new-team.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
@@ -3065,6 +3342,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/bg-icons.scss",
 		"outputAbbreviatedPath": "\/css\/bg-icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/bio-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/bio-page.scss",
+		"outputAbbreviatedPath": "\/css\/bio-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3184,15 +3477,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/style.scss": {
+	"\/scss\/team-list.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/style.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
+		"inputAbbreviatedPath": "\/scss\/team-list.scss",
+		"outputAbbreviatedPath": "\/css\/team-list.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3200,15 +3493,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/team-slider.scss": {
+	"\/scss\/team-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/team-slider.scss",
-		"outputAbbreviatedPath": "\/css\/team-slider.css",
+		"inputAbbreviatedPath": "\/scss\/team-page.scss",
+		"outputAbbreviatedPath": "\/css\/team-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

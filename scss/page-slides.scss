@@ -248,21 +248,8 @@
 	p {
 		margin-bottom: 1em;
 	}
-	.image {
-		width: 35%;
-		float: left;
-		text-align: center;
-		img {
-			max-width: 80%;
-			display: block;
-			margin: 0 auto;
-		}
-		p {
-			border-top: 1px solid $gray-light;
-			padding-top: 10px;
-			font-size: .7em;
-			color: $gray;
-		}
+	.image img {
+		width: 100%;
 	}
 }
 .our-firm-page {
@@ -484,11 +471,11 @@
 }
 // Our Firm
 .about-overview {
-	background-image: url(../img/slide-bg-ourfirm.jpg);
+	background-image: url(../img/slide-bg-ourfirm-2.jpg);
 	background-size: cover;
 	background-position: center top;
 	.inner {
-		padding: 6em 0;
+		padding: 6em 20px;
 	}
 	.copy {
 		width: 60%;
@@ -496,12 +483,16 @@
 		float: left;
 		padding: 0;
 	}
+	.image {
+		display: none;
+	}
 }
 
 // Services 
 .slide-service {
 	.inner {
-		padding: 0;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 	ul {
 		overflow: hidden;

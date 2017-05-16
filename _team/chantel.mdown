@@ -5,7 +5,7 @@ slug: bio
 path: ../
 
 team-name: "Chant&eacute;l N. Braithwaite" 
-team-title: "Marketing &amp; Accounting Manager"
+team-title: "Accounting Manager"
 team-slug: chantel
 
 meta-title: "Chant&eacute;l N. Braithwaite"
