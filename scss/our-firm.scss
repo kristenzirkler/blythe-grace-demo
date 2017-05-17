@@ -1,4 +1,28 @@
 // Our Firm
+.about-group {
+	.inner {
+		padding: 3em 0;
+	}
+	h2 {
+		max-width: 600px;
+		text-align: center;
+		margin: 0 auto 2em;
+		padding: 0 $mobile-side-space;
+	}
+	.copy {
+		padding: 0 $mobile-side-space;
+	}
+	p {
+		margin-bottom: 1em;
+	}
+	.image {
+		padding: 0 $mobile-side-space;
+		margin-bottom: 20px;
+		img {
+			width: 100%;
+		}
+	}
+}
 .about-overview {
 	font-size: 16px;
 	strong {
@@ -41,6 +65,7 @@
 	}
 }
 .our-firm-page {
+/*
 	.slide-page-header {
 		&:after {
 			display: none;
@@ -51,6 +76,7 @@
 			display: none;
 		}
 	}
+*/
 	.values {
 		overflow: hidden;
 		.copy {
@@ -81,6 +107,16 @@
 }
 }
 @media all and (min-width: 600px) {
+.about-group {
+	.inner {
+		padding: 6em 0;
+	}
+	.image {
+		float: right;
+		max-width: 350px;
+		margin: 0 0 50px 20px;
+	}
+}
 .about-overview {
 	position: relative;
 	.inner {
@@ -109,6 +145,12 @@
 }
 }
 @media all and (min-width: 900px) {
+.about-group {
+	.image {
+		max-width: 450px;
+		margin: 0 0 0px 20px;
+	}
+}
 .about-overview {
 	font-size: 1.2em;
 	strong {
