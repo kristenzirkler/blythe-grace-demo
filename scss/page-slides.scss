@@ -232,45 +232,28 @@
 
 }
 
-// Our Firm
-.about-overview {
-	font-size: 1.2em;
-	strong {
-		font-size: 1.4em;
-		line-height: 1.3em;
-	}
+
+// Services 
+.slide-service {
 	.inner {
-		padding: 3em 0;
+		overflow: visible;
+		padding: 4em $mobile-side-space;
 	}
-	.copy {
-		padding: 0 $mobile-side-space;
-	}
-	p {
-		margin-bottom: 1em;
-	}
-	.image img {
-		width: 100%;
-	}
-}
-.our-firm-page {
-	.slide-page-header {
+	h2 {
+		position: relative;
 		&:after {
-			display: none;
+			content: '';
 		}
-	}
-	.give-back {
 		&:before {
-			display: none;
+			content: '-';
+			font-size: 50px;
+			color: $main-color;
+			position: absolute;
+			top: -3px;
+			left: -25px;
 		}
 	}
-	.values {
-		overflow: hidden;
-		.copy {
-			div:nth-child(5n) {
-				clear: both;
-			}
-		}
-	}
+
 }
 .instafeed {
 	background-color: $main-color;
@@ -298,29 +281,6 @@
 		}
 
 	}
-}
-
-// Services 
-.slide-service {
-	.inner {
-		overflow: visible;
-		padding: 4em $mobile-side-space;
-	}
-	h2 {
-		position: relative;
-		&:after {
-			content: '';
-		}
-		&:before {
-			content: '-';
-			font-size: 50px;
-			color: $main-color;
-			position: absolute;
-			top: -3px;
-			left: -25px;
-		}
-	}
-
 }
 // Giving Back
 .slide-giving-back-large {
@@ -467,24 +427,6 @@
 		float: left;
 		width: 40%;
 		padding-right: 5%;
-	}
-}
-// Our Firm
-.about-overview {
-	background-image: url(../img/slide-bg-ourfirm-2.jpg);
-	background-size: cover;
-	background-position: center top;
-	.inner {
-		padding: 6em 20px;
-	}
-	.copy {
-		width: 60%;
-		margin-right: 5%;
-		float: left;
-		padding: 0;
-	}
-	.image {
-		display: none;
 	}
 }
 

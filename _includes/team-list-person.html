@@ -1,6 +1,6 @@
 {% if include.layout == "professionals-page" %}
 
-<li><a data-name="{{ include.slug }}" class="unselected" href="/professionals/{{ include.slug }}" style="background-image: url({{ site.baseurl }}/img/bio-{{ include.slug }}{% if include.slug == "robert" %}-2{% endif %}.jpg);">
+<li><a data-name="{{ include.slug }}" class="unselected" href="/professionals/{{ include.slug }}" style="background-image: url({{ site.baseurl }}/img/bio-{{ include.slug }}.jpg);">
 <span><strong>{{ include.name }}</strong><em>{{ include.title }}</em></span>
 </a></li>
 {% else %}
