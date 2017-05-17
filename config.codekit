@@ -285,17 +285,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/bio-bw-robert.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101143,
-		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-robert.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/bio-bw-stephanie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -395,17 +384,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/bio-robert-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 138567,
-		"inputAbbreviatedPath": "\/_site\/img\/bio-robert-2.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/bio-robert-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/bio-robert-i.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -413,17 +391,6 @@
 		"initialSize": 142277,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-robert-i.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-robert-i.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/bio-robert.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 142935,
-		"inputAbbreviatedPath": "\/_site\/img\/bio-robert.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/bio-robert.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
