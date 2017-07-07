@@ -189,6 +189,9 @@ $(function(){
         aboutGray('reggie');
         aboutGray('baum');
         aboutGray('taxanista');
+        aboutGray('slide-usnational');
+        aboutGray('slide-sipcoffee');
+        aboutGray('slide-reveal');
 	});
 
 // Google Map ---------------------------------------------------------------

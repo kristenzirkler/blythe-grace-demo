@@ -1,0 +1,17 @@
+{% if include.layout == "photobg" %}
+<div class="slide slide-bg-image testimonial-bg gray-pic slide-{{ include.slug }} {{ include.class }}" style="background-image: url(../img/slide-bg-{{ include.slug }}.jpg);">
+{% else %}
+<div class="slide testimonial {{ include.class }}">
+{% endif %}
+  <div class="inner">
+      <div class="client-name">
+        {% if include.url %}<a href="{{ include.url }}" target="_blank">{% endif %}
+          {% if include.slug %}<img src="{{ site.baseurl }}/img/logo-{{ include.slug }}.png" alt="{{ include.name }}" />{% endif %}
+          <em>{{ include.name }}<br>{{ include.company }}</em>
+        {% if include.url %}</a>{% endif %}
+      </div>
+    <div class="copy">
+      <p>{{ include.testimonial }}</p>
+    </div>
+  </div>
+</div>

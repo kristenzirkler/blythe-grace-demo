@@ -5,7 +5,7 @@ slug: bio
 path: ../
 
 team-name: "Stephanie Passaro" 
-team-title: "Legal Clerk &amp; HR Specialist"
+team-title: "HR Consultant"
 team-slug: stephanie
 
 meta-title: "Stephanie Passaro"
