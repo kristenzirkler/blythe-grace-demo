@@ -1,10 +1,12 @@
 // Team Bio Page
 .bio-page {
-	img {
-		width: 100%;
-		max-width: 300px;
+	.image {
 		display: block;
 		margin: 20px auto 30px;
+		img {
+			width: 100%;
+			max-width: 300px;
+		}
 	}
 	.inner {
 		padding-left: 20px;
@@ -35,7 +37,7 @@
 @media all and (min-width: 450px) {
 .bio-page {
 	padding-top: 20px;
-	img {
+	.image {
 		float: right;
 		margin: 0 0 40px 40px;
 	}

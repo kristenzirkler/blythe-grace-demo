@@ -48,13 +48,13 @@ team-order: 1
 </ul>
 
 <h4>General Corporate Representation</h4>
-  <ul class="bullets">
+<ul class="bullets">
     <li>Represented hundreds of Arizona entrepreneurs and small business, helping them form and grow their companies.</li>
     <li>Negotiated a long-term service contract between an Arizona financial service company and one of the largest U.S. banks worth over $15 million.</li>
     <li>Provide general representation to an Arizona financial services company, a global protect testing company, a supplier of custom engines and parts, Arizona physicians, and a student loan corporation.</li>
 </ul>
 
-  <div class="list">
+<div class="list">
 
 <h4>Bar Admissions</h4>
   <ul class="bullets">
