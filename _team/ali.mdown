@@ -1,0 +1,49 @@
+---
+layout: default
+title: "Professionals: Ali"
+slug: bio
+path: ../
+
+team-name: "Ali Nash" 
+team-title: "Of Counsel"
+team-slug: ali
+
+meta-title: "Ali Nash, Of Council, Blythe Grace LLC"
+
+team-order: 2
+
+---
+<p>Alexandra (Ali) Mijares Nash has extensive experience representing corporations and individuals in a wide variety of criminal and civil matters.  She has been recognized on numerous occasions as a "Rising Star" and has been named one of Arizona's Finest Lawyers.  Ali represents individuals of all ages in connection with matters ranging from school disciplinary proceedings to professional licensing hearings.  She appears regularly in federal, state and local courts defending allegations fraud, RICO, and other criminal offenses.</p>
+
+<p>Ali also represents clients in commercial and civil litigation, including disputes involving breach of contract, economic torts, breach of fiduciary duty and forfeiture.  In addition, she has defended a corporate client's right to protect the public from the sale of counterfeit goods by pursuing injunctive and monetary relief.</p>
+
+<p>She previously served on the Executive Board of the Criminal Law Section of the Maricopa County Bar Association.  She has also been a featured presenter at the Arizona Law Enforcement Academy on constitutional law matters, including Fourth Amendment search and seizure.</p>
+
+<p>In addition, Ali is active in the community and is proud to serve on the Boards of Directors of the Arizona Foundation for Women and the Phoenix County Club Foundation.  She also serves as a board member of her homeowner's association.</p>
+
+<br>
+<h4>Education</h4>
+<ul class="bullets">
+    <li>Arizona State University, College of Law, Tempe, Arizona  J.D. - 2004</li>
+    <li>Arizona State University, Tempe, Arizona  B.A. - 2000</li>
+    <li>Majors: Economics and Political Science</li>
+</ul>
+<h4>Lectures and Published Works</h4>
+<ul class="bullets">
+    <li>Contributing Author, Handbook for the Arizona Criminal Law Practitioner 2010 ed.</li>
+    <li>Presenter, Constitutional Issues, Arizona Law Enforcement Academy, 2007-2009</li>
+    <li>Contributing Author, My Little Arizona Rules Book, 2008 ed.</li>
+    <li>Contributing Author, David Kader, et al., “The Supreme Court of Arizona: Its 2002-2003 Decisions,” 35 Ariz. S. L.J. 1105 (Winter 2003)</li>
+</ul>
+<h4>Honors and Awards</h4>
+<ul class="bullets">
+    <li>Southwest Super Lawyers, Rising Star, 2012-2014</li>
+    <li>Arizona's Finest Lawyers, 2014</li>
+</ul>
+<h4>Professional Associations and Memberships</h4>
+<ul class="bullets">
+    <li>State Bar of Arizona</li>
+    <li>Maricopa County Bar Association</li>
+    <li>American Bar Association</li>
+</ul>
+
