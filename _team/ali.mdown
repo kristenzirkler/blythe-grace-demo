@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Professionals: Ali"
+title: "Professionals: Alexandra"
 slug: bio
 path: ../
 
-team-name: "Ali Nash" 
+team-name: "Alexandra Mijares Nash" 
 team-title: "Of Counsel"
 team-slug: ali
 
-meta-title: "Ali Nash, Of Council, Blythe Grace LLC"
+meta-title: "Alexandra Mijares Nash, Of Council, Blythe Grace LLC"
 
 team-order: 2
 
