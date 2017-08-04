@@ -1,6 +1,6 @@
 $team-width: 33.33%;
 $team-width-slider: 22vw;
-$team-members: 7; // Change the left value below as well (.anchor-right)
+$team-members: 8; // Change the left value below as well (.anchor-right)
 $team-width-mobile: 50vw;
 
 .team-list {
@@ -108,7 +108,7 @@ $team-width-mobile: 50vw;
 		}
 	}
 	&.anchor-right .inner {
-		left: -54vw; // This one is weird, cant figure out math so just change it.
+		left: -76vw; // This one is weird, cant figure out math so just change it.
 	}
 	.next, .prev {
 		line-height: $team-width-slider;
