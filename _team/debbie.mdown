@@ -5,7 +5,7 @@ slug: bio
 path: ../
 
 team-name: "Debbie A. Messing" 
-team-title: "Paralegal &amp; Business Manager"
+team-title: "Senior Paralegal &amp; Business Manager"
 team-slug: debbie
 
 meta-title: "Debbie A. Messing" 
