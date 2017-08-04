@@ -6,7 +6,8 @@ path: ../
 
 team-name: "Alexandra Mijares Nash" 
 team-title: "Of Counsel"
-team-slug: ali
+team-slug: alexandra
+linkedin: "https://www.linkedin.com/in/alexandra-mijares-nash-58906128/"
 
 meta-title: "Alexandra Mijares Nash, Of Council, Blythe Grace LLC"
 

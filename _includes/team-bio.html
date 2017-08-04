@@ -1,7 +1,7 @@
 <div class="slide bio-page bio-{{ page.team-slug }}">
 	<div class="inner">
 		<div class="image">
-			<img src="{{ site.baseurl }}/img/bio-{{ page.team-slug }}.jpg?v=2" alt="{{ page.team-name }}" />
+			<img src="{{ site.baseurl }}/img/bio-{% if page.team-slug == "robert" or page.team-slug == "alexandra" %}lg-{% endif %}{{ page.team-slug }}.jpg?v=2" alt="{{ page.team-name }}" />
 		</div>
 		<h2 class="name">{{ page.team-name }}</h2>
 		<h3 class="title">{{ page.team-title }}</h3>
@@ -9,10 +9,5 @@
 		<div>
 			{{ page.content }}
 		</div>
-		{% if page.team-slug == "robert" %}
-		<!--div class="logos">
-			<img src="{{ site.baseurl }}/img/badge-swsuper.png" alt="Southwest Super Lawyer - 2014, 2015, and 2016" style="width: 150px; display: block; margin: 0 auto 20px;" /> <img src="{{ site.baseurl }}/img/azfinest.png" alt="Sustaining Member of Arizona's Finest Lawyers" style="width: 180px; display: block; margin: 0 auto 20px;" />
-		</div-->
-		{% endif %}
 	</div>
 </div>

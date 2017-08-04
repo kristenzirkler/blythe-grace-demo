@@ -13,5 +13,6 @@ meta-title: "Sydney Ferry"
 team-order: 6
 
 ---
-<p> Sydney is a receptionist with the firm, who also assists with file management, research, and social media marketing.  Sydney is pursuing her pre-health / pre-medical degree at Arizona State University.</p>
-<p>Sydney enjoys hiking, photography, working out, and traveling.</p>
+<p>Sydney was born in Edmonton, Alberta, Canada, before moving to Arizona in 2008. She has been running social media accounts for various businesses since she was fourteen years old and is currently pursuing a bachelor's degree in Integrative Health at Arizona State University.</p>
+<p>Sydney handles the social media accounts and marketing for the Firm.</p>
+<p>In her free time, she enjoys hiking, traveling, yoga, taking pictures, and crafting.</p>

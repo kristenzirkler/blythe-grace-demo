@@ -6,6 +6,8 @@
 		img {
 			width: 100%;
 			max-width: 300px;
+		    margin: 0 auto;
+		    display: block;
 		}
 	}
 	.inner {
@@ -20,7 +22,7 @@
 		margin-bottom: 30px;
 	}
 	.contact-info {
-		padding: 0 0 50px;
+		padding: 0 0 30px;
 		i {
 			font-size: 1.3em;
 		}
@@ -58,6 +60,10 @@
 		}
 	}
 	.contact-info {
+		img {
+			float: right;
+			margin: 0 0 0 15px;
+		}
 		i {
 			font-size: 2em;
 		}
