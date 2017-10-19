@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/testimonial.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/testimonial.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -235,6 +244,28 @@
 		"initialSize": 26693,
 		"inputAbbreviatedPath": "\/_site\/img\/bgpharma-photo.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bgpharma-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136612,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-alexandra.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-alexandra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-bw-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103613,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-bw-alexandra.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-bw-alexandra.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -400,6 +431,28 @@
 		"initialSize": 99115,
 		"inputAbbreviatedPath": "\/_site\/img\/bio-julie.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/bio-julie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-lg-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172233,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-lg-alexandra.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-lg-alexandra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/bio-lg-robert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195979,
+		"inputAbbreviatedPath": "\/_site\/img\/bio-lg-robert.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bio-lg-robert.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -602,6 +655,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/logo-abrconsult.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26576,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-abrconsult.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-abrconsult.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo-afrika-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -712,6 +776,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/logo-azharbegan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56449,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-azharbegan.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-azharbegan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo-baum.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -741,6 +816,17 @@
 		"initialSize": 16529,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-boysgirlsscotts.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-boysgirlsscotts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-bps.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25284,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-bps.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-bps.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -785,6 +871,17 @@
 		"initialSize": 7383,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-cbcrossfit.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-cbcrossfit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-childcrisis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17503,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-childcrisis.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-childcrisis.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -840,6 +937,17 @@
 		"initialSize": 11661,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-dresssuccess.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-dresssuccess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-empowered.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25258,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-empowered.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-empowered.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1086,6 +1194,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/logo-reveal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9350,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-reveal.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-reveal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-sipcoffee.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19616,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-sipcoffee.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-sipcoffee.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo-stvincent-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1170,6 +1300,17 @@
 		"initialSize": 5949,
 		"inputAbbreviatedPath": "\/_site\/img\/logo-tracklight.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo-tracklight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/logo-usnational.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9970,
+		"inputAbbreviatedPath": "\/_site\/img\/logo-usnational.png",
+		"outputAbbreviatedPath": "\/_site\/img\/logo-usnational.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1427,6 +1568,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/slide-bg-reveal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136948,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-reveal.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-reveal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/slide-bg-sipcoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211405,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-sipcoffee.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-sipcoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/slide-bg-taxanista.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1434,6 +1597,17 @@
 		"initialSize": 89182,
 		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-taxanista.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-taxanista.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/slide-bg-usnational.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86213,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-usnational.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-usnational.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1562,6 +1736,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/our-firm\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/professionals\/alexandra\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/professionals\/alexandra\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2030,6 +2213,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bio-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136612,
+		"inputAbbreviatedPath": "\/img\/bio-alexandra.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-alexandra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-bw-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103613,
+		"inputAbbreviatedPath": "\/img\/bio-bw-alexandra.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-bw-alexandra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bio-bw-chantel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2191,6 +2396,28 @@
 		"initialSize": 99115,
 		"inputAbbreviatedPath": "\/img\/bio-julie.jpg",
 		"outputAbbreviatedPath": "\/img\/bio-julie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-lg-alexandra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172233,
+		"inputAbbreviatedPath": "\/img\/bio-lg-alexandra.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-lg-alexandra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bio-lg-robert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195979,
+		"inputAbbreviatedPath": "\/img\/bio-lg-robert.jpg",
+		"outputAbbreviatedPath": "\/img\/bio-lg-robert.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2393,6 +2620,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-abrconsult.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26576,
+		"inputAbbreviatedPath": "\/img\/logo-abrconsult.png",
+		"outputAbbreviatedPath": "\/img\/logo-abrconsult.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-afrika-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2503,6 +2741,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-azharbegan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56449,
+		"inputAbbreviatedPath": "\/img\/logo-azharbegan.png",
+		"outputAbbreviatedPath": "\/img\/logo-azharbegan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-baum.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2532,6 +2781,17 @@
 		"initialSize": 16529,
 		"inputAbbreviatedPath": "\/img\/logo-boysgirlsscotts.png",
 		"outputAbbreviatedPath": "\/img\/logo-boysgirlsscotts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-bps.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25284,
+		"inputAbbreviatedPath": "\/img\/logo-bps.png",
+		"outputAbbreviatedPath": "\/img\/logo-bps.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2576,6 +2836,17 @@
 		"initialSize": 7383,
 		"inputAbbreviatedPath": "\/img\/logo-cbcrossfit.png",
 		"outputAbbreviatedPath": "\/img\/logo-cbcrossfit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-childcrisis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17503,
+		"inputAbbreviatedPath": "\/img\/logo-childcrisis.png",
+		"outputAbbreviatedPath": "\/img\/logo-childcrisis.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2631,6 +2902,17 @@
 		"initialSize": 11661,
 		"inputAbbreviatedPath": "\/img\/logo-dresssuccess.png",
 		"outputAbbreviatedPath": "\/img\/logo-dresssuccess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-empowered.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25258,
+		"inputAbbreviatedPath": "\/img\/logo-empowered.png",
+		"outputAbbreviatedPath": "\/img\/logo-empowered.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2877,6 +3159,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-reveal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9350,
+		"inputAbbreviatedPath": "\/img\/logo-reveal.png",
+		"outputAbbreviatedPath": "\/img\/logo-reveal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-sipcoffee.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19616,
+		"inputAbbreviatedPath": "\/img\/logo-sipcoffee.png",
+		"outputAbbreviatedPath": "\/img\/logo-sipcoffee.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-stvincent-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2961,6 +3265,17 @@
 		"initialSize": 5949,
 		"inputAbbreviatedPath": "\/img\/logo-tracklight.png",
 		"outputAbbreviatedPath": "\/img\/logo-tracklight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-usnational.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9970,
+		"inputAbbreviatedPath": "\/img\/logo-usnational.png",
+		"outputAbbreviatedPath": "\/img\/logo-usnational.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3218,6 +3533,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/slide-bg-reveal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136948,
+		"inputAbbreviatedPath": "\/img\/slide-bg-reveal.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-reveal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-sipcoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211405,
+		"inputAbbreviatedPath": "\/img\/slide-bg-sipcoffee.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-sipcoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/slide-bg-taxanista.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3225,6 +3562,17 @@
 		"initialSize": 89182,
 		"inputAbbreviatedPath": "\/img\/slide-bg-taxanista.jpg",
 		"outputAbbreviatedPath": "\/img\/slide-bg-taxanista.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-usnational.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86213,
+		"inputAbbreviatedPath": "\/img\/slide-bg-usnational.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-usnational.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

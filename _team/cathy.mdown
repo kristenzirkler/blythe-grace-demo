@@ -1,0 +1,32 @@
+---
+layout: default
+title: "Professionals: Cathy"
+slug: bio
+path: ../
+
+team-name: "Cathy Turchan" 
+team-title: "Associate"
+team-slug: cathy
+
+meta-title: "Cathy Turchan"
+
+team-order: 1
+
+---
+<p>Cathy was born and raised in Phoenix, Arizona. While attending law school Cathy completed extensive internships with the Public Federal Defender, the U. S. Attorney's Office, the Federal Bureau of Prisons and as a legal intern for a federal Judge. After completing her Juris Doctorate at Catholic University in Washington, D.C., Cathy clerked for Judge Robert Heller, Jr., in the Anne Arundel County Circuit Court. After her clerkship ended, Cathy joined the U.S. Department of Justice where she served as an Attorney-Adviser specializing in federal legal research. Eventually, Cathy switched focus and was asked to draft legislation for a presidential program then was tasked with heading up the entire program which later became Americorps, the United States version of the Peace Corps. Cathy was responsible for being the liaison between the White House, The Department of Justice and Attorney General Janet Reno for the program that operated in all 50 states. Cathy worked closely with all federal law enforcement agencies and was the featured speaker at the International Chiefs of Police conference and several Department of Justice symposiums.</p>
+
+<p>Cathy moved back to Arizona and continued to work for the Department of Justice. The incoming U.S. Attorney requested Cathy serve as the Public Affairs Officer and she was responsible for daily television, radio and newspaper interviews and coordination with all of the federal law enforcement agencies. In 2000, Cathy moved to Chicago, Illinois and started a new business serving as a Chief Operating Officer for hire. While in Chicago, Cathy served as Chief Operating Officer and Business Manager for an architectural firm. Cathy is currently in Arizona where she continues to work as an independent Chief Operating Officer and legal adviser for several companies, specializing in business operations.</p>
+
+<p>Cathy is an active volunteer in the Phoenix community and served as the President of the Phoenix Philanthropists, an organization that provides manpower to a variety of charities in Arizona.</p>
+
+<p>Cathy leads an incredibly active life as a competitive pickleball player, hiker and yoga student.</p>
+
+<h4>Education</h4>
+<ul class="bullets">
+    <li>Catholic University of America, College of Law, Washington, D.C.-1989</li>
+    <li>University of San Diego/Arizona State University, B.A -1986</li>
+</ul>
+<h4>Recognitions</h4>
+<ul class="bullets">
+    <li>Attorney General Award</li>
+</ul>
